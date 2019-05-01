@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 Prefix = 'w_'
 Output = 'Vicious Vessels' # aka mod title
 ForumLink = 'https://subsetgames.com/forum/viewtopic.php?f=11&t=33380'
-AlternateLinks = []
+AlternateLinks = ['https://github.com/woonaftl/vicious-vessels']
 Release = '9'
 ProjectDesc = "A collaborative project designed to expand FTL: Advanced \
 Edition with new content such as enemy ships, and new events without \
