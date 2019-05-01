@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEBULA_NEUTRAL_SLUG"> 
+	<mod-append:event load="W_SLUG_TRADER_LASER"/>
+</mod:findName>
+<event name="W_SLUG_TRADER_LASER" unique="true">
+	<text id="W_SLUG_TRADER_LASER_TEXT_0"/>
+	<environment type="nebula"/>
+	<ship load="W_SLUG_TRADER_LASER_SHIP" hostile="false"/>
+	<choice>
+		<text id="W_SLUG_TRADER_LASER_TEXT_1"/>
+		<event>
+			<text id="W_SLUG_TRADER_LASER_TEXT_2"/>
+			<item_modify>
+				<item type="scrap" min="-30" max="-25"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event load="W_SLUG_TRADER_LASER_BL1"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text id="W_SLUG_TRADER_LASER_TEXT_3"/>
+		<event>
+			<text id="W_SLUG_TRADER_LASER_TEXT_4"/>
+			<item_modify>
+				<item type="scrap" min="-50" max="-45"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event load="W_SLUG_TRADER_LASER_BL2"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text id="W_SLUG_TRADER_LASER_TEXT_5"/>
+		<event>
+			<text id="W_SLUG_TRADER_LASER_TEXT_6"/>
+			<item_modify>
+				<item type="scrap" min="-50" max="-45"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event load="W_SLUG_TRADER_LASER_VULCAN"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_SLUG_TRADER_LASER_TEXT_7"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_SLUG_TRADER_LASER_BL1">
+	<event>
+		<text id="W_SLUG_TRADER_LASER_TEXT_8"/>
+		<weapon name="LASER_BURST_2_A"/>
+	</event>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+</eventList>
+<eventList name="W_SLUG_TRADER_LASER_BL2">
+	<event>
+		<text id="W_SLUG_TRADER_LASER_TEXT_8"/>
+		<weapon name="LASER_BURST_3"/>
+	</event>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BURST"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+</eventList>
+<eventList name="W_SLUG_TRADER_LASER_VULCAN">
+	<event>
+		<text id="W_SLUG_TRADER_LASER_TEXT_8"/>
+		<weapon name="LASER_CHAINGUN_2"/>
+	</event>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BURST"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+	<event load="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC"/>
+</eventList>
+<event name="W_SLUG_TRADER_LASER_SUBSTITUTION_BASIC">
+	<text id="W_SLUG_TRADER_LASER_TEXT_9"/>
+	<weapon name="LASER_BURST_1"/>
+	<choice hidden="true">
+		<text id="W_SLUG_TRADER_LASER_TEXT_10"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_SLUG_TRADER_LASER_TEXT_11"/>
+		<event/>
+	</choice>
+</event>
+<event name="W_SLUG_TRADER_LASER_SUBSTITUTION_BURST">
+	<text id="W_SLUG_TRADER_LASER_TEXT_9"/>
+	<weapon name="LASER_BURST_2_A"/>
+	<choice hidden="true">
+		<text id="W_SLUG_TRADER_LASER_TEXT_10"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_SLUG_TRADER_LASER_TEXT_11"/>
+		<event/>
+	</choice>
+</event>
+<ship name="W_SLUG_TRADER_LASER_SHIP" auto_blueprint="SHIPS_JELLY">
+	<escape timer="40" min="22" max="22" >
+		<text id="W_SLUG_TRADER_LASER_TEXT_12"/>
+		<ship hostile="true"/>
+	</escape>
+	<gotaway>
+		<text id="W_SLUG_TRADER_LASER_TEXT_13"/>
+	</gotaway>
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+	<weaponOverride count="1">
+		<name>LASER_BURST_3</name>
+	</weaponOverride>
+</ship>

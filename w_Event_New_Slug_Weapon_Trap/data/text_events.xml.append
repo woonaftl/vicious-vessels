@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- SLUG FREE WEAPON BOOBY TRAPPED -->
+<text name="W_SLUG_FREE_WEAPON_TRAP_TEXT_0">As soon as you install the new gun, your weapon bay goes offline. It turns out that the weapon was booby trapped! A Slug ship outfitted for combat is detected by your sensors.</text>
+<text name="W_SLUG_FREE_WEAPON_TRAP_TEXT_1">(Slug) Your crewmember senses that something is wrong.</text>
+<text name="W_SLUG_FREE_WEAPON_TRAP_TEXT_2">Before installing the new weapon, your Slug crewmember checks it thoroughly, and finds a hidden device meant to disable your system. A Slug ship appears on a radar, with an intention to return the trapped weapon back.</text>
+<text name="W_SLUG_FREE_WEAPON_TRAP_TEXT_3">The Slug ship breaks apart and your systems return to normal. You collect what you can.</text>
+<text name="W_SLUG_FREE_WEAPON_TRAP_TEXT_4">With their crew dead, your systems return to normal. You strip the ship.</text>

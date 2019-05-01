@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL_ZOLTAN"> 
+	<mod-append:event load="W_ZOLTAN_RECENT_BATTLE_BOMB"/>
+</mod:findName>
+<event name="W_ZOLTAN_RECENT_BATTLE_BOMB" unique="true">
+	<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_0"/>
+	<choice>
+		<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_1"/>
+		<event>
+			<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_2"/>
+			<item_modify>
+				<item type="fuel" min="-2" max="-1"/>
+				<item type="missiles" min="-3" max="-2"/>
+				<item type="drones" min="-2" max="-1"/>
+			</item_modify>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event load="W_ZOLTAN_RECENT_BATTLE_BOMB_HELP"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_3"/>
+		<event load="W_ZOLTAN_RECENT_BATTLE_BOMB_ATTACK"/>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_4"/>
+		<event>
+			<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_5"/>
+		</event>
+	</choice>
+</event>
+<eventList name="W_ZOLTAN_RECENT_BATTLE_BOMB_HELP">
+	<event>
+		<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_6"/>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event load="W_ZOLTAN_RECENT_BATTLE_BOMB_EXPLOSION"/>
+</eventList>
+<eventList name="W_ZOLTAN_RECENT_BATTLE_BOMB_ATTACK">
+	<event>
+		<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_7"/>
+		<ship load="W_ZOLTAN_RECENT_BATTLE_BOMB_SHIP" hostile="true"/>
+	</event>
+	<event load="W_ZOLTAN_RECENT_BATTLE_BOMB_EXPLOSION"/>
+</eventList>
+<event name="W_ZOLTAN_RECENT_BATTLE_BOMB_EXPLOSION">
+	<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_8"/>
+	<damage amount="3" system="random" effect="fire"/>
+	<damage amount="2" system="random" effect="fire"/>
+</event>
+<ship name="W_ZOLTAN_RECENT_BATTLE_BOMB_SHIP" auto_blueprint="W_ZOLTAN_BOMBER_NO_SHIELD">
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+</ship>

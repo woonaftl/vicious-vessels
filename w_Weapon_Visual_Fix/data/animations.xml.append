@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mod:findName type="animSheet" name="beam_bio">
+    <mod:setAttributes w="272" fw="34" />
+</mod:findName>

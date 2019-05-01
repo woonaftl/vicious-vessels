@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="shipBlueprint" name="ANAEROBIC_SCOUT">
+	<mod:findLike type="aug">
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="ANAEROBIC_BOMBER">
+	<mod:findLike type="aug">
+		<mod:removeTag />
+	</mod:findLike>
+</mod:findName>

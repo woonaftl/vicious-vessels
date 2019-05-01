@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- SLUG WITH DRUGGED ZOLTAN SLAVES -->
+
+<mod:findName type="eventList" name="NEBULA_HOSTILE_SLUG"> 
+	<mod-append:event load="W_SLUG_DRUGGED_ZOLTAN_BOARDERS"/>
+</mod:findName>
+<event name="W_SLUG_DRUGGED_ZOLTAN_BOARDERS" unique="true">
+	<text id="W_SLUG_DRUGGED_ZOLTAN_BOARDERS_TEXT_0"/>
+	<ship load="JELLY" hostile="true"/>
+	<environment type="nebula"/>
+	<boarders min="3" max="4" class="energy"/>
+</event>
+
+<!-- SLUG DISTRESS TRAP -->
+
+<mod:findName type="eventList" name="DISTRESS_BEACON_SLUG"> 
+	<mod-append:event load="W_SLUG_DISTRESS_TRAP"/>
+</mod:findName>
+<event name="W_SLUG_DISTRESS_TRAP" unique="true">
+	<text id="W_SLUG_DISTRESS_TRAP_TEXT_0"/>
+	<environment type="nebula"/>
+	<distressBeacon/>
+	<ship load="W_SLUG_DISTRESS_TRAP_SHIP" hostile="false"/>
+	<status type="limit" target="player" system="engines" amount="1"/>
+	<status type="loss" target="player" system="reactor" amount="3"/>
+	<choice hidden="true">
+		<text id="W_SLUG_DISTRESS_TRAP_TEXT_1"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_SLUG_DISTRESS_TRAP_TEXT_2"/>
+		<event>
+			<text id="W_SLUG_DISTRESS_TRAP_TEXT_3"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+</event>
+<ship name="W_SLUG_DISTRESS_TRAP_SHIP" auto_blueprint="SHIPS_JELLY">
+	<destroyed>
+		<text id="W_SLUG_DISTRESS_TRAP_TEXT_4"/>
+		<autoReward level="MED">standard</autoReward>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="reactor" amount="100"/>
+	</destroyed>
+	<deadCrew>
+		<text id="W_SLUG_DISTRESS_TRAP_TEXT_5"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="reactor" amount="100"/>
+	</deadCrew>
+</ship>

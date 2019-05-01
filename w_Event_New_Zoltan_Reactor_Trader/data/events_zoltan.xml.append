@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL_ZOLTAN"> 
+	<mod-append:event load="W_ZOLTAN_REACTOR_TRADER"/>
+</mod:findName>
+<!-- Up to 5 reactor upgrades, consecutive upgrades cost less scrap, if you bought at least one upgrade, they offer a backup battery -->
+<event name="W_ZOLTAN_REACTOR_TRADER" unique="true">
+	<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_0"/>
+	<choice hidden="true" req="slug" lvl="1" max_group="0" blue="false">
+		<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_1"/>
+		<event>
+			<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_2"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="slug" lvl="0" max_group="0" blue="false">
+		<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_3"/>
+		<event>
+			<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_5"/>
+			<choice req="reactor" max_lvl="9" max_group="0" blue="false">
+				<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+				<event>
+					<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+					<item_modify>
+						<item type="scrap" min="-20" max="-19"/>
+					</item_modify>
+					<upgrade amount="1" system="reactor"/>
+					<choice>
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+						<event>
+							<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+							<item_modify>
+								<item type="scrap" min="-18" max="-17"/>
+							</item_modify>
+							<upgrade amount="1" system="reactor"/>
+							<choice>
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+								<event>
+									<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+									<item_modify>
+										<item type="scrap" min="-16" max="-15"/>
+									</item_modify>
+									<upgrade amount="1" system="reactor"/>
+									<choice>
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+										<event>
+											<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+											<item_modify>
+												<item type="scrap" min="-14" max="-13"/>
+											</item_modify>
+											<upgrade amount="1" system="reactor"/>
+											<choice req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_9"/>
+													<item_modify>
+														<item type="scrap" min="-12" max="-11"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_11"/>
+														<event>
+															<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_12"/>
+															<item_modify>
+																<item type="scrap" min="-31" max="-28"/>
+															</item_modify>
+															<system lvl="1" system="battery"/>
+														</event>
+													</choice>	
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+														<event/>
+													</choice>
+												</event>
+											</choice>
+											<choice req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_13"/>
+													<item_modify>
+														<item type="scrap" min="-12" max="-11"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+												</event>
+											</choice>
+											<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+											</choice>
+											<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event/>
+											</choice>
+										</event>
+									</choice>
+									<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+									</choice>
+									<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event/>
+									</choice>
+								</event>
+							</choice>
+							<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+							</choice>
+							<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+					</choice>
+					<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="reactor" max_lvl="14" max_group="0" blue="false">
+				<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+				<event>
+					<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+					<item_modify>
+						<item type="scrap" min="-25" max="-24"/>
+					</item_modify>
+					<upgrade amount="1" system="reactor"/>
+					<choice>
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+						<event>
+							<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+							<item_modify>
+								<item type="scrap" min="-23" max="-22"/>
+							</item_modify>
+							<upgrade amount="1" system="reactor"/>
+							<choice>
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+								<event>
+									<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+									<item_modify>
+										<item type="scrap" min="-21" max="-20"/>
+									</item_modify>
+									<upgrade amount="1" system="reactor"/>
+									<choice>
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+										<event>
+											<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+											<item_modify>
+												<item type="scrap" min="-19" max="-18"/>
+											</item_modify>
+											<upgrade amount="1" system="reactor"/>
+											<choice req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_9"/>
+													<item_modify>
+														<item type="scrap" min="-17" max="-16"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_11"/>
+														<event>
+															<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_12"/>
+															<item_modify>
+																<item type="scrap" min="-31" max="-28"/>
+															</item_modify>
+															<system lvl="1" system="battery"/>
+														</event>
+													</choice>	
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+														<event/>
+													</choice>
+												</event>
+											</choice>
+											<choice req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_13"/>
+													<item_modify>
+														<item type="scrap" min="-17" max="-16"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+												</event>
+											</choice>
+											<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+											</choice>
+											<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event/>
+											</choice>
+										</event>
+									</choice>
+									<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+									</choice>
+									<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event/>
+									</choice>
+								</event>
+							</choice>
+							<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+							</choice>
+							<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+					</choice>
+					<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event/>
+					</choice>					
+				</event>
+			</choice>
+			<choice req="reactor" max_lvl="19" max_group="0" blue="false">
+				<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+				<event>
+					<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+					<item_modify>
+						<item type="scrap" min="-30" max="-29"/>
+					</item_modify>
+					<upgrade amount="1" system="reactor"/>
+					<choice>
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+						<event>
+							<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+							<item_modify>
+								<item type="scrap" min="-28" max="-27"/>
+							</item_modify>
+							<upgrade amount="1" system="reactor"/>
+							<choice>
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+								<event>
+									<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+									<item_modify>
+										<item type="scrap" min="-26" max="-25"/>
+									</item_modify>
+									<upgrade amount="1" system="reactor"/>
+									<choice>
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+										<event>
+											<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+											<item_modify>
+												<item type="scrap" min="-24" max="-23"/>
+											</item_modify>
+											<upgrade amount="1" system="reactor"/>
+											<choice req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_9"/>
+													<item_modify>
+														<item type="scrap" min="-22" max="-21"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_11"/>
+														<event>
+															<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_12"/>
+															<item_modify>
+																<item type="scrap" min="-31" max="-28"/>
+															</item_modify>
+															<system lvl="1" system="battery"/>
+														</event>
+													</choice>	
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+														<event/>
+													</choice>
+												</event>
+											</choice>
+											<choice req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_13"/>
+													<item_modify>
+														<item type="scrap" min="-22" max="-21"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+												</event>
+											</choice>
+											<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+											</choice>
+											<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event/>
+											</choice>
+										</event>
+									</choice>
+									<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+									</choice>
+									<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event/>
+									</choice>
+								</event>
+							</choice>
+							<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+							</choice>
+							<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+					</choice>
+					<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="reactor" max_lvl="24" max_group="0" blue="false">
+				<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+				<event>
+					<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+					<item_modify>
+						<item type="scrap" min="-35" max="-34"/>
+					</item_modify>
+					<upgrade amount="1" system="reactor"/>
+					<choice>
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+						<event>
+							<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+							<item_modify>
+								<item type="scrap" min="-33" max="-32"/>
+							</item_modify>
+							<upgrade amount="1" system="reactor"/>
+							<choice>
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+								<event>
+									<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+									<item_modify>
+										<item type="scrap" min="-31" max="-30"/>
+									</item_modify>
+									<upgrade amount="1" system="reactor"/>
+									<choice>
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+										<event>
+											<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_8"/>
+											<item_modify>
+												<item type="scrap" min="-29" max="-28"/>
+											</item_modify>
+											<upgrade amount="1" system="reactor"/>
+											<choice req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_9"/>
+													<item_modify>
+														<item type="scrap" min="-27" max="-26"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_11"/>
+														<event>
+															<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_12"/>
+															<item_modify>
+																<item type="scrap" min="-31" max="-28"/>
+															</item_modify>
+															<system lvl="1" system="battery"/>
+														</event>
+													</choice>	
+													<choice hidden="true">
+														<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+														<event/>
+													</choice>
+												</event>
+											</choice>
+											<choice req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_6"/>
+												<event>
+													<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_13"/>
+													<item_modify>
+														<item type="scrap" min="-27" max="-26"/>
+													</item_modify>
+													<upgrade amount="1" system="reactor"/>
+												</event>
+											</choice>
+											<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+											</choice>
+											<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+												<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+												<event/>
+											</choice>
+										</event>
+									</choice>
+									<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+									</choice>
+									<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+										<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+										<event/>
+									</choice>
+								</event>
+							</choice>
+							<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+							</choice>
+							<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+								<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+								<event/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true" req="battery" lvl="0" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event load="W_ZOLTAN_REACTOR_TRADER_BATTERY"/>
+					</choice>
+					<choice hidden="true" req="battery" lvl="1" max_group="0" blue="false">
+						<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_4"/>
+		<event/>
+	</choice>
+</event>
+<event name="W_ZOLTAN_REACTOR_TRADER_BATTERY">
+	<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_10"/>
+	<choice hidden="true">
+		<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_11"/>
+		<event>
+			<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_12"/>
+			<item_modify>
+				<item type="scrap" min="-31" max="-28"/>
+			</item_modify>
+			<system lvl="1" system="battery"/>
+		</event>
+	</choice>	
+	<choice hidden="true">
+		<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
+		<event/>
+	</choice>
+</event>

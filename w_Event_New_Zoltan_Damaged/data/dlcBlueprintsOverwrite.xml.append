@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shipBlueprint name="W_ZOLTAN_BOMBER_NO_SHIELD" layout="energy_bomber" img="energy_bomber">
+	<class id="ship_ZOLTAN_BOMBER_DLC_class"/>
+	<systemList>
+		<pilot power="1" max="3" room="1"/>
+		<doors power="1" max="3" room="2" start="false"/>
+		<medbay power="1" max="3" room="6" start="false"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="3"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="4"/>
+		<drones power="2" max="4" room="0" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<droneList drones="2" load="DRONES_COMBAT"/>
+	<health amount="2"/> <!--low health-->
+	<maxPower amount ="9"/>
+	<crewCount amount = "3" max="6" class="energy"/>
+	<!--no augmentation-->
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>energy_bomber</cloakImage>
+</shipBlueprint>

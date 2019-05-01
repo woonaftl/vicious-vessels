@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="ITEMS_ENGI"> 
+	<mod-append:event load="W_ENGI_SWAP_MEDICAL"/>
+</mod:findName>
+<event name="W_ENGI_SWAP_MEDICAL" unique="true">
+	<text id="W_ENGI_SWAP_MEDICAL_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_4"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_6"/>
+			<autoReward level="RANDOM">standard</autoReward>
+			<quest event="W_ENGI_SWAP_MEDICAL_QUEST"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_5"/>
+		<event/>
+	</choice>
+</event>
+<event name="W_ENGI_SWAP_MEDICAL_QUEST">
+	<text id="W_ENGI_SWAP_MEDICAL_TEXT_1"/>
+	<choice hidden="true" req="medbay" lvl="0" max_group="0" blue="false">
+		<text id="continue"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_2"/>
+			<autoReward level="RANDOM">standard</autoReward>
+			<choice hidden="true" req="clonebay" lvl="0" max_group="0" blue="false">
+				<text id="continue"/>
+				<event load="W_ENGI_SWAP_MEDICAL_QUEST_NONE"/>
+			</choice>
+			<choice hidden="true" req="clonebay" lvl="1" max_group="0" blue="false">
+				<text id="continue"/>
+				<event load="W_ENGI_SWAP_MEDICAL_QUEST_CLONEBAY"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="medbay" lvl="1" max_group="0" blue="false">
+		<text id="continue"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_2"/>
+			<autoReward level="RANDOM">standard</autoReward>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event load="W_ENGI_SWAP_MEDICAL_QUEST_MEDBAY"/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="W_ENGI_SWAP_MEDICAL_QUEST_MEDBAY">
+	<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_0"/>
+	<choice hidden="true" req="medbay" lvl="1" max_group="0">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_1"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_2"/>
+			<system name="clonebay" lvl="1"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="medbay" lvl="2" max_group="0">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_1"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_2"/>
+			<system name="clonebay" lvl="2"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="medbay" lvl="3" max_group="0">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_1"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_2"/>
+			<system name="clonebay" lvl="3"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_3"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_MED_4"/>
+			<augment name="NANO_MEDBAY"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_3"/>
+		<event/>
+	</choice>
+</event>
+<event name="W_ENGI_SWAP_MEDICAL_QUEST_CLONEBAY">
+	<text id="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_0"/>
+	<choice hidden="true" req="clonebay" lvl="1" max_group="0">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_1"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_2"/>
+			<system name="medbay" lvl="1"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="clonebay" lvl="2" max_group="0">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_1"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_2"/>
+			<system name="medbay" lvl="2"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="clonebay" lvl="3" max_group="0">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_1"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_2"/>
+			<system name="medbay" lvl="3"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_3"/>
+		<event/>
+	</choice>
+</event>
+<event name="W_ENGI_SWAP_MEDICAL_QUEST_NONE">
+	<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_0"/>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_1"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_2"/>
+			<system name="medbay" lvl="1"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_3"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_4"/>
+			<system name="clonebay" lvl="1"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_5"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_6"/>
+			<weapon name="BOMB_HEAL"/>
+			<item_modify>
+				<item type="missiles" min="5" max="7"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true" req="teleporter">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_7"/>
+		<event>
+			<text id="W_ENGI_SWAP_MEDICAL_TEXT_NONE_8"/>
+			<augment name="TELEPORT_HEAL"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_SWAP_MEDICAL_TEXT_3"/>
+		<event/>
+	</choice>
+</event>

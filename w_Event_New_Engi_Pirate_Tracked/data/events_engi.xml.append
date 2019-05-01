@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="QUESTS_ENGI"> 
+	<mod-append:event load="W_ENGI_PIRATE_TRACKED"/>
+</mod:findName>
+<event name="W_ENGI_PIRATE_TRACKED" unique="true">
+	<text id="W_ENGI_PIRATE_TRACKED_TEXT_0"/>
+	<ship load="W_ENGI_PIRATE_TRACKED_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event>
+			<text id="W_ENGI_PIRATE_TRACKED_TEXT_1"/>
+			<choice hidden="true">
+				<text id="W_ENGI_PIRATE_TRACKED_TEXT_2"/>
+				<event>
+					<text id="W_ENGI_PIRATE_TRACKED_TEXT_3"/>
+					<ship hostile="true"/>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text id="W_ENGI_PIRATE_TRACKED_TEXT_4"/>
+				<event>
+					<text id="W_ENGI_PIRATE_TRACKED_TEXT_5"/>
+					<quest event="W_ENGI_PIRATE_TRACKED_QUEST"/>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text id="W_ENGI_PIRATE_TRACKED_TEXT_6"/>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<ship name="W_ENGI_PIRATE_TRACKED_SHIP" auto_blueprint="SHIPS_PIRATE">
+	<destroyed>
+		<text id="W_ENGI_PIRATE_TRACKED_SHIP_TEXT_0"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="W_ENGI_PIRATE_TRACKED_SHIP_TEXT_1"/>
+		<autoReward level="LOW">standard</autoReward>
+	</deadCrew>
+</ship>
+<eventList name="W_ENGI_PIRATE_TRACKED_QUEST">
+	<event>
+		<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_0"/>
+		<ship load="W_ENGI_PIRATE_TRACKED_QUEST_SHIP" hostile="false"/>
+		<choice hidden="true">
+			<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_1"/>
+			<event>
+				<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_2"/>
+				<ship hostile="true"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_3"/>
+			<event>
+				<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_4"/>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_5"/>
+		<ship load="W_ENGI_PIRATE_TRACKED_QUEST_SHIP_2" hostile="false"/>
+		<choice hidden="true">
+			<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_6"/>
+			<event>
+				<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_7"/>
+				<ship hostile="true"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_8"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+<ship name="W_ENGI_PIRATE_TRACKED_QUEST_SHIP" auto_blueprint="SHIPS_CIRCLE">
+	<escape timer="35" min="22" max="22" >
+		<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_9"/>
+		<ship hostile="true"/>
+	</escape>
+	<destroyed load="W_ENGI_TRANSPORT_DESTROYED"/>
+	<deadCrew load="W_ENGI_TRANSPORT_CAPTURED"/>
+</ship>
+<ship name="W_ENGI_PIRATE_TRACKED_QUEST_SHIP_2" auto_blueprint="SHIPS_PIRATE">
+	<destroyed>
+		<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_10"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event>
+				<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_11"/>
+				<autoReward level="HIGH">stuff</autoReward>
+			</event>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_12"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event>
+				<text id="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_13"/>
+				<autoReward level="HIGH">stuff</autoReward>
+			</event>
+		</choice>
+	</deadCrew>
+</ship>
+<eventList name="W_ENGI_TRANSPORT_DESTROYED">
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_1_text"/>
+		<autoReward level="MED">weapon</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_2_text"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_3_text"/>
+		<autoReward level="low">weapon</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_4_text"/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_5_text"/>
+		<autoReward level="MED">drone</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_6_text"/>
+		<autoReward level="MED">droneparts</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_7_text"/>
+		<reveal_map/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_8_text"/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_DESTROYED_11_text"/>
+		<autoReward level="HIGH">standard</autoReward>
+	</event>
+</eventList>
+<eventList name="W_ENGI_TRANSPORT_CAPTURED">
+	<event>
+		<text id="event_REBEL_TRANSPORT_CAPTURED_1_text"/>
+		<autoReward level="MED">weapon</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_CAPTURED_3_text"/>
+		<reveal_map/>
+		<autoReward level="MED">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="event_REBEL_TRANSPORT_CAPTURED_4_text"/>
+		<autoReward level="MED">drone</autoReward>
+	</event>
+</eventList>

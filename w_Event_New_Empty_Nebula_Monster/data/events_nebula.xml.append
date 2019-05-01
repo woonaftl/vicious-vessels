@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEBULA_EMPTY"> 
+	<mod-append:event load="W_NEBULA_MONSTER"/>
+</mod:findName>
+<event name="W_NEBULA_MONSTER" unique="true">
+	<text id="W_NEBULA_MONSTER_TEXT_0"/>
+	<environment type="nebula"/>
+	<environment type="storm"/>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event/>
+	</choice>
+	<choice hidden="true" req="slug">
+		<text id="W_NEBULA_MONSTER_TEXT_1"/>
+		<event load="W_NEBULA_MONSTER_DETECTED"/>
+	</choice>
+	<choice hidden="true" req="LIFE_SCANNER">
+		<text id="W_NEBULA_MONSTER_TEXT_2"/>
+		<event load="W_NEBULA_MONSTER_DETECTED"/>
+	</choice>
+</event>
+<event name="W_NEBULA_MONSTER_DETECTED">
+	<text id="W_NEBULA_MONSTER_TEXT_3"/>
+	<choice hidden="true">
+		<text id="W_NEBULA_MONSTER_TEXT_4"/>
+		<event>
+			<text id="W_NEBULA_MONSTER_TEXT_5"/>
+			<damage amount="4" system="random" effect="breach"/>
+			<damage amount="3" system="random" effect="breach"/>
+			<damage amount="3" system="room" effect="breach"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_NEBULA_MONSTER_TEXT_6"/>
+		<event/>
+	</choice>
+	<choice hidden="true" req="BEAM_3">
+		<text id="W_NEBULA_MONSTER_TEXT_7"/>
+		<event>
+			<text id="W_NEBULA_MONSTER_TEXT_8"/>
+		</event>
+	</choice>
+</event>

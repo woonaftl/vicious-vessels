@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="W_SHIPS_REBEL_TRANSPORT">
+	<mod-append:name>W_REBEL_TRANSPORT_V0</mod-append:name>
+	<mod-append:name>W_REBEL_TRANSPORT_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="W_SHIPS_PIRATE_TRANSPORT">
+	<mod-append:name>W_REBEL_TRANSPORT_PIRATE_V0</mod-append:name>
+	<mod-append:name>W_REBEL_TRANSPORT_PIRATE_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="W_SHIPS_SLAVER">
+	<mod-append:name>W_REBEL_TRANSPORT_SLAVER_V0</mod-append:name>
+	<mod-append:name>W_REBEL_TRANSPORT_SLAVER_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_REBEL_TRANSPORT_V0" layout="w_rebel_transport" img="w_rebel_transport">
+	<class id="W_REBEL_TRANSPORT_V0"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="1" max="5" room="1"/>
+		<weapons power="2" max="6" room="2"/>
+		<shields power="2" max="8" room="4"/>
+		<oxygen power="1" max="3" room="5"/>
+		<medbay power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="6" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="5" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_transport</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_TRANSPORT_V1" layout="w_rebel_transport" img="w_rebel_transport">
+	<class id="W_REBEL_TRANSPORT_V1"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="1" max="5" room="3"/>
+		<weapons power="2" max="6" room="4"/>
+		<shields power="2" max="8" room="1"/>
+		<oxygen power="1" max="3" room="2"/>
+		<clonebay power="1" max="3" room="5"/>
+		<doors power="1" max="3" room="6" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="5" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_transport</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_TRANSPORT_PIRATE_V0" layout="w_rebel_transport_pirate" img="w_rebel_transport_pirate">
+	<class id="W_REBEL_TRANSPORT_PIRATE_V0"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="1" max="5" room="2"/>
+		<weapons power="2" max="6" room="4"/>
+		<shields power="2" max="8" room="1"/>
+		<oxygen power="1" max="3" room="3"/>
+		<medbay power="1" max="3" room="8"/>
+		<doors power="1" max="3" room="7" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_transport</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_TRANSPORT_PIRATE_V1" layout="w_rebel_transport_pirate" img="w_rebel_transport_pirate">
+	<class id="W_REBEL_TRANSPORT_PIRATE_V1"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="1" max="5" room="8"/>
+		<weapons power="2" max="6" room="1"/>
+		<shields power="2" max="8" room="2"/>
+		<oxygen power="1" max="3" room="5"/>
+		<clonebay power="1" max="3" room="7"/>
+		<doors power="1" max="3" room="6" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="9"/>
+	<crewCount amount="3" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_transport</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_TRANSPORT_SLAVER_V0" layout="w_rebel_transport_slaver" img="w_rebel_transport_slaver">
+	<class id="W_REBEL_TRANSPORT_SLAVER_V0"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="6" room="11"/>
+		<shields power="2" max="8" room="8"/>
+		<oxygen power="1" max="3" room="9"/>
+		<clonebay power="1" max="3" room="10"/>
+		<teleporter power="1" max="3" room="1"/>
+		<drones power="1" max="6" room="12" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<droneList drones="4" load="W_DRONES_DEFENSIVE"/>
+	<health amount="10"/>
+	<maxPower amount="10"/>
+	<crewCount amount="4" max="10" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_transport</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_TRANSPORT_SLAVER_V1" layout="w_rebel_transport_slaver" img="w_rebel_transport_slaver">
+	<class id="W_REBEL_TRANSPORT_SLAVER_V1"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="1" max="5" room="2"/>
+		<weapons power="2" max="6" room="3"/>
+		<shields power="2" max="8" room="4"/>
+		<oxygen power="1" max="3" room="11"/>
+		<clonebay power="1" max="3" room="12"/>
+		<teleporter power="1" max="3" room="5"/>
+		<doors power="1" max="3" room="1" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="10"/>
+	<maxPower amount="10"/>
+	<crewCount amount="4" max="10" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_transport</cloakImage>
+</shipBlueprint>

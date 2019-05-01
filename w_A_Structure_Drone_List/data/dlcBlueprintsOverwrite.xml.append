@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- NEW DRONE LISTS -->
+
+<blueprintList name="W_DRONES_DEFENSIVE">
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2_ENEMY</name>
+	<name>ANTI_DRONE</name>
+	<name>DRONE_SHIELD</name>
+</blueprintList>
+
+<blueprintList name="W_DRONES_SHIPBOARD">
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+</blueprintList>
+
+<blueprintList name="W_DRONES_OFFENSIVE">
+	<name>COMBAT_1</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+	<name>BOARDER</name>
+	<name>BOARDER_ION</name>	
+</blueprintList>
+
+<blueprintList name="W_DRONES_BOARDER">
+	<name>BOARDER</name>
+	<name>BOARDER_ION</name>	
+</blueprintList>
+
+<blueprintList name="W_DRONES_COMBAT_DEFENSE">
+	<name>COMBAT_1</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM</name>	
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2_ENEMY</name>
+</blueprintList>

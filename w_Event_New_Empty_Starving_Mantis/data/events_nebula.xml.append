@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEBULA_EMPTY"> 
+	<mod-append:event load="W_NEBULA_STARVING_MANTIS"/>
+</mod:findName>
+<event name="W_NEBULA_STARVING_MANTIS" unique="true">
+	<text id="W_NEBULA_STARVING_MANTIS_TEXT_0"/>
+	<environment type="nebula"/>
+	<choice hidden="true" req="mantis" lvl="0" max_group="0" blue="false">
+		<text id="continue"/>
+		<event/>
+	</choice>
+	<choice hidden="true" req="mantis" lvl="1" max_group="0" blue="false">
+		<text id="continue"/>
+		<event>
+			<text id="W_NEBULA_STARVING_MANTIS_TEXT_1"/>
+			<choice hidden="true">
+				<text id="W_NEBULA_STARVING_MANTIS_TEXT_2"/>
+				<event>
+					<text id="W_NEBULA_STARVING_MANTIS_TEXT_3"/>
+					<crewMember amount="-1" class="mantis"/>
+					<boarders min="1" max="1" class="mantis"/>
+				</event>
+			</choice>
+			<choice hidden="true" req="human">
+				<text id="W_NEBULA_STARVING_MANTIS_TEXT_4"/>
+				<event>
+					<text id="W_NEBULA_STARVING_MANTIS_TEXT_5"/>
+					<removeCrew class="human">
+						<clone>false</clone>
+						<text id="W_NEBULA_STARVING_MANTIS_TEXT_6"/>
+					</removeCrew>
+				</event>
+			</choice>
+			<choice hidden="true" req="slug">
+				<text id="W_NEBULA_STARVING_MANTIS_TEXT_7"/>
+				<event>
+					<text id="W_NEBULA_STARVING_MANTIS_TEXT_8"/>
+					<item_modify>
+						<item type="scrap" min="-10" max="-5"/>
+						<item type="drones" min="-1" max="0"/>
+					</item_modify>
+				</event>
+			</choice>
+			<choice req="engi">
+				<text id="W_NEBULA_STARVING_MANTIS_TEXT_9"/>
+				<event>
+					<text id="W_NEBULA_STARVING_MANTIS_TEXT_10"/>
+					<item_modify>
+						<item type="fuel" min="-4" max="-2"/>
+					</item_modify>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>

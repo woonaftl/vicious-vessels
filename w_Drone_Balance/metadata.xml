@@ -1,0 +1,40 @@
+<metadata>
+<author>Woona</author>
+<desc>Drones are unreliable and rarely used. The goal of these changes is to make drones slightly cheaper in terms of scrap and power and make good drones easier available.
+
+Also, drones are just sold very frequently because the player simply does not have a slot for Drone Control. So, having expensive drones in the game sucks as they are just scrap for next store.
+
+Hull Repair drone becomes ultra rare because it's OP. But it's cheaper, because if you are buying a drone, you already go for an unorthodox strategy: using drones! It shouldn't be punished.
+
+Anti Drone becomes rare because it's useless, and making it viable is almost impossible.
+
+All changes are economical not to mess with players' brains. Prices end with zeros to make new prices a bit easier to memorize.</desc>
+<changelog>Drone power:
+Anti-Personnel: 2 -> 1
+Anti-Ship Fire Drone: 3 -> 2
+Boarding Drone: 3 -> 2
+Combat II: 4 -> 3
+Ion Intruder: 3 -> 2
+Shield Overcharger: 3 -> 2
+
+Drone prices:
+Anti-Drone: 35 -> 30
+Anti-Personnel: 35 -> 30
+Anti-Ship Fire Drone: 50 -> 40
+Beam I: 50 -> 40
+Beam II: 60 -> 50
+Boarding Drone: 70 -> 40
+Combat I: 50 -> 40
+Combat II: 75 -> 50
+Defense II: 70 -> 60
+Hull Repair: 85 -> 60
+Ion Intruder: 65 -> 40
+Shield Overcharger: 60 -> 40
+
+Drone rarity (lower - more common):
+Anti-Drone: 1 -> 3
+Beam II: 5 -> 4
+Boarding Drone: 4 -> 3
+Combat II: 5 -> 4
+Hull Repair: 4 -> 5</changelog>
+</metadata>

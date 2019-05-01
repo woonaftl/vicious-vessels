@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- NEW DONOR_PONY OPTIONS -->
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_0">You send a small shuttle to a lit side of the planet, but thick clouds hardly let light through, and it is hard to navigate.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_1">The shuttle could not reach the surface: it got stuck in a giant web of ropes. They are all sticky and it is impossible to get out even with engines on full thrust. Red dots fill the radar. Giant alien spiders greet you with open jaws.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_2">Send a crewmember to distract giant alien spiders while the rest of the team frees the shuttle from web.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_3">A volunteer takes all heavy weapons from the shuttle and moves towards the swarm of giant anthropods, trying to distract them. The hero does not survive for long but their sacrifice is enough to buy time to free the shuttle from web.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_4">The clone of lost crewmember awaits you on the ship.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_5">(Anti-Personnel Drone) Distract giant alien spiders with a drone.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_6">The drone is quickly constructed on site from spare parts. As soon as it is ready, it plunges into a swarm of arachnids, making an excellent distraction while the crew frees the shuttle from sticky web.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_7">(Beam) Carefully free the shuttle from orbit.</text>
+<text name="W_ALIEN_SPIDER_HOMEWORLD_TEXT_8">The team stays in the shuttle, shooting at incoming arachnids with handguns and throwing grenades. One of engineers left on ship aims the menacing beam at the web surrounding the shuttle, frying giant alien spiders at the same time. Everyone returns home safely with some alien fiber stuck to shuttle.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_0">You send a small shuttle with a part of the crew to explore the surface of planet. On arrival, it is clear that the whole planet is covered with liquid water. The intelligent life probably lives deep in the ocean.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_1">Submerge the shuttle.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_2">Leave the planet.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_3">On the seabed, you find ruins of lost civilization. Metallic dwellings, vehicles and factories are everywhere. There is no one to stop you from looting the place and bring the best metal materials back to the orbit.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_4">As the shuttle moves through the water, you notice growing shapes on the radar. They appear to be similar to giant worms and move very quickly in your direction. When a giant tentacle slams your shuttle, you quickly realize the mistake of diving into the ocean.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_5">You are too deep to establish contact with the ship on the orbit. A member of your crew lies dead, crushed by a tentacle. Water fills the shuttle. Thankfully, the engines are untouched. The pilot turns on the boost and the shuttle rapidly moves towards the surface.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_6">You return to the ship shaken and are delighted to see a clone of crewmember who was lost in the deep.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_7">You pilot the shuttle upwards as the waves are starting to sprawl out below, creating a deep chasm. A giant tentacle comes out from the ocean and strikes the shuttle, damaging the engine and sending the shuttle down into abyss.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_8">Hope for the best.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_9">The team grabs every weapon installed on the shuttle and aims for tentacle. As the shuttle drops down, one of your crewmembers falls out into the the chasm with a million black teeth. In the last moment, the pilot manages to regain control of the engine and boosts the shuttle into stratosphere. Could have been worse.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_10">The clone of lost crewmember already awaits on the ship when you return from the planet.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_11">(Beam) Orbital strike!</text>
+<text name="W_TENTACLE_MONSTER_TEXT_12">Scarlet red pierces the sky as the deadly beam fries the tentacle monster. The creature winces in pain and moves into the ocean to lick its wounds. The pilot repairs the engine and the team returns back to ship, saved from the brink of death. You promise to never sell that beam.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_13">(Teleporter) Save the crew by teleporting them back.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_14">You press the button and everyone returns safely to your ship, drifting in space. The last thing they remember is the stink from the monster's mouth. There was no way to save the shuttle. You put a remainder to never return to this planet again.</text>
+<text name="W_TENTACLE_MONSTER_TEXT_15">You return back to the ship safely and prepare to charge FTL drive.</text>

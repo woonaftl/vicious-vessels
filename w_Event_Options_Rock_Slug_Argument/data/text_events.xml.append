@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TWO AUTO SHIPS IN ENDLESS LOOP -->
+<text name="W_AUTO_ENDLESS_LOOP_TEXT_0">You find two automated Rebel scouts. The AI behaves very strange, not reacting to your arrival. Two ships are completely focused on each other.</text>
+<text name="W_AUTO_ENDLESS_LOOP_TEXT_1">Scan the ships.</text>
+<text name="W_AUTO_ENDLESS_LOOP_TEXT_2">Upon closer examination, it seems that the automated ships are caught in an endless loop. The first ship detects that the second lacks FTL fuel, then shares it, becoming low on fuel itself. You follow the actions of AI for minutes until you can finally avert your eyes and order the next action.</text>
+<text name="W_AUTO_ENDLESS_LOOP_TEXT_3">Attack!</text>
+<text name="W_AUTO_ENDLESS_LOOP_TEXT_4">The ship that currently had FTL fuel immediately jumps away to bring reinforcements. The other ship charges the weapons, readying itself for fight.</text>
+<text name="W_AUTO_ENDLESS_LOOP_TEXT_5">Leave the ships to themselves.</text>

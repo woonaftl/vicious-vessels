@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ENGI STATION REQUESTING WORKERS -->
+<text name="W_ENGI_STATION_WORKER_TEXT_0">You jump in to find a big industrial Engi station broadcasting a message. "Assistance required. Insufficient workforce. Station security compromised." You could send a part of your crew to find out if they need any help.</text>
+<text name="W_ENGI_STATION_WORKER_TEXT_1">Send one crewmember to the station.</text>
+<text name="W_ENGI_STATION_WORKER_TEXT_2">Your crewmember leaves in a small one-man shuttle for the Engi station. The remaining crew is looking forward to seeing them again.</text>
+<text name="W_ENGI_STATION_WORKER_TEXT_3">As your crewman is still alive and helping on the Engi station, it would be against Federation regulation to create a clone to continue with you on your journey.</text>
+<text name="W_ENGI_STATION_WORKER_TEXT_4">Ignore them.</text>
+<text name="W_ENGI_STATION_WORKER_TEXT_5">After hours of wait, an Engi worker arrives to your ship and requests a permission to work for the Federation. "Subordinate left. Substitution arrived." It seems that your former crewmember could not return.</text>
+<text name="W_ENGI_STATION_WORKER_TEXT_6">You wait for your crewmember to return. After several hours you receive a message. "I am staying here. The pay is better, social benefits, and stable oxygen production." The Engi station compensates your loss with resources.</text>

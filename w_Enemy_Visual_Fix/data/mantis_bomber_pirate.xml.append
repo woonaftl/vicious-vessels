@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mod:findLike type="explosion">
+    <mod:findLike type="gib4">
+        <mod-overwrite:x>81</mod-overwrite:x>
+        <mod-overwrite:y>187</mod-overwrite:y>
+    </mod:findLike>
+</mod:findLike>

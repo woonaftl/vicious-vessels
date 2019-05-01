@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_0">Another empty beacon. You have traveled through the nebula for days already without finding any stars or planets. Even spaceships are few and far between, often impossible to locate without functioning sensors.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_1">A Mantis on your ship is grumpy. To stay alive, Mantis race needs food eight times per day, preferably still moving. It is impossible to provide Mantis with fresh food in nebula.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_2">Tell them to wait patiently.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_3">After another hour of waiting, the starving Mantis turns on your crew!</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_4">(Human) Feed them a healthy dinner.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_5">You lure an unaware human to Mantis quarters. The hungry Mantis plunges at them and tears them apart. The whole crew is watching from afar, hoping not to become the next meal.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_6">You are lacking biological materials to make a new clone. The Mantis ate them all.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_7">(Slug) Telepathically calm them.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_8">After a few hours of being conditioned by a Slug, the starving Mantis accepts to change the diet. Instead of being a carnivore, they will become a "ferrovore". To calm the stomach, the Mantis eats some of scrap material from the hold of your ship.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_9">(Engi) Find an unorthodox solution.</text>
+<text name="W_NEBULA_STARVING_MANTIS_TEXT_10">Few people know how exactly FTL fuel is synthesized. It seems that your Engi is one of them. With reverse engineering, they manage to make some kind of nutrient paste out of fuel. The Mantis does not like the taste, but feels full and energetic at the same time.</text>

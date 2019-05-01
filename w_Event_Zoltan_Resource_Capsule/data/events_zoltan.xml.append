@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL_ZOLTAN"> 
+	<mod-append:event load="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP"/>
+</mod:findName>
+<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP" unique="true">
+	<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_0"/>
+	<choice hidden="true" req="doors" lvl="0" max_group="0" blue="false">
+		<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_1"/>
+		<event load="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_LIST"/>
+	</choice>
+	<choice hidden="true" req="doors" lvl="1" max_group="0" blue="false">
+		<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_1"/>
+		<event load="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_LIST_NODOORS"/>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_2"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_LIST">
+	<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_BOARDERS"/>
+	<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SECURITY"/>
+	<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SAFE"/>
+</eventList>
+<eventList name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_LIST_NODOORS">
+	<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SECURITY"/>
+	<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SAFE"/>
+	<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SAFE"/>
+</eventList>
+<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_BOARDERS">
+	<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_3"/>
+	<boarders min="4" max="4" class="energy"/>
+	<damage amount="2" system="doors" effect="fire"/>
+	<autoReward level="MED">stuff</autoReward>
+</event>
+<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SECURITY">
+	<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_4"/>
+	<autoReward level="LOW">stuff</autoReward>
+	<status type="limit" target="player" system="engines" amount="1"/>
+	<ship load="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SHIP" hostile="true"/>
+</event>
+<event name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SAFE">
+	<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_5"/>
+	<autoReward level="LOW">stuff</autoReward>
+</event>
+<ship name="W_ZOLTAN_TRANSPORT_CAPSULE_TRAP_SHIP" auto_blueprint="SHIPS_ZOLTAN">
+	<destroyed>
+		<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_6"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<autoReward level="LOW">standard</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_7"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<autoReward level="MED">standard</autoReward>
+	</deadCrew>
+</ship>

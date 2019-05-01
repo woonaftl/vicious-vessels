@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="HOSTILE_REBEL"> 
+	<mod-append:event load="W_AUTO_LURE_HAZARD"/>
+</mod:findName>
+<event name="W_AUTO_LURE_HAZARD" unique="true">
+	<text id="W_AUTO_LURE_HAZARD_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_AUTO_LURE_HAZARD_TEXT_1"/>
+		<event load="W_AUTO_LURE_HAZARD_LIST"/>
+	</choice>
+	<choice hidden="true" req="engines" lvl="5">
+		<text id="W_AUTO_LURE_HAZARD_TEXT_2"/>
+		<event>
+			<text id="W_AUTO_LURE_HAZARD_TEXT_3"/>
+			<ship load="REBEL_AUTO_WARNING" hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_AUTO_LURE_HAZARD_TEXT_4"/>
+		<event>
+			<text id="W_AUTO_LURE_HAZARD_TEXT_5"/>
+			<modifyPursuit amount="1"/>
+		</event>
+	</choice>
+</event>
+<eventList name="W_AUTO_LURE_HAZARD_LIST">
+	<event>
+		<text id="W_AUTO_LURE_HAZARD_TEXT_6"/>
+		<ship load="REBEL_AUTO_WARNING" hostile="true"/>
+		<environment type="pulsar"/>
+	</event>
+	<event>
+		<text id="W_AUTO_LURE_HAZARD_TEXT_7"/>
+		<ship load="REBEL_AUTO_WARNING" hostile="true"/>
+		<environment type="asteroid"/>
+	</event>
+	<event>
+		<text id="W_AUTO_LURE_HAZARD_TEXT_8"/>
+		<ship load="REBEL_AUTO_WARNING" hostile="true"/>
+		<environment type="sun"/>
+	</event>
+</eventList>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ENGI_PIRATE_TRACKED_TEXT_0">Arriving to the next beacon, you encounter a pirate ship. The captain contacts you. "Don't shoot buddy. I see that you have got a powerful ship and I have a proposition."</text>
+<text name="W_ENGI_PIRATE_TRACKED_TEXT_1">"I tracked an Engi ship that transports all kinds of valuables: fuel, weapons, drones, you name it. Instead of destroying each other and gaining nothing, we could profit. Whoever gets to the Engi first, gets the loot."</text>
+<text name="W_ENGI_PIRATE_TRACKED_TEXT_2">Attack the pirate.</text>
+<text name="W_ENGI_PIRATE_TRACKED_TEXT_3">You are here to save the Federation, not to profit by destroying allied ships. You decline pirate's proposal and charge your weapons.</text>
+<text name="W_ENGI_PIRATE_TRACKED_TEXT_4">Accept his proposal.</text>
+<text name="W_ENGI_PIRATE_TRACKED_TEXT_5">"Good thinking, mate. I am sure that we will both benefit from this." You charge the FTL drive, aiming to reach the given coordinates as soon as possible.</text>
+<text name="W_ENGI_PIRATE_TRACKED_TEXT_6">Ignore him.</text>
+<text name="W_ENGI_PIRATE_TRACKED_SHIP_TEXT_0">It seems that the pirate did not have much. After destroying the ship, you scrap the remains.</text>
+<text name="W_ENGI_PIRATE_TRACKED_SHIP_TEXT_1">It seems that the pirate did not have much. After killing enemy crew, you collect scarce resources.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_0">You arrived to the location specified by the friendly pirate. It seems that you were fast enough to outrun the pirate. The Engi ship filled with useful gear is waiting.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_1">Attack!</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_2">Your mission to save the Federation is difficult, and you need all possible equipment you can get. If piracy is the only way, then you are willing to sacrifice your honor.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_3">Inform the Engi about the pirate that is following them.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_4">"Too late. Subject already destroyed." The Engi charge the FTL drive and leave the system.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_5">You arrived to the location specified by the friendly pirate to find an Engi ship already destroyed and the pirate in the process of salvaging the equipment. "Whoever gets to the Engi first, gets the loot. Remember, friend?"</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_6">Attack the pirate.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_7">You are not leaving empty-handed! You prepare for the battle hoping that at least some gear will survive the fight.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_8">Ignore him.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_9">They look like they don't want to fight. They are trying to escape.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_10">The pirate explodes, leaving behind a substantial collection of useful scrap material.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_11">After dealing with the pirates, you finish salvaging the remains of the Engi ship, finding some useful resources.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_12">The pirates are all dead, leaving the ship dead in space.</text>
+<text name="W_ENGI_PIRATE_TRACKED_QUEST_TEXT_13">After dealing with the pirates, you finish salvaging the remains of the Engi ship, finding some useful resources.</text>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Replaces standard empty beacon text -->
+<mod:findName type="textList" name="NOTHING_ENGI">
+	<mod:findLike type="text">
+		<mod:selector id="text_NOTHING_ENGI_4"/>
+		<mod:removeTag/>
+	</mod:findLike>
+</mod:findName>
+
+<!-- 8 question quiz -->
+<mod:findName type="eventList" name="NEUTRAL_ENGI"> 
+	<mod-append:event load="W_ENGI_ENTERTAINMENT_STATION"/>
+</mod:findName>
+<event name="W_ENGI_ENTERTAINMENT_STATION" unique="true">
+	<text id="text_NOTHING_ENGI_4"/>
+	<choice hidden="true">
+		<text id="W_ENGI_ENTERTAINMENT_STATION_TEXT_0"/>
+		<event>
+			<text id="W_ENGI_ENTERTAINMENT_STATION_TEXT_2"/>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event>
+					<text id="W_ENGI_ENTERTAINMENT_STATION_TEXT_3"/>
+					<choice hidden="true">
+						<text id="continue"/>
+						<event load="W_GAME_SHOW_Q1"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_ENTERTAINMENT_STATION_TEXT_1"/>
+		<event/>
+	</choice>
+</event>
+
+<eventList name="W_GAME_SHOW_Q1">
+	<event>
+		<text id="W_GAME_SHOW_Q1_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_1"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_2"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_3"/>
+			<event load="W_GAME_SHOW_Q2"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_4"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true" req="rock">
+			<text id="W_GAME_SHOW_Q1_TEXT_5"/>
+			<event load="W_GAME_SHOW_Q2"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q1_TEXT_6"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_7"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_8"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_9"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_10"/>
+			<event load="W_GAME_SHOW_Q2"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q1_TEXT_11"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_12"/>
+			<event load="W_GAME_SHOW_Q2"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_13"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_14"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q1_TEXT_15"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="W_GAME_SHOW_Q2">
+	<event>
+		<text id="W_GAME_SHOW_Q2_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q2_TEXT_1"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q2_TEXT_2"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q2_TEXT_3"/>
+			<event load="W_GAME_SHOW_Q3"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q2_TEXT_4"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true" req="anaerobic">
+			<text id="W_GAME_SHOW_Q2_TEXT_5"/>
+			<event load="W_GAME_SHOW_Q3"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q2_TEXT_6"/>
+		<choice hidden="true">
+			<text>1.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>2.</text>
+			<event load="W_GAME_SHOW_Q3"/>
+		</choice>
+		<choice hidden="true">
+			<text>3.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>4.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q2_TEXT_7"/>
+		<choice hidden="true">
+			<text>70.</text>
+			<event load="W_GAME_SHOW_Q3"/>
+		</choice>
+		<choice hidden="true">
+			<text>80.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>90.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>100.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="W_GAME_SHOW_Q3">
+	<event>
+		<text id="W_GAME_SHOW_Q3_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_1"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_2"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_3"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_4"/>
+			<event load="W_GAME_SHOW_Q4"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q3_TEXT_5"/>
+		<choice hidden="true">
+			<text>3.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>4.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>6.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>8.</text>
+			<event load="W_GAME_SHOW_Q4"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q3_TEXT_6"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_7"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_8"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_9"/>
+			<event load="W_GAME_SHOW_Q4"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_10"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q3_TEXT_11"/>
+		<choice hidden="true">
+			<text>65.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>105.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>145.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>185.</text>
+			<event load="W_GAME_SHOW_Q4"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="W_GAME_SHOW_Q4">
+	<event>
+		<text id="W_GAME_SHOW_Q4_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_1"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_2"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_3"/>
+			<event load="W_GAME_SHOW_Q5"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_4"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q4_TEXT_5"/>
+		<choice hidden="true">
+			<text>16.</text>
+			<event load="W_GAME_SHOW_Q5"/>
+		</choice>
+		<choice hidden="true">
+			<text>18.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>20.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>22.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q4_TEXT_6"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_7"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_8"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_9"/>
+			<event load="W_GAME_SHOW_Q5"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q4_TEXT_10"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q4_TEXT_11"/>
+		<choice hidden="true">
+			<text>15.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>20.</text>
+			<event load="W_GAME_SHOW_Q5"/>
+		</choice>
+		<choice hidden="true">
+			<text>25.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>30.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="W_GAME_SHOW_Q5">
+	<event>
+		<text id="W_GAME_SHOW_Q5_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_1"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_2"/>
+			<event load="W_GAME_SHOW_Q6"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_3"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_4"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q5_TEXT_5"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_6"/>
+			<event load="W_GAME_SHOW_Q6"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_7"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_8"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_9"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q5_TEXT_10"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_11"/>
+			<event load="W_GAME_SHOW_Q6"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_12"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_13"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q5_TEXT_14"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="W_GAME_SHOW_Q6">
+	<event>
+		<text id="W_GAME_SHOW_Q6_TEXT_0"/>
+		<choice hidden="true">
+			<text>17.</text>
+			<event load="W_GAME_SHOW_Q7"/>
+		</choice>
+		<choice hidden="true">
+			<text>18.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>19.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>20.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q6_TEXT_1"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_2"/>
+			<event load="W_GAME_SHOW_Q7"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_3"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_4"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_5"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q6_TEXT_6"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_7"/>
+			<event load="W_GAME_SHOW_Q7"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_8"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_9"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q3_TEXT_10"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q6_TEXT_11"/>
+		<choice hidden="true">
+			<text>70.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>100.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>125.</text>
+			<event load="W_GAME_SHOW_Q7"/>
+		</choice>
+		<choice hidden="true">
+			<text>150.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="W_GAME_SHOW_Q7">
+	<event>
+		<text id="W_GAME_SHOW_Q7_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_1"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_2"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_3"/>
+			<event load="W_GAME_SHOW_Q8"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_4"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q7_TEXT_5"/>
+		<choice hidden="true">
+			<text>29.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>30.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>31.</text>
+			<event load="W_GAME_SHOW_Q7"/>
+		</choice>
+		<choice hidden="true">
+			<text>32.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q7_TEXT_6"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_7"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_8"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_9"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_10"/>
+			<event load="W_GAME_SHOW_Q8"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q7_TEXT_11"/>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_12"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_13"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_14"/>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_GAME_SHOW_Q7_TEXT_15"/>
+			<event load="W_GAME_SHOW_Q8"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="W_GAME_SHOW_Q8">
+	<event>
+		<text id="W_GAME_SHOW_Q8_TEXT_0"/>
+		<choice hidden="true">
+			<text>5.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>7.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>9.</text>
+			<event load="W_GAME_SHOW_WIN"/>
+		</choice>
+		<choice hidden="true">
+			<text>11.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q8_TEXT_1"/>
+		<choice hidden="true">
+			<text>2.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>4.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>6.</text>
+			<event load="W_GAME_SHOW_WIN"/>
+		</choice>
+		<choice hidden="true">
+			<text>8.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q8_TEXT_2"/>
+		<choice hidden="true">
+			<text>4.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>5.</text>
+			<event load="W_GAME_SHOW_WIN"/>
+		</choice>
+		<choice hidden="true">
+			<text>6.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>7.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_GAME_SHOW_Q8_TEXT_3"/>
+		<choice hidden="true">
+			<text>11.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>12.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>13.</text>
+			<event load="W_GAME_SHOW_FAIL"/>
+		</choice>
+		<choice hidden="true">
+			<text>14.</text>
+			<event load="W_GAME_SHOW_WIN"/>
+		</choice>
+	</event>
+</eventList>
+	
+<event name="W_GAME_SHOW_WIN">
+	<text id="W_GAME_SHOW_WIN_TEXT_0"/>
+	<autoReward level="HIGH">scrap_only</autoReward>
+	<store/>
+</event>
+
+<event name="W_GAME_SHOW_FAIL">
+	<text id="W_GAME_SHOW_FAIL_TEXT_0"/>
+</event>
+
+

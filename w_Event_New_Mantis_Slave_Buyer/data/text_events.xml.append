@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_0">The giant Mantis war fleet moves slowly in the distance.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_1">The Mantis scan your ship but are not interested in attacking you. There is no way you can engage them yourself.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_2">The Mantis scan your ship and their leader appears on the comm and screeches something. The translator struggles. "Engi slaves. We are paying."</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_3">(Engi) Agree to sell a crewmember into slavery.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_4">Decline. We need the Engi ourselves.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_5">The Mantis leader does not react, but one of the young captains moves away from the bulk of the fleet and attacks you in fair combat. He probably sees you as an easy prey and wants to up his rank in Mantis military.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_6">The Mantis soldiers come to your ship to take your former crewmember with them, leaving some resources. The Mantis leader asks. "Do you have more?"</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_7">The Mantis soldiers come to your ship to take your former crewmember with them, leaving a weapon and some resources. The Mantis leader is grateful for slaves and shuts down communications. Your crew is distraught, being afraid to be sold into slavery, and seeing no chance to finish the mission without Engi comrades.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_8">The Mantis cut communications, satisfied with a deal.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_9">The attacking ship is destroyed. You start collecting scrap from the remains, but are forced to leave the system by the Mantis war fleet.</text>
+<text name="W_MANTIS_SLAVE_BUYER_TEXT_10">The attacking ship shows no life signs. You start collecting resources, but are forced to leave the system by the Mantis war fleet.</text>

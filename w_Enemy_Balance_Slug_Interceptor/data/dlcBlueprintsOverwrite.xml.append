@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Rebalanced Slug Interceptor/Scout to use no more than 2 weapons: there is not enough space on the ship to place more weapons -->
+
+<mod:findName type="shipBlueprint" name="JELLY_BUTTON_DLC">
+	<mod-append:weaponSlots>2</mod-append:weaponSlots>
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="5"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<!-- Rebalanced Slug Interceptor/Scout to use the same room layout as the pirate version -->
+
+<mod:findName type="shipBlueprint" name="JELLY_BUTTON_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="oxygen">
+			<mod:setAttributes room="1"/>
+		</mod:findLike>
+		<mod:findLike type="pilot">
+			<mod:setAttributes room="4"/>
+		</mod:findLike>
+		<mod:findLike type="shields">
+			<mod:setAttributes room="5"/>
+		</mod:findLike>
+		<mod:findLike type="engines">
+			<mod:setAttributes room="3"/>
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes room="0"/>
+		</mod:findLike>
+		<mod-append:mind power="1" max="2"  room="2" start="false"/>
+	</mod:findLike>
+</mod:findName>

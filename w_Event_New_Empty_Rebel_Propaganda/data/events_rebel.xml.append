@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NOTHING_REBEL"> 
+	<mod-append:event load="W_REBEL_PROPAGANDA"/>
+</mod:findName>
+<event name="W_REBEL_PROPAGANDA" unique="true">
+	<text id="W_REBEL_PROPAGANDA_TEXT_0"/>
+	<choice hidden="true" req="human" lvl="0" max_group="0" blue="false">
+		<text id="continue"/>
+		<event/>
+	</choice>
+	<choice hidden="true" req="human" lvl="1" max_group="0" blue="false">
+		<text id="continue"/>
+		<event>
+			<text id="W_REBEL_PROPAGANDA_TEXT_1"/>
+			<choice hidden="true">
+				<text id="W_REBEL_PROPAGANDA_TEXT_2"/>
+				<event>
+					<text id="W_REBEL_PROPAGANDA_TEXT_3"/>
+					<crewMember amount="-1" class="human"/>
+					<boarders min="1" max="1" class="human"/>
+				</event>
+			</choice>
+			<choice hidden="true" req="mantis">
+				<text id="W_REBEL_PROPAGANDA_TEXT_4"/>
+				<event>
+					<text id="W_REBEL_PROPAGANDA_TEXT_5"/>
+				</event>
+			</choice>
+			<choice hidden="true" req="mind">
+				<text id="W_REBEL_PROPAGANDA_TEXT_6"/>
+				<event>
+					<text id="W_REBEL_PROPAGANDA_TEXT_7"/>
+				</event>
+			</choice>
+			<choice hidden="true" req="human" lvl="2">
+				<text id="W_REBEL_PROPAGANDA_TEXT_8"/>
+				<event>
+					<text id="W_REBEL_PROPAGANDA_TEXT_9"/>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>

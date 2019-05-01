@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL_ROCK"> 
+	<mod-append:event load="W_ROCK_DESOLATE_TRIBE"/>
+</mod:findName>
+<event name="W_ROCK_DESOLATE_TRIBE" unique="true">
+	<text id="W_ROCK_DESOLATE_TRIBE_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_ROCK_DESOLATE_TRIBE_TEXT_1"/>
+		<event load="W_ROCK_DESOLATE_TRIBE_PLANET"/>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ROCK_DESOLATE_TRIBE_TEXT_2"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_ROCK_DESOLATE_TRIBE_PLANET">
+	<event> <!-- Aggressive tribe -->
+		<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_1"/>
+			<event load="W_ROCK_DESOLATE_TRIBE_FIGHT"/>
+		</choice>
+		<choice hidden="true" req="rock">
+			<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_2"/>
+			<event>
+				<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_3"/>
+				<autoReward level="LOW">scrap_only</autoReward>
+			</event>
+		</choice>
+		<choice hidden="true" req="mantis">
+			<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_4"/>
+			<event>
+				<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_5"/>
+				<autoReward level="LOW">scrap_only</autoReward>
+			</event>
+		</choice>
+	</event>
+	<event> <!-- Zoltan poppers! -->
+		<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_0"/>
+		<autoReward level="LOW">stuff</autoReward>
+		<choice hidden="true" req="energy" lvl="0" max_group="0" blue="false">
+			<text id="continue"/>
+			<event>
+				<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_1"/>
+			</event>
+		</choice>
+		<choice hidden="true" req="energy" lvl="1" max_group="0" blue="false">
+			<text id="continue"/>
+			<event>
+				<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_2"/>
+				<choice hidden="true">
+					<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_3"/>
+					<event>
+						<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_4"/>
+						<removeCrew class="energy">
+							<clone>true</clone>
+							<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_5"/>
+						</removeCrew>
+						<choice hidden="true">
+							<text id="continue"/>
+							<event>
+								<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_6"/>
+								<choice hidden="true">
+									<text id="continue"/>
+									<event load="W_ROCK_DESOLATE_TRIBE_POP_GIFT"/>
+								</choice>
+							</event>
+						</choice>
+					</event>
+				</choice>
+				<choice hidden="true">
+					<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_7"/>
+					<event>
+						<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_8"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+	</event>
+	<event> <!-- Stealing the shuttle -->
+		<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_0"/>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event>
+				<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_1"/>
+				<choice hidden="true">
+					<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_2"/>
+					<event load="W_ROCK_DESOLATE_TRIBE_SHUTTLE"/>
+				</choice>
+				<choice hidden="true" req="WEAPONS_BEAM_DAMAGE">
+					<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_3"/>
+					<event>
+						<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_4"/>
+						<autoReward level="MED">standard</autoReward>
+					</event>
+				</choice>				
+				<choice hidden="true" req="CREW_STIMS">
+					<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_5"/>
+					<event>
+						<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_6"/>
+						<autoReward level="MED">standard</autoReward>
+					</event>
+				</choice>				
+				<choice req="BATTLE">
+					<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_7"/>
+					<event>
+						<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_8"/>
+						<item_modify>
+							<item type="drones" min="-1" max="-1"/>
+						</item_modify>
+						<choice hidden="true" req="WEAPONS_BEAM_DAMAGE">
+							<text id="continue"/>
+							<event>
+								<text id="W_ROCK_DESOLATE_TRIBE_SHUTTLE_TEXT_9"/>
+								<autoReward level="MED">standard</autoReward>
+							</event>
+						</choice>				
+					</event>
+				</choice>				
+			</event>
+		</choice>
+	</event>
+</eventList>
+<eventList name="W_ROCK_DESOLATE_TRIBE_FIGHT">
+	<event>
+		<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_6"/>
+	</event>
+	<event>
+		<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_7"/>
+		<removeCrew>
+			<clone>true</clone>
+			<text id="W_ROCK_DESOLATE_TRIBE_AGGRESSIVE_TEXT_8"/>
+		</removeCrew>
+	</event>
+</eventList>
+<eventList name="W_ROCK_DESOLATE_TRIBE_SHUTTLE">
+	<event>
+		<text id="W_ROCK_DESOLATE_TRIBE_SHITTLE_TEXT_10"/>
+	</event>
+	<event>
+		<text id="W_ROCK_DESOLATE_TRIBE_SHITTLE_TEXT_11"/>
+		<removeCrew>
+			<clone>true</clone>
+			<text id="W_ROCK_DESOLATE_TRIBE_SHITTLE_TEXT_12"/>
+		</removeCrew>
+	</event>
+</eventList>
+<eventList name="W_ROCK_DESOLATE_TRIBE_POP_GIFT">
+	<event>
+		<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_9"/>
+		<augment name="RANDOM"/>
+	</event>
+	<event>
+		<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_10"/>
+		<weapon name="RANDOM"/>
+	</event>
+	<event>
+		<text id="W_ROCK_DESOLATE_TRIBE_ZOLTAN_TEXT_11"/>
+		<drone name="RANDOM"/>
+	</event>
+</eventList>

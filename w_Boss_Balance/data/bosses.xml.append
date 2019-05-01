@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_EASY">
+	<mod:setAttributes layout="boss_1"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_2_EASY">
+	<mod:setAttributes layout="boss_2"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_EASY">
+	<mod:setAttributes layout="boss_3"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_NORMAL">
+	<mod:setAttributes layout="boss_1"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_2_NORMAL">
+	<mod:setAttributes layout="boss_2"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_NORMAL">
+	<mod:setAttributes layout="boss_3"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_EASY_DLC">
+	<mod:setAttributes layout="boss_1"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_2_EASY_DLC">
+	<mod:setAttributes layout="boss_2"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_EASY_DLC">
+	<mod:setAttributes layout="boss_3"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_NORMAL_DLC">
+	<mod:setAttributes layout="boss_1"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_2_NORMAL_DLC">
+	<mod:setAttributes layout="boss_2"/>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_NORMAL_DLC">
+	<mod:setAttributes layout="boss_3"/>
+</mod:findName>

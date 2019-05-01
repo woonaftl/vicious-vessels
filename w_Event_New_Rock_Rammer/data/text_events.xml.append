@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_0">What looked like a tiny asteroid before, turns out to be a Rock single-use ship. It moves towards you with high velocity and an intention to ram and swarm your ship with boarders. There is no time to charge your weapons, you have to react quickly!</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_1">Grab the guns and protective suits. Prepare for combat!</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_2">The ship shakes. A loud impact leaves your crew stunned. The hull is breached, and a circuit shorted somewhere, starting a fire. A team of bloodthirsty Rock pirates is charging towards you!</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_3">(Engines) Evade the Rock vessel.</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_4">The pilot masterfully evades charging Rock ship. Without the ability to steer their ship, enemies quickly move out of sight.</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_5">(Rock Plating) Turn the most armored parts of the ship towards them.</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_6">The pilot manages to turn your ship towards the enemy in time, preparing for collision. The ship shakes, but is undamaged. The Rock vessel, on the other hand, is completely wrecked by the impact. You scrap its remains.</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_7">(Drone) Quickly shoot them down.</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_8">The drone is deployed instantly and stops the attackers with a single shot.</text>
+<text name="W_ROCK_RAMMING_BOARDERS_TEXT_9">After finishing enemies off with main weapons, you harvest the useful materials out of the remains of their ship.</text>

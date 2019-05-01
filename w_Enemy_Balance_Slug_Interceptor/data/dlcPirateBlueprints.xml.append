@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Rebalanced Slug Interceptor/Scout to use no more than 2 weapons: there is not enough space on the ship to place more weapons -->
+
+<mod:findName type="shipBlueprint" name="JELLY_BUTTON_P">
+	<mod-append:weaponSlots>2</mod-append:weaponSlots>
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="5" missiles="6"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="JELLY_BUTTON_P_DLC">
+	<mod-append:weaponSlots>2</mod-append:weaponSlots>
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="5"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>

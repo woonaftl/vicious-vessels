@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="ship" name="PIRATE_SLAVER">
+	<mod:setAttributes auto_blueprint="W_SHIPS_SLAVER"/>
+</mod:findName>
+
+<mod:findName type="ship" name="PIRATE_SMUGGLE">
+	<mod:setAttributes auto_blueprint="W_SHIPS_PIRATE_TRANSPORT"/>
+</mod:findName>
+
+<mod:findName type="ship" name="STORM_PIRATE_SUPPLY_FUEL">
+	<mod:setAttributes auto_blueprint="W_SHIPS_PIRATE_TRANSPORT"/>
+</mod:findName>
+
+<mod:findName type="ship" name="STORM_PIRATE_SUPPLY_AMMO">
+	<mod:setAttributes auto_blueprint="W_SHIPS_PIRATE_TRANSPORT"/>
+</mod:findName>
+
+<mod:findName type="ship" name="SQUAT_TRANSPORT">
+	<mod:setAttributes auto_blueprint="W_SHIPS_REBEL_TRANSPORT"/>
+</mod:findName>

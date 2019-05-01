@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Replaces standard empty beacon text -->
+<mod:findName type="textList" name="NOTHING_ENGI">
+	<mod:findLike type="text">
+		<mod:selector id="text_NOTHING_ENGI_2"/>
+		<mod:removeTag/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="NEUTRAL_ENGI"> 
+	<mod-append:event load="W_ENGI_GREEN_PLANET"/>
+</mod:findName>
+<event name="W_ENGI_GREEN_PLANET" unique="true">
+	<text id="text_NOTHING_ENGI_2"/>
+	<img planet="W_PLANET_GREEN"/>
+	<choice hidden="true">
+		<text id="W_ENGI_GREEN_PLANET_TEXT_0"/>
+		<event load="W_ENGI_GREEN_PLANET_LIST"/>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_GREEN_PLANET_TEXT_1"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_ENGI_GREEN_PLANET_LIST">
+	<event> <!-- metal-eating animals -->
+		<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_0"/>
+		<choice hidden="true" req="engi" lvl="0" max_group="0" blue="false">
+			<text id="continue"/>
+			<event>
+				<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_1"/>
+				<item_modify>
+					<item type="scrap" min="-15" max="-12"/>
+				</item_modify>
+				<choice hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_4"/>
+					<event/>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true" req="engi" lvl="1" max_group="0" blue="false">
+			<text id="continue"/>
+			<event>
+				<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_2"/>
+				<removeCrew class="engi">
+					<clone>true</clone>
+					<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_3"/>
+				</removeCrew>
+				<choice hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_4"/>
+					<event/>
+				</choice>
+			</event>
+		</choice>
+	</event>
+	<event> <!-- windy desert -->
+		<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_0"/>
+		<choice req="sensors" lvl="2" hidden="true">
+			<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_1"/>
+			<event>
+				<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_5"/>
+				<autoReward level="MED">scrap_only</autoReward>
+			</event>
+		</choice>
+		<choice req="LIFE_SCANNER" hidden="true">
+			<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_2"/>
+			<event>
+				<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_6"/>
+				<autoReward level="MED">scrap_only</autoReward>
+			</event>
+		</choice>
+		<choice req="slug" hidden="true">
+			<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_3"/>
+			<event>
+				<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_6"/>
+				<autoReward level="MED">scrap_only</autoReward>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_4"/>
+			<event/>
+		</choice>
+	</event>
+	<event> <!-- flying reptiles -->
+		<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_1"/>
+			<event>
+				<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_3"/>
+				<choice hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_4"/>
+					<event>
+						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_12"/>
+						<removeCrew>
+							<clone>true</clone>
+							<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_13"/>
+						</removeCrew>
+						<autoReward level="LOW">scrap_only</autoReward>
+					</event>
+				</choice>
+				<choice req="mantis" hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_5"/>
+					<event>
+						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_9"/>
+						<autoReward level="LOW">scrap_only</autoReward>
+					</event>
+				</choice>
+				<choice req="BATTLE" hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_6"/>
+					<event>
+						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_10"/>
+						<item_modify>
+							<item type="drones" min="-1" max="-1"/>
+						</item_modify>
+						<autoReward level="LOW">scrap_only</autoReward>
+					</event>
+				</choice>
+				<choice req="BOARDER" hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_7"/>
+					<event>
+						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_10"/>
+						<item_modify>
+							<item type="drones" min="-1" max="-1"/>
+						</item_modify>
+						<autoReward level="LOW">scrap_only</autoReward>
+					</event>
+				</choice>
+				<choice req="BOARDER_ION" hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_8"/>
+					<event>
+						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_11"/>
+						<item_modify>
+							<item type="drones" min="-1" max="-1"/>
+						</item_modify>
+						<autoReward level="HIGH">weapon</autoReward>
+					</event>
+				</choice>
+				<choice hidden="true">
+					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_2"/>
+					<event/>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_2"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>

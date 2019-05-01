@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shipBlueprint name="W_MANTIS_SISTERSHIP" layout="w_mantis_sistership" img="w_mantis_sistership">
+	<class id="W_MANTIS_SISTERSHIP"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<medbay power="2" max="3" room="8"/>
+		<shields power="3" max="9" room="2"/>
+		<engines power="1" max="5" room="3"/>
+		<doors power="2" max="3" room="4"/>
+		<weapons power="2" max="10" room="6"/>
+		<oxygen power="1" max="3" room="9"/>
+		<cloaking power="1" max="1" room="7"/>
+		<teleporter power="2" max="3" room="1"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_MANTIS"/>
+	<health amount="12"/>
+	<maxPower amount ="12"/>
+	<crewCount amount = "6" max="10" class="mantis"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_mantis_sistership</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_ROCK_SISTERSHIP" layout="w_rock_sistership" img="w_rock_sistership">
+	<class id="W_ROCK_SISTERSHIP"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<medbay power="2" max="3" room="1"/>
+		<shields power="3" max="9" room="2"/>
+		<engines power="1" max="5" room="10"/>
+		<doors power="2" max="3" room="4"/>
+		<weapons power="2" max="10" room="3"/>
+		<oxygen power="1" max="3" room="6"/>
+		<cloaking power="1" max="1" room="7"/>
+		<teleporter power="2" max="3" room="5"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_ROCK"/>
+	<health amount="12"/>
+	<maxPower amount ="12"/>
+	<crewCount amount = "5" max="8" class="rock"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rock_sistership</cloakImage>
+	<aug name="ROCK_ARMOR"/>
+</shipBlueprint>
+
+<shipBlueprint name="W_SLUG_SISTERSHIP" layout="w_slug_sistership" img="w_slug_sistership">
+	<class id="W_SLUG_SISTERSHIP"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<medbay power="1" max="3" room="1"/>
+		<shields power="3" max="9" room="2"/>
+		<engines power="1" max="5" room="3"/>
+		<doors power="2" max="3" room="4"/>
+		<weapons power="2" max="10" room="5"/>
+		<oxygen power="1" max="3" room="6"/>
+		<cloaking power="1" max="2" room="7"/>
+		<mind power="1" max="1" room="8"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_JELLY"/>
+	<health amount="12"/>
+	<maxPower amount ="12"/>
+	<crewCount amount = "6" max="9" class="slug"/>
+	<aug name="SLUG_GEL"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_slug_sistership</cloakImage>
+</shipBlueprint>

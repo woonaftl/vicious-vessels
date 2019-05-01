@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shipBlueprint name="W_AUTO_FUEL" layout="w_auto_fuel" img="w_auto_fuel">
+	<class id="W_AUTO_FUEL"/>
+	<systemList>
+		<pilot power="2" max="3" room="0"/>
+		<engines power="2" max="8" room="1"/>
+		<weapons power="1" max="7" room="2"/>
+		<shields power="2" max="6" room="3"/>
+	</systemList>
+	<weaponList missiles="6" load="WEAPONS_AUTO"/>
+	<droneList drones="4"/>
+	<health amount="6"/>	
+	<maxPower amount="6"/>
+	<crewCount amount="0" max="0" class="human"/>
+	<cloakImage>w_auto_fuel</cloakImage>
+</shipBlueprint>

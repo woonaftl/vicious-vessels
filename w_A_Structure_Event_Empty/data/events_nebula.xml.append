@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="NEBULA_EMPTY">
+	<mod:removeTag/>
+</mod:findName>
+
+<eventList name="NEBULA_EMPTY">
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+	<event load="W_TRUE_NEBULA_EMPTY"/>
+</eventList>
+
+<event name="W_TRUE_NEBULA_EMPTY">
+	<text load="NEBULA_EMPTY_LIST"/>
+	<environment type="nebula"/>
+</event>

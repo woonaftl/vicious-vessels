@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_MANTIS">
+	<mod-append:name>W_MANTIS_INTERCEPTOR_V0</mod-append:name>
+	<mod-append:name>W_MANTIS_INTERCEPTOR_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_PIRATE">
+	<mod-append:name>W_MANTIS_INTERCEPTOR_PIRATE_V0</mod-append:name>
+	<mod-append:name>W_MANTIS_INTERCEPTOR_PIRATE_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_MANTIS_INTERCEPTOR_V0" layout="w_mantis_interceptor" img="w_mantis_interceptor">
+	<class id="W_MANTIS_INTERCEPTOR_V0"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="1"/>
+		<medbay power="1" max="2" room="5" start="false"/>
+		<teleporter power="1" room="6"/>
+		<shields power="2" max="6" room="2"/>
+		<engines power="1" max="4" room="3"/>
+		<weapons power="2" max="6" room="4"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
+	<health amount="9"/>
+	<maxPower amount="9"/>
+	<crewCount amount="2" max="5" class="mantis"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_mantis_interceptor</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_MANTIS_INTERCEPTOR_V1" layout="w_mantis_interceptor" img="w_mantis_interceptor">
+	<class id="W_MANTIS_INTERCEPTOR_V1"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="3"/>
+		<clonebay power="1" max="2" room="5" start="false"/>
+		<teleporter power="1" room="6"/>
+		<shields power="2" max="6" room="4"/>
+		<engines power="1" max="4" room="1"/>
+		<weapons power="2" max="6" room="2"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
+	<health amount="9"/>
+	<maxPower amount="9"/>
+	<crewCount amount="2" max="5" class="mantis"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_mantis_interceptor</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_MANTIS_INTERCEPTOR_PIRATE_V0" layout="w_mantis_interceptor_pirate" img="w_mantis_interceptor_pirate">
+	<class id="W_MANTIS_INTERCEPTOR_PIRATE_V0"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="1"/>
+		<medbay power="1" max="2" room="5" start="false"/>
+		<teleporter power="1" room="6" start="false"/>
+		<shields power="2" max="6" room="2"/>
+		<engines power="1" max="4" room="3"/>
+		<weapons power="2" max="6" room="4"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
+	<health amount="9"/>
+	<maxPower amount="9"/>
+	<crewCount amount="2" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_mantis_interceptor</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_MANTIS_INTERCEPTOR_PIRATE_V1" layout="w_mantis_interceptor_pirate" img="w_mantis_interceptor_pirate">
+	<class id="W_MANTIS_INTERCEPTOR_PIRATE_V1"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="3"/>
+		<clonebay power="1" max="2" room="5" start="false"/>
+		<teleporter power="1" room="6" start="false"/>
+		<shields power="2" max="6" room="4"/>
+		<engines power="1" max="4" room="1"/>
+		<weapons power="2" max="6" room="2"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
+	<health amount="9"/>
+	<maxPower amount="9"/>
+	<crewCount amount="2" max="5" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_mantis_interceptor</cloakImage>
+</shipBlueprint>

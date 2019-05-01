@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_AUTO_LURE_HAZARD_TEXT_0">As you jump in, sensors detect an automated Rebel ship outside firing range. It immediately moves away from you, probably aiming to bring reinforcements.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_1">Attempt to follow the auto-ship and close the distance.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_2">(Engines) Full thrust! Catch the enemy before they flee.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_3">Your speed is unmatched. After a few minutes you reduce the distance enough to fire the weapons at the AI ship.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_4">Avoid combat.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_5">The auto-ship moves away completely disappearing from radar after a few minutes. There is no doubt that they manage to relay information about your location to Rebel fleet.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_6">In effort to escape, the autonomous Rebel scout tried to lure you closer to a pulsar. But one of the ionizing pulses disabled their engines, and you are able to finally catch them and engage in combat.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_7">The unmanned rebel ship tried to cut the tail in the asteroid field. It backfired when they could not move through a dense area, had to slow down and fight your ship.</text>
+<text name="W_AUTO_LURE_HAZARD_TEXT_8">The AI controlling the rebel ship, piloted their vessel straight into local system's red giant. After the long chase, you finally catch them, but it is too late. The star is dangerously close, and your ship will overheat.</text>

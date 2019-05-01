@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shipBlueprint name="W_SLUG_BLACK_RAVEN" layout="w_slug_black_raven" img="w_slug_black_raven">
+	<class id="W_SLUG_BLACK_RAVEN"/>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<medbay power="1" max="3" room="1"/>
+		<shields power="3" max="9" room="2"/>
+		<engines power="1" max="5" room="3"/>
+		<doors power="2" max="3" room="4"/>
+		<weapons power="3" max="10" room="5"/>
+		<oxygen power="1" max="3" room="6"/>
+		<cloaking power="1" max="2" room="7"/>
+	</systemList>
+	<weaponList missiles="14" load="WEAPONS_JELLY"/>
+	<health amount="12"/>
+	<maxPower amount ="12"/>
+	<crewCount amount = "6" max="9" class="slug"/>
+	<boardingAI>sabotage</boardingAI>
+	<aug name="SLUG_GEL"/>
+	<cloakImage>w_slug_black_raven</cloakImage>
+</shipBlueprint>

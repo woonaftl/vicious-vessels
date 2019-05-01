@@ -1,0 +1,5 @@
+<metadata>
+<author>Woona</author>
+<desc>Rebalanced Engi ships to always have a medbay, they have a augmentation: Engi Med-Bot Dispersal that requires a functional medbay after all.</desc>
+<changelog>Engi ships that used a Clonebay, now use a Medbay instead.</changelog>
+</metadata>

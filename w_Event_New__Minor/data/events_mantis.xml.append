@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- MANTIS STUCK ON SLUG SHIP -->
+
+<mod:findName type="eventList" name="HOSTILE_MANTIS"> 
+	<mod-append:event load="W_MANTIS_STUCK_SLUG"/>
+</mod:findName>
+<event name="W_MANTIS_STUCK_SLUG" unique="true">
+	<text id="W_MANTIS_STUCK_SLUG_TEXT_0"/>
+	<ship load="W_MANTIS_STUCK_SLUG_SHIP" hostile="true"/>
+</event>
+<ship name="W_MANTIS_STUCK_SLUG_SHIP" auto_blueprint="SHIPS_JELLY">
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+	<crew>
+		<crewMember type="mantis" prop="1"/>
+	</crew>
+</ship>
+
+<!-- MANTIS WRECK NEAR SUN -->
+
+<mod:findName type="eventList" name="NEUTRAL_MANTIS"> 
+	<mod-append:event load="W_MANTIS_SUN_WRECK"/>
+</mod:findName>
+<event name="W_MANTIS_SUN_WRECK" unique="true">   
+	<text id="W_MANTIS_SUN_WRECK_TEXT_0"/>
+	<environment type="sun"/>
+	<choice hidden="true">
+		<text id="W_MANTIS_SUN_WRECK_TEXT_1"/>
+		<event load="W_MANTIS_SUN_WRECK_LIST"/>
+	</choice>
+	<choice hidden="true" req="engines" lvl="5">
+		<text id="W_MANTIS_SUN_WRECK_TEXT_2"/>
+		<event>
+			<text id="W_MANTIS_SUN_WRECK_TEXT_3"/>
+			<autoReward level="LOW">scrap_only</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_MANTIS_SUN_WRECK_TEXT_4"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_MANTIS_SUN_WRECK_LIST">
+	<event>
+		<text load="W_MANTIS_SUN_WRECK_TEXT"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+		<damage amount="2" system="engines" effect="fire"/>
+	</event>
+	<event>
+		<text load="W_MANTIS_SUN_WRECK_TEXT"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+		<damage amount="4" system="engines" effect="fire"/>
+	</event>
+</eventList>
+<textList name="W_MANTIS_SUN_WRECK_TEXT">
+	<text id="W_MANTIS_SUN_WRECK_TEXT_5"/>
+</textList>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Changed sector distribution to make the game consistently harder in late sectors and a bit easier in starting sectors -->
+
+<!-- Sector 0 is the first sector in-game, Sector 7 is the Last Stand -->
+
+<mod:findName type="shipBlueprint" name="AUTO_ASSAULT_DLC">
+	<mod-append:minSector>1</mod-append:minSector> <!-- 0 changed to 1 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="AUTO_BASIC_DLC">
+	<mod-append:maxSector>4</mod-append:maxSector> <!-- 7 changed to 4 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="CIRCLE_SCOUT_DLC">
+	<mod-overwrite:maxSector>3</mod-overwrite:maxSector> <!-- 7 changed to 3 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="FED_BOMBER_DLC">
+	<mod-append:maxSector>5</mod-append:maxSector> <!-- 7 changed to 5 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="FED_SCOUT_DLC">
+	<mod-overwrite:maxSector>3</mod-overwrite:maxSector> <!-- 6 changed to 3 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="JELLY_BUTTON_DLC">
+	<mod-overwrite:maxSector>3</mod-overwrite:maxSector> <!-- 5 changed to 3 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="JELLY_CROISSANT_DLC">
+	<mod-append:maxSector>6</mod-append:maxSector> <!-- 7 changed to 6 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_DLC">
+	<mod-append:maxSector>5</mod-append:maxSector> <!-- 7 changed to 5 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_SCOUT_DLC">
+	<mod-overwrite:maxSector>3</mod-overwrite:maxSector> <!-- 5 changed to 3 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="REBEL_FAT_DLC">
+	<mod-append:maxSector>4</mod-append:maxSector> <!-- 7 changed to 4 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="REBEL_SKINNY_DLC">
+	<mod-append:maxSector>4</mod-append:maxSector> <!-- 7 changed to 4 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="REBEL_SKINNY_ELITE_DLC">
+	<mod-append:maxSector>4</mod-append:maxSector> <!-- 7 changed to 4 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="ROCK_SCOUT_DLC">
+	<mod-overwrite:maxSector>3</mod-overwrite:maxSector> <!-- 5 changed to 3 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="ROCK_ASSAULT_DLC">
+	<mod-overwrite:minSector>4</mod-overwrite:minSector> <!-- 5 changed to 4 -->
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="ZOLTAN_FIGHTER_DLC">
+	<mod-append:minSector>1</mod-append:minSector> <!-- 0 changed to 1 -->
+	<mod-append:maxSector>5</mod-append:maxSector> <!-- 7 changed to 5 -->
+</mod:findName>

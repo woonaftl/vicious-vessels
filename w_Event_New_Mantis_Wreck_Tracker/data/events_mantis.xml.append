@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL_MANTIS"> 
+	<mod-append:event load="W_MANTIS_WRECK_TRACKER"/>
+</mod:findName>
+<event name="W_MANTIS_WRECK_TRACKER" unique="true">   
+	<text id="W_MANTIS_WRECK_TRACKER_TEXT_0"/>
+	<autoReward level="LOW">scrap_only</autoReward>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event>
+			<text id="W_MANTIS_WRECK_TRACKER_TEXT_1"/>
+			<choice hidden="true">
+				<text id="W_MANTIS_WRECK_TRACKER_TEXT_2"/>
+				<event load="W_MANTIS_WRECK_TRACKER_LIST"/>
+			</choice>
+			<choice hidden="true">
+				<text id="W_MANTIS_WRECK_TRACKER_TEXT_3"/>
+				<event>
+					<text id="W_MANTIS_WRECK_TRACKER_TEXT_4"/>
+					<modifyPursuit amount="1"/>
+				</event>
+			</choice>
+			<choice hidden="true" req="W_DRONES_COMBAT_DEFENSE">
+				<text id="W_MANTIS_WRECK_TRACKER_TEXT_5"/>
+				<event>
+					<text id="W_MANTIS_WRECK_TRACKER_TEXT_6"/>
+					<item_modify>
+						<item type="drones" min="-1" max="-1"/>
+					</item_modify>
+				</event>
+			</choice>	
+			<choice hidden="true" req="anaerobic">
+				<text id="W_MANTIS_WRECK_TRACKER_TEXT_7"/>
+				<event>
+					<text id="W_MANTIS_WRECK_TRACKER_TEXT_8"/>
+				</event>
+			</choice>	
+		</event>
+	</choice>
+</event>
+<eventList name="W_MANTIS_WRECK_TRACKER_LIST">
+	<event>
+		<text id="W_MANTIS_WRECK_TRACKER_TEXT_9"/>
+		<removeCrew>
+			<clone>true</clone>
+			<text id="W_MANTIS_WRECK_TRACKER_TEXT_10"/>
+		</removeCrew>
+	</event>
+	<event>
+		<text id="W_MANTIS_WRECK_TRACKER_TEXT_11"/>
+	</event>
+</eventList>

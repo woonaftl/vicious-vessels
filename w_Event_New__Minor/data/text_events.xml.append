@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ENGI BOARDERS TWO TEAMS -->
+<text name="W_ENGI_BOARDERS_TEXT_0">You arrive to see an abandoned space station, constructed by Engi. Immediately, your ship's sensors go red and detect multiple teleporter signals in several rooms. Contrary to their peaceful nature, the teleporting Engi are driven to kill by some kind of virus!</text>
+<text name="W_ENGI_BOARDERS_TEXT_1">The Engi continue teleporting to your ship, mindlessly attacking everything on sight. "DESTROY. DESTROY. DESTROY."</text>
+
+<!-- ENGI SHIP CAPTURED BY REBELS -->
+<text name="W_ENGI_REBEL_CONTROLLED_TEXT_0">After you jump to the next beacon, the Engi ship stationed there turns towards you and arms the weapons. A human captain broadcasts a message. "Okay. How does this thing work? Open fire!" Looks like the Engi ship was captured by Rebels.</text>
+
+<!-- MANTIS STUCK ON SLUG SHIP -->
+<text name="W_MANTIS_STUCK_SLUG_TEXT_0">You arrive to see two ships: a heavily damaged Mantis vessel and a Slug cruiser, mostly intact. A Mantis screeches into comm: "Teleporter's out. Kill these aliens first!" Looks like their whole crew is stuck on Slug ship they just captured.</text>
+
+<!-- MANTIS WRECK NEAR SUN -->
+<text name="W_MANTIS_SUN_WRECK_TEXT_0">The beacon is located dangerously close to a giant star. Sensors detect a wreck of the Mantis vessel nearby. You could get some scrap, but your ship will surely overheat.</text>
+<text name="W_MANTIS_SUN_WRECK_TEXT_1">Scrap the wreck.</text>
+<text name="W_MANTIS_SUN_WRECK_TEXT_2">(Engines) Quickly scrap the wreck.</text>
+<text name="W_MANTIS_SUN_WRECK_TEXT_3">"Full power to engines!" You manage to scrap the remains of Mantis ship and make the safe distance from the sun just before the ship overheats.</text>
+<text name="W_MANTIS_SUN_WRECK_TEXT_4">Leave the dangerous area immediately.</text>
+<text name="W_MANTIS_SUN_WRECK_TEXT_5">You approach the wreck. As the heat sensors turn red, and the fire starts in engines, you quickly understand why the Mantis ship was destroyed.</text>
+
+<!-- ROCK PULSAR -->
+<text name="W_ROCK_PULSAR_TEXT_0">The beacon is located too close to a pulsating star. Captain of the rock ship nearby is enraged. "Why are my shields not working again? Let me leave this wretched place!"</text>
+<text name="W_ROCK_PULSAR_TEXT_1">Advise him to turn shields off entirely to prevent them from being ionized.</text>
+<text name="W_ROCK_PULSAR_TEXT_2">"Are you taking me for a fool? Turn your mouth off!" The rock captain is shaking in rage and orders to attack.</text>
+<text name="W_ROCK_PULSAR_TEXT_3">Ignore him and charge FTL drive.</text>
+<text name="W_ROCK_PULSAR_TEXT_4">(Reverse Ion Field) Offer him a gift.</text>
+<text name="W_ROCK_PULSAR_TEXT_5">The rock captain is very grateful. He offers you his best weapon and all of his scrap in exchange.</text>
+
+<!-- SLUG WITH DRUGGED ZOLTAN SLAVES -->
+<text name="W_SLUG_DRUGGED_ZOLTAN_BOARDERS_TEXT_0">You arrive to the section of nebula with impenetrable clouds of gases surrounding your ship. A group of Zoltans teleports into your ship and attacks everyone on sight. They appear to be under influence and cannot communicate. A Slug ship, previously unseen, attacks! They use their Zoltan slaves as a distraction.</text>
+
+<!-- SLUG DISTRESS TRAP -->
+<text name="W_SLUG_DISTRESS_TRAP_TEXT_0">Like a spider, waiting for prey in a web, a Slug cruiser was luring victims with a distress signal into a carefully designed trap of tractor beams, electromagnetic pulsars, ion emitters and other devices that you fail to recognize. Your ship is completely disabled, with engines barely working, making escape impossible.</text>
+<text name="W_SLUG_DISTRESS_TRAP_TEXT_1">Fight.</text>
+<text name="W_SLUG_DISTRESS_TRAP_TEXT_2">Plead for mercy.</text>
+<text name="W_SLUG_DISTRESS_TRAP_TEXT_3">The slug captain is unmoved. "I underssstand the importance of your mission. Do not fret, I will do everything I can to ensure Federation's victory. After I loot your ship."</text>
+<text name="W_SLUG_DISTRESS_TRAP_TEXT_4">The Slug ship breaks apart and your systems return to normal. You collect what you can.</text>
+<text name="W_SLUG_DISTRESS_TRAP_TEXT_5">With their crew dead, your systems return to normal. You strip the ship.</text>
+
+<!-- PIRATE WITH ARTEMIS ASKING FOR MISSILES -->
+<text name="W_PIRATE_ARTEMIS_TEXT_0">You are greeted by a ship with a pirate skull painted on hull. "If you want to live, send me all of your ammunition. And be quick about it, or I will riddle your ship with holes."</text>
+<text name="W_PIRATE_ARTEMIS_TEXT_1">Attack the pirate.</text>
+<text name="W_PIRATE_ARTEMIS_TEXT_2">Agree to transfer missiles to pirate.</text>
+<text name="W_PIRATE_ARTEMIS_TEXT_3">The pirate is satisfied. "See you next time. Make sure to buy some more missiles in the nearest store."</text>
+
+<!-- HITCHHIKER -->
+<text name="W_HITCHHIKER_TEXT_0">You arrive to the beacon, but there are no ships or stations in sight. After a while, a human teleports to your bridge from somewhere. They are holding nothing but a towel in their hands. Claiming to be a hitchhiker, they offer to travel with you for some time.</text>
+<text name="W_HITCHHIKER_TEXT_1">Accept them into your crew.</text>
+<text name="W_HITCHHIKER_TEXT_2">The hitchhiker is reluctant to do any real work. Hopefully that will change the next time your ship goes on fire, or is swarmed by Mantis boarders.</text>
+<text name="W_HITCHHIKER_TEXT_3">This is Federation military, no hitchhikers allowed.</text>
+<text name="W_HITCHHIKER_TEXT_4">The hitchhiker refuses to leave your ship. Perhaps it is one of the Rebel agents and you have to kill them.</text>
+
+<!-- HOSTILE ZOLTAN SHIP IN ION STORM -->
+<text name="W_ZOLTAN_ION_STORM_TEXT_0">As soon as you arrive at the beacon, all lights go out. The nebula clouds are seen outside with frequent flashes of ion storm. The Zoltan ship located at the beacon attacks you on sight. Zoltans, who rely on crew rather than reactor power, are barely affected by effects of ion storm.</text>
+
+<!-- KNOCK-KNOCK -->
+<text name="W_KNOCK_TEXT_0">Something is outside your ship! Knock-knock.</text>
+<text name="W_KNOCK_TEXT_1">Who is there?</text>
+<text name="W_KNOCK_TEXT_2">Lanius.</text>
+<text name="W_KNOCK_TEXT_3">Lanius who?</text>
+<text name="W_KNOCK_TEXT_4">Lanius phyxiate you.</text>
+<text name="W_KNOCK_TEXT_5">Ugh...</text>

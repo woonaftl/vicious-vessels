@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="ship" name="ZOLTAN_RIFT_MANTIS">
+	<mod:setAttributes auto_blueprint="W_MANTIS_SISTERSHIP"/>
+</mod:findName>
+
+<mod:findName type="ship" name="ZOLTAN_RIFT_ROCK">
+	<mod:setAttributes auto_blueprint="W_ROCK_SISTERSHIP"/>
+</mod:findName>
+
+<mod:findName type="ship" name="ZOLTAN_RIFT_SLUG">
+	<mod:setAttributes auto_blueprint="W_SLUG_SISTERSHIP"/>
+</mod:findName>

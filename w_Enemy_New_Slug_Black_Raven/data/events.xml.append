@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="ship" name="DONOR_BLACK_RAVEN">
+	<mod:setAttributes auto_blueprint="W_SLUG_BLACK_RAVEN"/>
+</mod:findName>

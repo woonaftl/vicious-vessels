@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Removing random text about Tuco from vanilla event -->
+
+<mod:findName type="textList" name="PIRATE">
+	<mod:findLike type="text">
+		<mod:selector id="text_PIRATE_3"/>
+		<mod:removeTag/>
+	</mod:findLike>
+</mod:findName>
+
+<!-- New event for Tuco -->
+
+<mod:findName type="eventList" name="HOSTILE_PIRATE"> 
+	<mod-append:event load="W_PIRATE_TUCO_EVENT"/>
+</mod:findName>
+
+<event name="W_PIRATE_TUCO_EVENT" unique="true">
+	<text id="text_PIRATE_3"/>
+	<img back="BACKGROUND" planet="PLANET_POPULATED"/>
+	<ship load="W_PIRATE_TUCO_SHIP" hostile="true"/>
+</event>
+
+<ship name="W_PIRATE_TUCO_SHIP" auto_blueprint="W_PIRATE_TUCO">
+	<surrender  chance="0.5" min="3" max="4" load="PIRATE_SURRENDER"/>
+	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<gotaway>
+		<text id="ship_PIRATE_gotaway_text"/>
+	</gotaway>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+</ship>

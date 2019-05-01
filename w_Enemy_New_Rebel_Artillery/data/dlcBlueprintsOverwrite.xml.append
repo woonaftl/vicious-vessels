@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<blueprintList name="W_WEAPONS_BALLISTIC">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_HEAVY_2</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE</name>
+	<name>BOMB_BREACH</name>
+</blueprintList>
+
+<blueprintList name="W_WEAPONS_ENERGY">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_1</name>
+	<name>ION_2</name>
+	<name>ION_4</name>
+	<name>ION_STUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_ION</name>
+	<name>BEAM_2</name>
+	<name>BEAM_3</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_HULL</name>
+	<name>BEAM_FIRE</name>
+</blueprintList>
+
+<blueprintList name="W_SHIPS_ARTILLERY">
+	<name>W_REBEL_ARTILLERY_BEAM</name>
+	<name>W_REBEL_ARTILLERY_ION</name>
+	<name>W_REBEL_ARTILLERY_LASER</name>
+	<name>W_REBEL_ARTILLERY_MISSILE</name>
+</blueprintList>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_REBEL_ELITE">
+	<mod-append:name>W_REBEL_ARTILLERY_ELITE_BEAM</mod-append:name>
+	<mod-append:name>W_REBEL_ARTILLERY_ELITE_ION</mod-append:name>
+	<mod-append:name>W_REBEL_ARTILLERY_ELITE_LASER</mod-append:name>
+	<mod-append:name>W_REBEL_ARTILLERY_ELITE_MISSILE</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_BEAM" layout="w_rebel_artillery" img="w_rebel_artillery_beam">
+	<class id="W_REBEL_ARTILLERY"/>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_3"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="8" room="10"/>
+		<engines power="1" max="4" room="4"/>
+		<weapons power="1" max="8" room="9"/>
+		<medbay power="1" max="3" room="7"/>
+		<doors power="1" max="3" room="6" start="false"/>
+		<drones power="2" max="10" room="8"/>
+	</systemList>
+	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<droneList drones="5" load="DRONES_COMBAT"/>
+	<health amount="11"/>
+	<maxPower amount="13"/>
+	<crewCount amount="5" max="6" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_beam</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_ION" layout="w_rebel_artillery" img="w_rebel_artillery_ion">
+	<class id="W_REBEL_ARTILLERY"/>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_4"/>
+		<oxygen power="1" max="3" room="7"/>
+		<shields power="2" max="8" room="9"/>
+		<engines power="1" max="4" room="4"/>
+		<weapons power="1" max="8" room="10"/>
+		<medbay power="1" max="3" room="5"/>
+		<doors power="1" max="3" room="8" start="false"/>
+		<drones power="2" max="10" room="6"/>
+	</systemList>
+	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<droneList drones="5" load="DRONES_COMBAT"/>
+	<health amount="11"/>
+	<maxPower amount="13"/>
+	<crewCount amount="5" max="6" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_ion</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_LASER" layout="w_rebel_artillery" img="w_rebel_artillery_laser">
+	<class id="W_REBEL_ARTILLERY"/>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_1"/>
+		<oxygen power="1" max="3" room="10"/>
+		<shields power="2" max="8" room="3"/>
+		<engines power="1" max="4" room="4"/>
+		<weapons power="1" max="8" room="2"/>
+		<medbay power="1" max="3" room="9"/>
+		<doors power="1" max="3" room="5" start="false"/>
+		<hacking power="1" max="2" room="7" start="false"/>
+	</systemList>
+	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<droneList drones="4"/>
+	<health amount="11"/>
+	<maxPower amount="13"/>
+	<crewCount amount="5" max="6" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_laser</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_MISSILE" layout="w_rebel_artillery" img="w_rebel_artillery_missile">
+	<class id="W_REBEL_ARTILLERY"/>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_2"/>
+		<oxygen power="1" max="3" room="9"/>
+		<shields power="2" max="8" room="2"/>
+		<engines power="1" max="4" room="4"/>
+		<weapons power="1" max="8" room="3"/>
+		<medbay power="1" max="3" room="10"/>
+		<doors power="1" max="3" room="7" start="false"/>
+		<hacking power="1" max="2" room="5" start="false"/>
+	</systemList>
+	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<droneList drones="4"/>
+	<health amount="11"/>
+	<maxPower amount="13"/>
+	<crewCount amount="5" max="6" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_missile</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_ELITE_BEAM" layout="w_rebel_artillery_elite" img="w_rebel_artillery_elite_beam">
+	<class id="W_REBEL_ARTILLERY_ELITE"/>
+	<minSector>7</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_3"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="4" max="9" room="3"/>
+		<engines power="2" max="6" room="7"/>
+		<weapons power="2" max="8" room="2"/>
+		<medbay power="1" max="3" room="4"/>
+		<doors power="1" max="3" room="6"/>
+		<drones power="2" max="10" room="9"/>
+		<cloaking power="1" max="3" room="12"/>
+	</systemList>
+	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<droneList drones="5" load="DRONES_COMBAT"/>
+	<health amount="15"/>
+	<maxPower amount="18"/>
+	<crewCount amount="6" max="8" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_elite_beam</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_ELITE_ION" layout="w_rebel_artillery_elite" img="w_rebel_artillery_elite_ion">
+	<class id="W_REBEL_ARTILLERY_ELITE"/>
+	<minSector>7</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_4"/>
+		<oxygen power="1" max="3" room="6"/>
+		<shields power="4" max="9" room="4"/>
+		<engines power="2" max="6" room="7"/>
+		<weapons power="2" max="8" room="2"/>
+		<medbay power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="5"/>
+		<drones power="2" max="10" room="12"/>
+		<cloaking power="1" max="3" room="9"/>
+	</systemList>
+	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<droneList drones="5" load="DRONES_COMBAT"/>
+	<health amount="15"/>
+	<maxPower amount="18"/>
+	<crewCount amount="6" max="8" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_elite_ion</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_ELITE_LASER" layout="w_rebel_artillery_elite" img="w_rebel_artillery_elite_laser">
+	<class id="W_REBEL_ARTILLERY_ELITE"/>
+	<minSector>7</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_1"/>
+		<oxygen power="1" max="3" room="4"/>
+		<shields power="4" max="9" room="9"/>
+		<engines power="2" max="6" room="10"/>
+		<weapons power="2" max="8" room="12"/>
+		<medbay power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="13"/>
+		<cloaking power="1" max="2" room="11"/>
+		<hacking power="1" max="2" room="8"/>
+	</systemList>
+	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<droneList drones="4"/>
+	<health amount="15"/>
+	<maxPower amount="17"/>
+	<crewCount amount="6" max="8" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_elite_laser</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_ARTILLERY_ELITE_MISSILE" layout="w_rebel_artillery_elite" img="w_rebel_artillery_elite_missile">
+	<class id="W_REBEL_ARTILLERY_ELITE"/>
+	<minSector>7</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<artillery power="4" room="1" weapon="ARTILLERY_BOSS_2"/>
+		<oxygen power="1" max="3" room="10"/>
+		<shields power="4" max="9" room="9"/>
+		<engines power="2" max="6" room="4"/>
+		<weapons power="2" max="8" room="13"/>
+		<medbay power="1" max="3" room="7"/>
+		<doors power="1" max="3" room="12"/>
+		<cloaking power="1" max="2" room="8"/>
+		<hacking power="1" max="2" room="11"/>
+	</systemList>
+	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<droneList drones="4"/>
+	<health amount="15"/>
+	<maxPower amount="17"/>
+	<crewCount amount="6" max="8" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_artillery_elite_missile</cloakImage>
+</shipBlueprint>

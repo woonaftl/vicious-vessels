@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_TEST_SUBJECTS_TEXT_0">You have heard rumors of this system. Experiments on lifeforms, genetic modifications, organ transplantations. It is said that living test subjects with unique DNA are always needed here.</text>
+<text name="W_TEST_SUBJECTS_TEXT_1">You could make some profit if you are willing to sacrifice a member of your crew.</text>
+<text name="W_TEST_SUBJECTS_TEXT_2">(Human) Give away a crewmember.</text>
+<text name="W_TEST_SUBJECTS_TEXT_3">Humans are common and lack special qualities. An ordinary human is not worth much for researchers. They pay with scant resources and you prepare to leave.</text>
+<text name="W_TEST_SUBJECTS_TEXT_4">(Mantis) Give away a crewmember.</text>
+<text name="W_TEST_SUBJECTS_TEXT_5">Even though Mantis are quite common, capturing one alive for research proved a difficult and dangerous task. The scientists are grateful and pay you back with a lot of scrap.</text>
+<text name="W_TEST_SUBJECTS_TEXT_6">(Rock) Give away a crewmember.</text>
+<text name="W_TEST_SUBJECTS_TEXT_7">Even though Rocks are difficult to find and even more difficult to capture, they provide excellent test subjects. Strong physique ensures that they survive many experiments before inevitable death. The researchers offer resources for your donation.</text>
+<text name="W_TEST_SUBJECTS_TEXT_8">(Zoltan) Give away a crewmember.</text>
+<text name="W_TEST_SUBJECTS_TEXT_9">Zoltans are rarely used as slaves or test subjects. Because of their weak constitution, they don't survive long enough. Therefore, the researchers are happy to get a Zoltan for experimenting on. They compensate your loss with a free reactor upgrade and some scrap.</text>
+<text name="W_TEST_SUBJECTS_TEXT_10">(Slug) Give away a crewmember.</text>
+<text name="W_TEST_SUBJECTS_TEXT_11">Slugs are among the rarest test subjects. Their survival instincts make them very difficult to corner and capture alive. For providing such a rare specimen researchers offer you some scrap and a weapon.</text>
+<text name="W_TEST_SUBJECTS_TEXT_12">(Crystal) Give away a crewmember.</text>
+<text name="W_TEST_SUBJECTS_TEXT_13">The researchers are astonished. They have seen only one Crystalline lifeform before, and were looking for another one for years. Your contribution will ensure scientific progress for whole galaxy, even though it may lead to your former crewmember's death.</text>
+<text name="W_TEST_SUBJECTS_TEXT_14">Our crew is not for sale.</text>
+<text name="W_TEST_SUBJECTS_TEXT_15">The clonebay does not revive your crewmember since they did not die yet.</text>

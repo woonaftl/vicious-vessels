@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_0">Ask for help in your mission.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_1">Leave the Engi alone.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_2">Once the Engi learn that you are Federation, they offer their help. While the construction yard specializes in building ships from scratch, for a small price, the Engi agree to install a new system on your ship.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_3">The Engi inform you that the workshop heavily relies on drones for material transportation so it only accepts payment in drone parts.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_4">Agree to install Shields.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_5">Agree to install Drone Control.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_6">Agree to install Hacking.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_7">Agree to install Cloaking.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_8">Do not buy anything.</text>
+<text name="W_ENGI_CONSTUCTION_YARD_TEXT_9">The system built and optimized for your ship class by the Engi designers is successfully installed.</text>

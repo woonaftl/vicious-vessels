@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Changed sector distribution to make the game consistently harder in late sectors -->
+
+<!-- Sector 0 is the first sector in-game, Sector 7 is the Last Stand -->
+
+<mod:findName type="shipBlueprint" name="ANAEROBIC_SCOUT">
+	<mod-append:maxSector>4</mod-append:maxSector> <!-- 7 changed to 4 -->
+</mod:findName>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="NOTHING">
+	<mod:removeTag/>
+</mod:findName>
+
+<eventList name="NOTHING">
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+	<event load="W_TRUE_NOTHING"/>
+</eventList>
+
+<event name="W_TRUE_NOTHING">
+	<text load="NOTHING"/>
+</event>

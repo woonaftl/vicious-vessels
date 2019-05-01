@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="NOTHING_LANIUS">
+	<mod:removeTag/>
+</mod:findName>
+
+<eventList name="NOTHING_LANIUS">
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+	<event load="W_TRUE_NOTHING_LANIUS"/>
+</eventList>
+
+<event name="W_TRUE_NOTHING_LANIUS">
+	<text load="NOTHING_LANIUS"/>
+</event>

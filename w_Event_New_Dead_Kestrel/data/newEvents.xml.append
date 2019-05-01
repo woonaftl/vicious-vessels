@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL"> 
+	<mod-append:event load="W_DEAD_KESTREL"/>
+</mod:findName>
+<mod:findName type="eventList" name="NEUTRAL_EXIT"> 
+	<mod-append:event load="W_DEAD_KESTREL"/>
+</mod:findName>
+<event name="W_DEAD_KESTREL" unique="true">
+	<text id="W_DEAD_KESTREL_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_DEAD_KESTREL_TEXT_1"/>
+		<event load="W_DEAD_KESTREL_LIST"/>
+	</choice>
+	<choice hidden="true">
+		<text id="W_DEAD_KESTREL_TEXT_2"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_DEAD_KESTREL_LIST">
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_3"/>
+		<boarders min="3" max="4" class="human"/>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_4"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_5"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_6"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_7"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_8"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_9"/>
+		<autoReward level="LOW">standard</autoReward>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_10"/>
+		<autoReward level="LOW">missiles</autoReward>
+	</event>
+	<event>
+		<text id="W_DEAD_KESTREL_TEXT_11"/>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true" req="clonebay">
+			<text id="W_DEAD_KESTREL_TEXT_12"/>
+			<event>
+				<text id="W_DEAD_KESTREL_TEXT_13"/>
+				<crewMember amount="1"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>

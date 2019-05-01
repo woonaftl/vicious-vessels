@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="BOARDERS_ROCK"> 
+	<mod-append:event load="W_ROCK_RAMMING_BOARDERS"/>
+</mod:findName>
+<event name="W_ROCK_RAMMING_BOARDERS" unique="true">
+	<text id="W_ROCK_RAMMING_BOARDERS_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_ROCK_RAMMING_BOARDERS_TEXT_1"/>
+		<event>
+			<text id="W_ROCK_RAMMING_BOARDERS_TEXT_2"/>
+			<damage amount="2" system="random" effect="fire"/>
+			<boarders breach="true" min="3" max="4" class="rock"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="engines" lvl="5">
+		<text id="W_ROCK_RAMMING_BOARDERS_TEXT_3"/>
+		<event>
+			<text id="W_ROCK_RAMMING_BOARDERS_TEXT_4"/>
+		</event>
+	</choice>
+	<choice hidden="true" req="ROCK_ARMOR">
+		<text id="W_ROCK_RAMMING_BOARDERS_TEXT_5"/>
+		<event>
+			<text id="W_ROCK_RAMMING_BOARDERS_TEXT_6"/>
+			<autoReward level="MED">scrap_only</autoReward>
+		</event>
+	</choice>
+	<choice req="W_DRONES_COMBAT_DEFENSE_EVENTS_LIST">
+		<text id="W_ROCK_RAMMING_BOARDERS_TEXT_7"/>
+		<event>
+			<text id="W_ROCK_RAMMING_BOARDERS_TEXT_8"/>
+		<item_modify>
+			<item type="drones" min="-1" max="-1"/>
+		</item_modify>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event>
+				<text id="W_ROCK_RAMMING_BOARDERS_TEXT_9"/>
+				<autoReward level="MED">scrap_only</autoReward>
+			</event>
+		</choice>				
+		</event>
+	</choice>
+</event>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- HOSTILE ZOLTAN SHIP IN ION STORM -->
+
+<mod:findName type="eventList" name="NEBULA_ZOLTAN"> 
+	<mod-append:event load="W_ZOLTAN_ION_STORM"/>
+</mod:findName>
+<event name="W_ZOLTAN_ION_STORM" unique="true">
+	<text id="W_ZOLTAN_ION_STORM_TEXT_0"/>
+	<environment type="nebula"/>
+	<environment type="storm"/>
+	<ship load="ZOLTAN_SHIP" hostile="true"/>
+</event>

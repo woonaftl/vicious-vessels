@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- PIRATE WITH ARTEMIS ASKING FOR MISSILES -->
+
+<mod:findName type="eventList" name="HOSTILE_CIVILIAN"> 
+	<mod-append:event load="W_PIRATE_ARTEMIS"/>
+</mod:findName>
+<event name="W_PIRATE_ARTEMIS" unique="true">
+	<text id="W_PIRATE_ARTEMIS_TEXT_0"/>
+	<ship load="W_PIRATE_ARTEMIS_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text id="W_PIRATE_ARTEMIS_TEXT_1"/>
+		<event>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="W_PIRATE_ARTEMIS_TEXT_2"/>
+		<event>
+			<text id="W_PIRATE_ARTEMIS_TEXT_3"/>
+			<item_modify>
+				<item type="missiles" min="-9" max="-6"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+<ship name="W_PIRATE_ARTEMIS_SHIP" auto_blueprint="SHIPS_PIRATE">
+	<surrender  chance="0.5" min="3" max="4" load="PIRATE_SURRENDER"/>
+	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
+	<gotaway>
+		<text id="ship_PIRATE_gotaway_text"/>
+	</gotaway>
+	<destroyed>
+		<text id="event_DESTROYED_DEFAULT_1_text"/>
+		<autoReward level="MED">missiles</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="event_DEAD_CREW_DEFAULT_1_text"/>
+		<autoReward level="HIGH">missiles</autoReward>
+	</deadCrew>
+	<weaponOverride count="1">
+		<name>MISSILES_2</name>
+	</weaponOverride>
+</ship>
+
+<!-- HITCHHIKER -->
+
+<mod:findName type="eventList" name="NEUTRAL_CIVILIAN"> 
+	<mod-append:event load="W_HITCHHIKER"/>
+</mod:findName>
+<event name="W_HITCHHIKER" unique="true">
+	<text id="W_HITCHHIKER_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_HITCHHIKER_TEXT_1"/>
+		<event>
+			<text id="W_HITCHHIKER_TEXT_2"/>
+			<crewMember amount="1" class="human"/>
+		</event>
+	</choice>
+	<choice>
+		<text id="W_HITCHHIKER_TEXT_3"/>
+		<event>
+			<text id="W_HITCHHIKER_TEXT_4"/>
+			<boarders min="1" max="1" class="human"/>
+		</event>
+	</choice>
+</event>

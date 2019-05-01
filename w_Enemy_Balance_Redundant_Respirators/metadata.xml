@@ -1,0 +1,4 @@
+<metadata>
+	<author>Woona</author>
+	<desc>Removed Emergency Respirators augmentation from enemy Lanius ships. There is no way to see what augmentations enemy has in-game, so it's hard to notice Lanius ships have Respirators without digging up .xml files. In some rare situations it can mess up your strategy.</desc>
+</metadata>

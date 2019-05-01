@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ENGI STATION REQUIRES WORKERS -->
+
+<mod:findName type="eventList" name="NEUTRAL_ENGI"> 
+	<mod-append:event load="W_ENGI_STATION_WORKER"/>
+</mod:findName>
+<event name="W_ENGI_STATION_WORKER" unique="true">
+	<text id="W_ENGI_STATION_WORKER_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_ENGI_STATION_WORKER_TEXT_1"/>
+		<event>
+			<text id="W_ENGI_STATION_WORKER_TEXT_2"/>
+			<removeCrew>
+				<clone>false</clone>
+				<text id="W_ENGI_STATION_WORKER_TEXT_3"/>
+			</removeCrew>
+			<choice hidden="true">
+				<text id="continue"/>
+				<event load="W_ENGI_STATION_WORKER_LIST"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ENGI_STATION_WORKER_TEXT_4"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_ENGI_STATION_WORKER_LIST">
+	<event>
+		<text id="W_ENGI_STATION_WORKER_TEXT_5"/>
+		<crewMember amount="1" class="engi" repair="2"/>
+	</event>
+	<event>
+		<text id="W_ENGI_STATION_WORKER_TEXT_6"/>
+		<autoReward level="MED">stuff</autoReward>
+	</event>
+</eventList>

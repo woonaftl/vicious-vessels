@@ -1,0 +1,53 @@
+<metadata>
+<author>Woona</author>
+<desc>The most common strategy for augmentations in FTL is just selling them (unless it's Long Ranged Scanners). The changes to augmentation costs are aimed to decrease the amount of scrap the player gets from selling augmentations they got for free (including those at the start of the game). Maybe, buying them in stores will be slightly more viable, too (especially for useful augmentations like Zoltan Bypass, Defense Scrambler or Drone Recovery Arm).
+
+Some augmentations like Drone Booster, Fire Suppression, Crystal Vengeance etc are so pathetic that they need a direct buff so using them becomes a somewhat valid decision.
+
+Made Drone Recovery Arm and Exposive Replicator more common to make drones and missiles a little bit more viable. FTL related augmentations are made more common, because they enable more strategies related to diving.
+
+Long Ranged Scanners are clearly imbalanced, but they are kinda fun, and A LOT of people like them and rely on them, so no changes to them.
+
+Most prices for augmentations are set to 30 or 40 to make new prices easier to remember.</desc>
+<changelog>Augmentation strength:
+Battery Charger - battery cooldown: 10 s -> 5 s
+Crystal Vengeance - chance: 0.1 -> 0.2
+Drone Reactor Booster - shipboard drone speed: 1.25 -> 2
+FTL Recharge Booster - FTL charge speed: 1.25 -> 1.5
+Fire Suppression - extinguishing speed: 1 -> 3
+
+Augmentation prices:
+Adv. FTL Navigation: 50 -> 30
+Backup DNA: 40 -> 30
+Battery Charger: 40 -> 30
+Crystal Vengeance: 80 -> 40
+Defense Scrambler: 80 -> 40
+Distraction Buoys: 55 -> 40
+Drone Reactor Booster: 50 -> 30
+Drone Recovery Arm: 50 -> 40
+Emergency Respirators: 50 -> 30
+Engi Med-Bot Dispersal: 60 -> 40
+Explosive Replicator: 60 -> 30
+FTL Recharge Booster: 50 -> 30
+Fire Suppression: 55 -> 30
+Hacking Stun: 60 -> 30
+Lifeform Scanner: 40 -> 30
+Mantis Pheromones: 50 -> 30
+Reconstructive Teleport: 70 -> 40
+Repair Arm: 50 -> 30
+Reverse Ion Field: 45 -> 30
+Rock Plating: 80 -> 40
+Shield Recharge Booster: 45 -> 40
+Slug Repair Gel: 60 -> 30
+Stealth Weapons: 50 -> 30
+Titanium System Casing: 80 -> 40
+Zoltan Shield Bypass: 55 -> 40
+
+Augmentation rarity (lower - more common):
+Adv. FTL Navigation: 3 -> 1
+Drone Recovery Arm: 2 -> 1
+Explosive Replicator: 3 -> 1
+FTL Recharge Booster: 2 -> 1
+Hacking Stun: 3 -> 4
+Lifeform Scanner: 3 -> 2</changelog>
+</metadata>

@@ -1,0 +1,15 @@
+<metadata>
+<author>Woona</author>
+<desc>Late game ships have bigger crews. Another step to make late game a little more challenging.
+
+Situations when a Rebel Rigger or a Mantis Fighter simply does not have enough weapon power to penetrate player shields are too frequent. Needs to be fixed.</desc>
+<changelog>Crew size for late game enemy ships increased:
+Rock Assault: 3-6 -> 5-7
+Rock Aggressor: 2-6 -> 5-7
+Rock Elite: 4-5 -> 6-8
+Mantis Bomber: 4-6 -> 5-8
+Mantis Aggressor: 3-6 -> 5-8
+
+Rebel Riggers (including pirates) now have stronger weapons (Minimum weapon power 1 -> 2)
+Mantis Fighters (including pirates) now have stronger weapons (Minimum weapon power 1 -> 2)</changelog>
+</metadata>

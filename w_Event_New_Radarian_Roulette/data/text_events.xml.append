@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_RADARIAN_ROULETTE_TEXT_0">You arrive to a suspicious looking automated space station. It's marked with a strange name "Radarian Roulette" on your terminal.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_1">Board the station.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_2">Stay on the ship and charge the FTL drive.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_3">The team enters the tiny room at the station through the airlock. The message greets you on the neon screen. "Play the Radarian Roulette! You only have one shot!"</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_4">Play.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_5">Leave the station.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_6">You bring some scrap from the ship to pay for one game of Roulette. The mechanical device inside the station grinds and screeches. After a few minutes you get a result.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_7">Please tell me that I win.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_8">"You lose." Before your team can react, a bullet hits one of your fellow crewmembers right in the head. There is no way you could bring them to the ship in time to provide medical assistance.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_9">"You win!" A hold of the station opens and you find your prize: a closed box. Inside the box, there is a Slug submerged in stinking liquid. They are in shock, but seem healthy, and accept to join your crew.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_10">"You win!" A hold of the station opens and you find your prize: new equipment to upgrade your sensors subsystem.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_11">"You win!" A hold of the station opens and you find your prize: enough scanning equipment to combine into a sensor subsystem for your ship.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_12">"You win!" A hold of the station opens and you find your prize: a lifeform scanner.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_13">"You win!" A hold of the station opens and you find your prize: long-ranged scanners augmentation.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_14">"You win!" A hold of the station opens and you find your prize: star maps and detailed data about this sector.</text>
+<text name="W_RADARIAN_ROULETTE_TEXT_15">As you return to the ship, you find a clone of the lost crewmember ready. As expected.</text>

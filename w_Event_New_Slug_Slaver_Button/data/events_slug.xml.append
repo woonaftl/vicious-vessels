@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEBULA_HOSTILE_SLUG"> 
+	<mod-append:event load="W_SLUG_SLAVER_PURSUIT"/>
+</mod:findName>
+<event name="W_SLUG_SLAVER_PURSUIT" unique="true">
+	<text id="W_SLUG_SLAVER_PURSUIT_TEXT_0"/>
+	<environment type="nebula"/>
+	<ship load="W_SLUG_SLAVER_PURSUIT_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text id="W_SLUG_SLAVER_PURSUIT_TEXT_1"/>
+		<event>
+			<text id="W_SLUG_SLAVER_PURSUIT_TEXT_2"/>
+			<removeCrew>
+				<clone>false</clone>
+				<text id="W_SLUG_SLAVER_PURSUIT_TEXT_3"/>
+			</removeCrew>
+			<event load="W_SLUG_SLAVER_PURSUIT_PAY"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_SLUG_SLAVER_PURSUIT_TEXT_4"/>
+		<event load="W_SLUG_SLAVER_PURSUIT_ATTACK"/>
+	</choice>
+</event>
+<eventList name="W_SLUG_SLAVER_PURSUIT_ATTACK">
+	<event>
+		<text id="W_SLUG_SLAVER_PURSUIT_TEXT_5"/>
+		<ship hostile="true"/>
+		<modifyPursuit amount="1"/>
+	</event>
+	<event>
+		<text id="W_SLUG_SLAVER_PURSUIT_TEXT_6"/>
+		<ship hostile="true"/>
+	</event>
+</eventList>
+<eventList name="W_SLUG_SLAVER_PURSUIT_PAY">
+	<event>
+		<text id="W_SLUG_SLAVER_PURSUIT_TEXT_7"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+	</event>
+	<event/>
+</eventList>
+<ship name="W_SLUG_SLAVER_PURSUIT_SHIP" auto_blueprint="SHIPS_JELLY">
+	<escape timer="40" min="22" max="22" >
+		<text id="W_SLUG_SLAVER_PURSUIT_TEXT_8"/>
+		<ship hostile="true"/>
+	</escape>
+	<gotaway>
+		<text id="W_SLUG_SLAVER_PURSUIT_TEXT_9"/>
+	</gotaway>
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+</ship>

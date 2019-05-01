@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL"> 
+	<mod-append:event load="W_TRADER_QUALITY_WEAPONS"/>
+</mod:findName>
+<mod:findName type="eventList" name="NEUTRAL_EXIT"> 
+	<mod-append:event load="W_TRADER_QUALITY_WEAPONS"/>
+</mod:findName>
+<event name="W_TRADER_QUALITY_WEAPONS" unique="true">
+	<text id="W_TRADER_QUALITY_WEAPONS_TEXT_0"/>
+	<choice hidden="true">
+		<text id="W_TRADER_QUALITY_WEAPONS_TEXT_1"/>
+		<event load="W_TRADER_QUALITY_WEAPONS_LIST"/>
+	</choice>
+	<choice hidden="true" req="mind">
+		<text id="W_TRADER_QUALITY_WEAPONS_TEXT_2"/>
+		<event load="W_TRADER_QUALITY_WEAPONS_LIST_DISCOUNT"/>
+	</choice>
+	<choice hidden="true">
+		<text id="W_TRADER_QUALITY_WEAPONS_TEXT_3"/>
+		<event/>
+	</choice>
+</event>
+<eventList name="W_TRADER_QUALITY_WEAPONS_LIST">
+	<event>
+		<text id="W_TRADER_QUALITY_WEAPONS_TEXT_4"/>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_5"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_6"/>
+				<item_modify>
+					<item type="scrap" min="-45" max="-35"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="BOMB_STUN"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_7"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_8"/>
+				<item_modify>
+					<item type="scrap" min="-55" max="-45"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="ION_CHAINGUN"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_9"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_10"/>
+				<item_modify>
+					<item type="scrap" min="-60" max="-45"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="MISSILES_BURST"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_17"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_18"/>
+				<item_modify>
+					<item type="scrap" min="-95" max="-75"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="LASER_BURST_5"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_19"/>
+			<event/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_TRADER_QUALITY_WEAPONS_TEXT_4"/>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_11"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_12"/>
+				<item_modify>
+					<item type="scrap" min="-40" max="-30"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="BOMB_HEAL_SYSTEM"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_13"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_14"/>
+				<item_modify>
+					<item type="scrap" min="-45" max="-35"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="ION_2"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_15"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_16"/>
+				<item_modify>
+					<item type="scrap" min="-65" max="-50"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="MISSILES_HULL"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_17"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_18"/>
+				<item_modify>
+					<item type="scrap" min="-95" max="-75"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="LASER_BURST_5"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_19"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+<eventList name="W_TRADER_QUALITY_WEAPONS_LIST_DISCOUNT">
+	<event>
+		<text id="W_TRADER_QUALITY_WEAPONS_TEXT_4"/>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_5"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_6"/>
+				<item_modify>
+					<item type="scrap" min="-35" max="-25"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="BOMB_STUN"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_7"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_8"/>
+				<item_modify>
+					<item type="scrap" min="-40" max="-30"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="ION_CHAINGUN"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_9"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_10"/>
+				<item_modify>
+					<item type="scrap" min="-45" max="-35"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="MISSILES_BURST"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_17"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_18"/>
+				<item_modify>
+					<item type="scrap" min="-75" max="-55"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="LASER_BURST_5"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_19"/>
+			<event/>
+		</choice>
+	</event>
+	<event>
+		<text id="W_TRADER_QUALITY_WEAPONS_TEXT_4"/>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_11"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_12"/>
+				<item_modify>
+					<item type="scrap" min="-30" max="-20"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="BOMB_HEAL_SYSTEM"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_13"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_14"/>
+				<item_modify>
+					<item type="scrap" min="-35" max="-25"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="ION_2"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_15"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_16"/>
+				<item_modify>
+					<item type="scrap" min="-50" max="-35"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="MISSILES_HULL"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_17"/>
+			<event>
+				<text id="W_TRADER_QUALITY_WEAPONS_TEXT_18"/>
+				<item_modify>
+					<item type="scrap" min="-75" max="-55"/>
+				</item_modify>
+				<choice>
+					<text id="continue"/>
+					<event>
+						<weapon name="LASER_BURST_5"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text id="W_TRADER_QUALITY_WEAPONS_TEXT_19"/>
+			<event/>
+		</choice>
+	</event>
+</eventList>

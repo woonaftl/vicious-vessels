@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Rebalanced Pirate (Rebel) Riggers and Pirate (Mantis) Fighters to have stronger weapons -->
+
+<mod:findName type="shipBlueprint" name="REBEL_FAT_P">
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="9"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="REBEL_FAT_P_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+	<mod:findLike type="maxPower">
+		<mod:setAttributes amount="9"/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P">
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_FIGHTER_P_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes power="2"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<!-- Rebalanced late game ships to have bigger crew -->
+
+<mod:findName type="shipBlueprint" name="MANTIS_BOMBER_P">
+	<mod:findLike type="crewCount">
+		<mod:setAttributes amount="5"/> <!-- 4 changed to 5 -->
+		<mod:setAttributes max="8"/> <!-- 6 changed to 8 -->
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_BOMBER_P_DLC">
+	<mod:findLike type="crewCount">
+		<mod:setAttributes amount="5"/> <!-- 3 changed to 5 -->
+		<mod:setAttributes max="8"/> <!-- 6 changed to 8 -->
+	</mod:findLike>
+</mod:findName>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- DONOR_PONY -->
+<!-- dunno how to do this without overwriting the whole event -->
+
+<event name="DONOR_PONY" unique="true">
+	<text id="event_DONOR_PONY_text"/>
+	<choice hidden="true">
+		<text id="event_DONOR_PONY_c1_text"/>
+		<event load="W_PONY_LIST"/>
+	</choice>
+	<choice hidden="true">
+		<text id="event_DONOR_PONY_c2_choice"/>
+		<event>
+			<text id="event_DONOR_PONY_c2_text"/>
+		</event>
+	</choice>
+</event>
+<eventList name="W_PONY_LIST">
+	<event> <!-- Vanilla pony event -->
+		<text id="event_DONOR_PONY_c1_text"/>
+		<choice hidden="true">
+			<text id="event_DONOR_PONY_c1_c1_choice"/>
+			<event load="DONOR_PONY_PEACE"/>
+		</choice>
+		<choice hidden="true">
+			<text id="event_DONOR_PONY_c1_c2_choice"/>
+			<event load="DONOR_PONY_SELL"/>
+		</choice>
+		<choice hidden="true">
+			<text id="event_DONOR_PONY_c1_c3_choice"/>
+			<event>
+				<text id="event_DONOR_PONY_c1_c3_text"/>
+			</event>
+		</choice>
+		<choice hidden="true" req="slug">
+			<text id="event_DONOR_PONY_c1_c4_choice"/>
+			<event>
+				<text id="event_DONOR_PONY_c1_c4_text"/>
+				<choice hidden="true">
+					<text id="continue"/>
+					<event>
+						<text id="event_DONOR_PONY_c1_c4_c1_text"/>
+						<crewMember amount="1" class="engi"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+	</event>
+	<event> <!-- Giant alien spider homeworld -->
+		<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_0"/>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event>
+				<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_1"/>
+				<choice hidden="true">
+					<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_2"/>
+					<event>
+						<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_3"/>
+						<removeCrew>
+							<clone>true</clone>
+							<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_4"/>
+						</removeCrew>
+					</event>
+				</choice>
+				<choice req="BATTLE">
+					<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_5"/>
+					<event>
+						<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_6"/>
+						<item_modify>
+							<item type="drones" min="-1" max="-1"/>
+						</item_modify>
+					</event>
+				</choice>
+				<choice req="WEAPONS_BEAM_DAMAGE" hidden="true">
+					<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_7"/>
+					<event>
+						<text id="W_ALIEN_SPIDER_HOMEWORLD_TEXT_8"/>
+					</event>
+				</choice>
+			</event>
+		</choice>
+	</event>
+	<event> <!-- Tentacle monster -->
+		<text id="W_TENTACLE_MONSTER_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_TENTACLE_MONSTER_TEXT_1"/>
+			<event load="W_TENTACLE_MONSTER_SUBMERGE"/>
+		</choice>
+		<choice hidden="true">
+			<text id="W_TENTACLE_MONSTER_TEXT_2"/>
+			<event load="W_TENTACLE_MONSTER_LEAVE"/>
+		</choice>
+	</event>
+</eventList>
+<eventList name="W_TENTACLE_MONSTER_SUBMERGE">
+	<event>
+		<text id="W_TENTACLE_MONSTER_TEXT_3"/>
+		<autoReward level="HIGH">scrap_only</autoReward>
+	</event>
+	<event>
+		<text id="W_TENTACLE_MONSTER_TEXT_4"/>
+		<choice hidden="true">
+			<text id="continue"/>
+			<event>
+				<text id="W_TENTACLE_MONSTER_TEXT_5"/>
+				<removeCrew>
+					<clone>true</clone>
+					<text id="W_TENTACLE_MONSTER_TEXT_6"/>
+				</removeCrew>
+			</event>
+		</choice>
+	</event>
+</eventList>
+<eventList name="W_TENTACLE_MONSTER_LEAVE">
+	<event load="W_TENTACLE_MONSTER_LEAVE_SAFE"/>
+	<event load="W_TENTACLE_MONSTER_LEAVE_SAFE"/>
+	<event>
+		<text id="W_TENTACLE_MONSTER_TEXT_7"/>
+		<choice hidden="true">
+			<text id="W_TENTACLE_MONSTER_TEXT_8"/>
+			<event>
+				<text id="W_TENTACLE_MONSTER_TEXT_9"/>
+				<removeCrew>
+					<clone>true</clone>
+					<text id="W_TENTACLE_MONSTER_TEXT_10"/>
+				</removeCrew>
+			</event>
+		</choice>
+		<choice hidden="true" req="WEAPONS_BEAM_DAMAGE">
+			<text id="W_TENTACLE_MONSTER_TEXT_11"/>
+			<event>
+				<text id="W_TENTACLE_MONSTER_TEXT_12"/>
+			</event>
+		</choice>
+		<choice hidden="true" req="teleporter">
+			<text id="W_TENTACLE_MONSTER_TEXT_13"/>
+			<event>
+				<text id="W_TENTACLE_MONSTER_TEXT_14"/>
+			</event>
+		</choice>
+	</event>
+</eventList>
+<event name="W_TENTACLE_MONSTER_LEAVE_SAFE">
+	<text id="W_TENTACLE_MONSTER_TEXT_15"/>
+</event>

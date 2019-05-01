@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="aug_BATTERY_BOOSTER_desc">Backup Battery's lock time is decreased by 75 percent.</text>
+<text name="aug_CRYSTAL_SHARDS_desc">Every time your ship takes damage, there is a 20 percent chance to break off a shard that flies at your enemy.</text>
+<text name="aug_DRONE_SPEED_desc">Your shipboard drones have their movement speed doubled.</text>
+<text name="aug_FTL_BOOSTER_desc">The ship's FTL Drive powers up 50 percent faster.</text>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="shipBlueprint" name="CIRCLE_BOMBER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="medbay">
+			<mod:setAttributes start="true"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="CIRCLE_SCOUT">
+	<mod:findLike type="systemList">
+		<mod:findLike type="medbay">
+			<mod:setAttributes start="true"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>

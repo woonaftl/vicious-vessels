@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_DEAD_KESTREL_TEXT_0">You cannot believe what you see. A Kestrel-class ship! You hail them, but there is no response. Scans show no activity. Your crew is anxious to know what happened to our Federation allies.</text>
+<text name="W_DEAD_KESTREL_TEXT_1">Board the ship.</text>
+<text name="W_DEAD_KESTREL_TEXT_2">Give a ship a wide berth. It is probably a Rebel trap.</text>
+<text name="W_DEAD_KESTREL_TEXT_3">As you get closer to the Kestrel, some humans teleport into your ship. They are being aggressive and start damaging your systems. One of your crewmembers spots Rebel badges on unwanted passengers.</text>
+<text name="W_DEAD_KESTREL_TEXT_4">You board the Kestrel with a support team. You search the ship and find out that the oxygen generation system is out of order. You search for crew, but find only several skeletons hugging in the medbay. Presumably they died of starvation.</text>
+<text name="W_DEAD_KESTREL_TEXT_5">Your team boards the Kestrel. The ship is relatively intact, the only system that took serious damage is a teleporter. The crew is nowhere to be found. One of your teammates suggests that they abandoned their ship for another.</text>
+<text name="W_DEAD_KESTREL_TEXT_6">You enter the Kestrel through the airlock. Surprisingly, it is open. Turns out that every single door on the ship is open. Your team finds the door control system, but it is blown up. What an unfortunate situation former crew found themselves in. You scrap the remains of the ship.</text>
+<text name="W_DEAD_KESTREL_TEXT_7">The boarding team enter deactivated Kestrel searching for anyone alive. All they find is half-eaten remains of several humans. You cannot imagine the horrors that had happened on a Federation ship.</text>
+<text name="W_DEAD_KESTREL_TEXT_8">Closer examination shows that the Kestrel spaceship's hull is not intact. Its edges are torn up like they were eaten. Both from inside and outside. There is no explanation what had happened here. You harvest all resources that can be found.</text>
+<text name="W_DEAD_KESTREL_TEXT_9">There is nobody alive on the Kestrel. Your team found the remains of former crew: two Mantis corpses with bad burns struggling to repair the life support system. You loot the ship and hope not to have similar fate.</text>
+<text name="W_DEAD_KESTREL_TEXT_10">You board the Kestrel and find several bodies starved to death. The ship is intact, but completely lacks any FTL fuel. You collect the resources from the ship and leave a note to buy some fuel in the next store.</text>
+<text name="W_DEAD_KESTREL_TEXT_11">The boarding team enters the inactive Kestrel. There are no people on board, but the ship is relatively undamaged. As you search the ship for resources, you find a malfunctioning clonebay. The system is of modern design, and even has a backup bank installed.</text>
+<text name="W_DEAD_KESTREL_TEXT_12">(Clonebay) Copy data to your system and create a clone.</text>
+<text name="W_DEAD_KESTREL_TEXT_13">A Federation soldier steps out of the clonebay. "Our ship was overrun by boarders, they killed everyone, and destroyed a clonebay. I "lived" in a backup bank for months!" They agree to join your crew and help your mission.</text>

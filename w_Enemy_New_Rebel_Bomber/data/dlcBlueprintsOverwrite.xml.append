@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_REBEL">
+	<mod-append:name>W_REBEL_BOMBER_V0</mod-append:name>
+	<mod-append:name>W_REBEL_BOMBER_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_REBEL_ELITE">
+	<mod-append:name>W_REBEL_BOMBER_ELITE_V0</mod-append:name>
+	<mod-append:name>W_REBEL_BOMBER_ELITE_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHPS_REBEL_AND_AUTO"> <!--known typo-->
+	<mod-append:name>W_REBEL_BOMBER_V0</mod-append:name>
+	<mod-append:name>W_REBEL_BOMBER_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_REBEL_BOMBER_V0" layout="w_rebel_bomber" img="w_rebel_bomber">
+	<class id="W_REBEL_BOMBER_V0"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="2" max="3" room="4"/>
+		<shields power="2" max="9" room="1"/>
+		<engines power="1" max="4" room="8"/>
+		<weapons power="2" max="10" room="3"/>
+		<teleporter power="3" room="5"/>
+		<medbay power="3" room="2"/>
+		<doors power="1" max="3" room="6" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="13"/>
+	<maxPower amount="14"/>
+	<crewCount amount="8" max="10" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_bomber</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_BOMBER_V1" layout="w_rebel_bomber" img="w_rebel_bomber">
+	<class id="W_REBEL_BOMBER_V1"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="2" max="3" room="6"/>
+		<shields power="2" max="9" room="2"/>
+		<engines power="1" max="4" room="8"/>
+		<weapons power="2" max="10" room="7"/>
+		<teleporter power="1" max="3" room="4"/>
+		<medbay power="3" room="1"/>
+		<doors power="1" max="3" room="3" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="13"/>
+	<maxPower amount="14"/>
+	<crewCount amount="8" max="10" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_bomber</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_BOMBER_ELITE_V0" layout="w_rebel_bomber_elite" img="w_rebel_bomber_elite">
+	<class id="W_REBEL_BOMBER_ELITE_V0"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="2" max="3" room="0"/>
+		<oxygen power="2" max="3" room="5"/>
+		<shields power="4" max="9" room="2"/>
+		<engines power="1" max="5" room="1"/>
+		<weapons power="4" max="10" room="3"/>
+		<teleporter power="3" room="8"/>
+		<medbay power="3" room="7"/>
+		<doors power="1" max="3" room="4"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="17"/>
+	<maxPower amount="18"/>
+	<crewCount amount="10" max="12" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_bomber_elite</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_BOMBER_ELITE_V1" layout="w_rebel_bomber_elite" img="w_rebel_bomber_elite">
+	<class id="W_REBEL_BOMBER_ELITE_V1"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="2" max="3" room="0"/>
+		<oxygen power="2" max="3" room="7"/>
+		<shields power="4" max="9" room="4"/>
+		<engines power="1" max="5" room="5"/>
+		<weapons power="4" max="10" room="6"/>
+		<teleporter power="2" max="3" room="1"/>
+		<medbay power="3" room="2"/>
+		<doors power="1" max="3" room="3"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="17"/>
+	<maxPower amount="18"/>
+	<crewCount amount="10" max="12" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_bomber_elite</cloakImage>
+</shipBlueprint>

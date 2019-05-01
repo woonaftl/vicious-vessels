@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="NOTHING_CRYSTAL">
+	<mod:removeTag/>
+</mod:findName>
+
+<eventList name="NOTHING_CRYSTAL">
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+	<event load="W_TRUE_NOTHING_CRYSTAL"/>
+</eventList>
+
+<event name="W_TRUE_NOTHING_CRYSTAL">
+	<text load="NOTHING_CRYSTAL"/>
+</event>

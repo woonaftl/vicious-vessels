@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ROCK PULSAR -->
+
+<mod:findName type="eventList" name="NEUTRAL_ROCK"> 
+	<mod-append:event load="W_ROCK_PULSAR"/>
+</mod:findName>
+<event name="W_ROCK_PULSAR" unique="true">
+	<text id="W_ROCK_PULSAR_TEXT_0"/>
+	<environment type="pulsar"/>
+	<ship load="ROCK_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text id="W_ROCK_PULSAR_TEXT_1"/>
+		<event>
+			<text id="W_ROCK_PULSAR_TEXT_2"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ROCK_PULSAR_TEXT_3"/>
+		<event/>
+	</choice>
+	<choice hidden="true" req="ION_ARMOR">
+		<text id="W_ROCK_PULSAR_TEXT_4"/>
+		<event>
+			<text id="W_ROCK_PULSAR_TEXT_5"/>
+			<remove name="ION_ARMOR"/>
+			<autoReward level="HIGH">weapon</autoReward>
+		</event>
+	</choice>
+</event>

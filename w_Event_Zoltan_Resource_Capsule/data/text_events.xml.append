@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_0">Your sensors detect a transport capsule floating nearby. It could contain some scrap or resources that would be useful on your journey.</text>
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_1">Open the capsule.</text>
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_2">Leave it alone.</text>
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_3">As soon as the capsule is dragged onto your ship, an exploding trap disables your doors and a team of glowing Zoltans runs from hidden compartment with weapons in their hands.</text>
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_4">As you open the capsule, an alarm sends a signal to local law enforcement and an ionizing pulse disables your engines. To make things worse, the Zoltan security ship jumps into the system. "Piracy and theft are outlawed in Zoltan territory, aliens!"</text>
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_5">The transport pod contains scarce resources, but at least there are no anti-theft measures installed.</text>
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_6">The Zoltan security ship breaks apart and your engines return to normal. You collect what you can.</text>
+<text name="W_ZOLTAN_TRANSPORT_CAPSULE_TEXT_7">With Zoltans dead, your engines return to normal. You strip the ship.</text>

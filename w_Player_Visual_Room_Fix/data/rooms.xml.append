@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<roomLayout name="engines_w1">
+	<computerGlow x="5" y="53" dir="DOWN"/>
+</roomLayout>
+
+<roomLayout name="hacking_w1">
+	<computerGlow x="0" y="17" dir="LEFT"/>
+</roomLayout>
+
+<roomLayout name="hacking_w2">
+	<computerGlow x="0" y="8" dir="LEFT"/>
+</roomLayout>
+
+<roomLayout name="hacking_w3">
+	<computerGlow x="0" y="17" dir="LEFT"/>
+</roomLayout>
+
+<roomLayout name="shields_w1">
+	<computerGlow x="10" y="1" dir="UP"/>
+</roomLayout>
+
+<roomLayout name="shields_w2">
+	<computerGlow x="36" y="1" dir="UP"/>
+</roomLayout>

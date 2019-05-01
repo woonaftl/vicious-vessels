@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Rebalanced Engi Bombers to have a wider selection of drones -->
+
+<mod:findName type="shipBlueprint" name="CIRCLE_BOMBER_DLC">
+	<mod:findLike type="droneList">
+		<mod:setAttributes load="W_DRONES_DEFENSIVE"/>
+	</mod:findLike>
+</mod:findName>

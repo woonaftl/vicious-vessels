@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_REBEL">
+	<mod-append:name>W_REBEL_SCOUT_V0</mod-append:name>
+	<mod-append:name>W_REBEL_SCOUT_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHPS_REBEL_AND_AUTO"> <!--known typo-->
+	<mod-append:name>W_REBEL_SCOUT_V0</mod-append:name>
+	<mod-append:name>W_REBEL_SCOUT_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_PIRATE">
+	<mod-append:name>W_REBEL_SCOUT_PIRATE_V0</mod-append:name>
+	<mod-append:name>W_REBEL_SCOUT_PIRATE_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_REBEL_SCOUT_V0" layout="w_rebel_scout" img="w_rebel_scout">
+	<class id="W_REBEL_SCOUT_V0"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="3"/>
+		<shields power="2" max="6" room="5"/>
+		<engines power="1" max="8" room="4"/>
+		<weapons power="2" max="6" room="2"/>
+		<medbay power="1" max="2" room="1" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="7"/>
+	<maxPower amount="7"/>
+	<crewCount amount="3" max="4" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_scout</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_SCOUT_V1" layout="w_rebel_scout" img="w_rebel_scout">
+	<class id="W_REBEL_SCOUT_V1"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="2"/>
+		<shields power="2" max="6" room="5"/>
+		<engines power="1" max="8" room="3"/>
+		<weapons power="2" max="6" room="1"/>
+		<clonebay power="1" max="2" room="4" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="7"/>
+	<maxPower amount="7"/>
+	<crewCount amount="3" max="4" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_scout</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_SCOUT_PIRATE_V0" layout="w_rebel_scout_pirate" img="w_rebel_scout_pirate">
+	<class id="W_REBEL_SCOUT_PIRATE_V0"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="6"/>
+		<shields power="2" max="6" room="1"/>
+		<engines power="1" max="8" room="4"/>
+		<weapons power="2" max="6" room="5"/>
+		<medbay power="1" max="2" room="2" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="7"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="4" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_scout</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_SCOUT_PIRATE_V1" layout="w_rebel_scout_pirate" img="w_rebel_scout_pirate">
+	<class id="W_REBEL_SCOUT_PIRATE_V1"/>
+	<maxSector>3</maxSector>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<oxygen power="1" max="2" room="2"/>
+		<shields power="2" max="6" room="6"/>
+		<engines power="1" max="8" room="5"/>
+		<weapons power="2" max="6" room="3"/>
+		<clonebay power="1" max="2" room="1" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<health amount="7"/>
+	<maxPower amount="7"/>
+	<crewCount amount="2" max="4" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_scout</cloakImage>
+</shipBlueprint>

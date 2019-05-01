@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ENGI BOARDERS TWO TEAMS -->
+
+<mod:findName type="eventList" name="DISTRESS_BEACON_ENGI"> 
+	<mod-append:event load="W_ENGI_BOARDERS"/>
+</mod:findName>
+<event name="W_ENGI_BOARDERS" unique="true">
+	<text id="W_ENGI_BOARDERS_TEXT_0"/>
+	<distressBeacon/>
+	<boarders min="3" max="4" class="engi"/>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event>
+			<text id="W_ENGI_BOARDERS_TEXT_1"/>
+			<boarders min="3" max="4" class="engi"/>
+		</event>
+	</choice>
+</event>
+
+<!-- ENGI SHIP CAPTURED BY REBELS -->
+
+<mod:findName type="eventList" name="HOSTILE_ENGI"> 
+	<mod-append:event load="W_ENGI_REBEL_CONTROLLED"/>
+</mod:findName>
+<eventList name="W_ENGI_REBEL_CONTROLLED">
+	<event>
+		<text id="W_ENGI_REBEL_CONTROLLED_TEXT_0"/>
+		<ship load="W_ENGI_REBEL_CONTROLLED_SHIP" hostile="true"/>
+		<status type="limit" target="enemy" system="engines" amount="0"/>
+	</event>
+	<event>
+		<text id="W_ENGI_REBEL_CONTROLLED_TEXT_0"/>
+		<ship load="W_ENGI_REBEL_CONTROLLED_SHIP" hostile="true"/>
+		<status type="limit" target="enemy" system="drones" amount="0"/>
+	</event>
+	<event>
+		<text id="W_ENGI_REBEL_CONTROLLED_TEXT_0"/>
+		<ship load="W_ENGI_REBEL_CONTROLLED_SHIP" hostile="true"/>
+		<status type="limit" target="enemy" system="medbay" amount="0"/>
+	</event>
+	<event>
+		<text id="W_ENGI_REBEL_CONTROLLED_TEXT_0"/>
+		<ship load="W_ENGI_REBEL_CONTROLLED_SHIP" hostile="true"/>
+		<status type="divide" target="enemy" system="weapons" amount="2"/>
+	</event>
+</eventList>
+<ship name="W_ENGI_REBEL_CONTROLLED_SHIP" auto_blueprint="SHIPS_CIRCLE">
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+	<crew>
+		<crewMember type="human" prop="1"/>
+	</crew>
+</ship>

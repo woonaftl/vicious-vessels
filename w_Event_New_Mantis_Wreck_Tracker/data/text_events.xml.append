@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_0">You arrive to see the remains of the Mantis ship. Most likely the Mantis felt overconfident and attacked someone out of their league. Most of useful materials are already salvaged, but you manage to find some scrap.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_1">As you finish collecting scrap, the scanners notice a remote tracking device left there by the Rebels. It has already attached itself to your ship and is ready to give away your exact location to Rebel fleet.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_2">Send a crewmember to disable the tracking device.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_3">Charge the FTL drive.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_4">You could not risk the lives of your crewmembers trying to defuse the tracking tool manually. Preparing for another FTL jump, you hope to be faster than the Rebels.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_5">(Drone) Use a drone to shoot the tracker down.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_6">A drone is deployed and targets the tracking tool precisely. You hope the tracker didn't have the time to send information to the Rebel fleet yet.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_7">(Lanius) Send the Lanius to deal with the tracker.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_8">The Lanius is not afraid of open space. You did not see what exactly he did to the tracking tool but it's all clear on the sensors. Time to prepare for the next jump.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_9">Using a space suit your engineer leaves the ship and manages to disable the tracking device manually. Sadly, they are hit by piece of space trash on their way back. The suit depressurizes, it is not possible to save them.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_10">Luckily, your clone bay is able to revive your crewmember.</text>
+<text name="W_MANTIS_WRECK_TRACKER_TEXT_11">Using a space suit your engineer leaves the ship and manages to disable the tracking device manually. After hours of work in open space they return to the ship in one piece.</text>

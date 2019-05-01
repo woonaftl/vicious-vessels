@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ENGI_GREEN_PLANET_TEXT_0">Send the shuttle.</text>
+<text name="W_ENGI_GREEN_PLANET_TEXT_1">Jump away.</text>
+<text name="W_ENGI_GREEN_PLANET_HERD_TEXT_0">Your team landed in a shuttle and spreaded out to explore the planet. After a few minutes, a cloud of dust appeared on the horizon. Using optic magnifiers, you could make out a herd of giant long-legged alien beasts.</text>
+<text name="W_ENGI_GREEN_PLANET_HERD_TEXT_1">As soon as the animals saw a shuttle made of metallic parts, they charged. The herd moved so fast, that your team was too late to react and the animals managed to eat large parts of shuttle's hull before being driven away. You would need to use all spare scrap to repair the transport.</text>
+<text name="W_ENGI_GREEN_PLANET_HERD_TEXT_2">As soon as the animals saw an Engi, they charged. The herd moved so fast, your team did not have enough time to react. The animals ate the Engi and galloped away, uninterested in attacking anyone alse.</text>
+<text name="W_ENGI_GREEN_PLANET_HERD_TEXT_3">You are sure that the eaten crewmember is already being cloned back on the ship.</text>
+<text name="W_ENGI_GREEN_PLANET_HERD_TEXT_4">The exploration team did not find anything useful on the planet and returned with empty hands, understanding why Engi had so little interest in settling there.</text>
+<text name="W_ENGI_GREEN_PLANET_DESERT_TEXT_0">Even though it seemed that the planet would be full of life after initial scans, after landing the team found nothing but a devastated desert. The winds on the planet are so strong, that organic life is eroded away.</text>
+<text name="W_ENGI_GREEN_PLANET_DESERT_TEXT_1">(Advanced Sensors) Scan the landing site thoroughly.</text>
+<text name="W_ENGI_GREEN_PLANET_DESERT_TEXT_2">(Lifeform Scanner) Scan the planet again.</text>
+<text name="W_ENGI_GREEN_PLANET_DESERT_TEXT_3">(Slug) A crewmember senses something in the air.</text>
+<text name="W_ENGI_GREEN_PLANET_DESERT_TEXT_4">Leave the planet.</text>
+<text name="W_ENGI_GREEN_PLANET_DESERT_TEXT_5">Scanning indicated that there is an abnormal amount of rare metals deep within the soil near the landing site. After hours of drilling, your team excavates a cache left by someone years ago. Probably, pirates.</text>
+<text name="W_ENGI_GREEN_PLANET_DESERT_TEXT_6">It turns out, that the planet is not barren after all. The atmosphere is full of microscopic organisms, that fly very fast, causing the winds. Using the nets, your team captures some of the creatures who are revealed to have high concentration of rare metals in their bodies.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_0">After landing on the planet, your team learns that it is inhabited by flying reptiles of enormous size. Scanning the surface shows that the lair nearby contains useful materials including rare metals.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_1">Visit the lair.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_2">Leave the planet.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_3">Your team approaches the reptile's lair. It is a cave in a giant mountain, far above the surface. Entering the cave using powered exoskeletons will not be difficult, but someone must distract the reptile.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_4">Order one of your crewmembers to distract the reptile.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_5">(Mantis) Sneak into the cave.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_6">(Anti-Personnel Drone) Use a drone as a distraction.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_7">(Boarding Drone) Use a drone as a distraction.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_8">(Ion Intruder) Use a drone as a distraction.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_9">The Mantis successfully sneaks into the cave using paths, too tight for other races. The Mantis picks up as much equipment as they can carry, choosing what they think most valuable: food, everything shiny, and everything of red color.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_10">The drone makes an excellent distraction, letting your team into the dangerous cave without losses. The team does not have much time, so they grab whatever they see first, what will be used as scrap later.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_11">The Ion Intruder distracts the reptile successfully, and even manages to stun it when devoured. Your team has enough time to enter the cave, pick the most valuable equipment there, and leave safely.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_12">A volunteer makes a distraction, while the rest of the team sneaks into the cave. The reptile eats the sacrificed crewmember alive and returns back to the lair. Your team grabs whatever they can, and gets safely to the shuttle, almost detected by an animal.</text>
+<text name="W_ENGI_GREEN_PLANET_REPTILES_TEXT_13">The clone of the lost crewmember is ready on the ship, making a note to themselves to never volunteer to distract giant monsters ever again.</text>

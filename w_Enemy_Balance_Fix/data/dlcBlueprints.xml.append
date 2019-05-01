@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Added 4 drone parts to a ship that uses hacking -->
+
+<mod:findName type="shipBlueprint" name="ANAEROBIC_SCOUT">
+	<mod-append:droneList drones="4" />
+</mod:findName>

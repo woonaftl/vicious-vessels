@@ -1,0 +1,7 @@
+<metadata>
+<author>Woona</author>
+<desc>It's rare to see an enemy ship with five shield layers. So rare, it can really mess with your startegy. To make things worse, you can't possibly have more than 8 power allocated to shields, and the boss (strongest ship) has only 4 shield layers. It's logical to disable enemies from having 5 shield layers.
+
+Also, I read about some nasty bug with asteroids. Don't know if true.</desc>
+<changelog>Enemy ships never have more than 4 shield layers.</changelog>
+</metadata>

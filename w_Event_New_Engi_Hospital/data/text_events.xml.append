@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_0">As you jump in, you are contacted by a human from a nearby Engi station. "Please, help me. My wife is going to deliver a baby, this is a research station, but these Engi do not know anything about human physiology. We have to deliver her to an actual hospital as soon as possible."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_1">You arrived to a hospital station on time. The pregnant lady's water already broke, and she needs immediate medical attention. She and her husband are helped into a lifeboat and transferred to the station.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_2">There are all kinds of medical equipment in the hospital. The Engi doctors are operating on all kinds of patients: saving burnt Mantis and dried Slugs, transplanting organs and removing tumors with their superior knowledge and technology.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_3">Leave.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_4">Help the man.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_5">Decline.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_6">"Thanks. I transferred the coordinates of a hospital station to your terminal. We have to be quick."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_0">One of the Engi doctors learns that you are one of the last remnants of Federation force and offers to help you. "Crew immortality. Mission success probability increase: 0.174%."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_1">Swap your medbay for clonebay.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_2">The medbay is uninstalled, and Engi laborers bring a cloning system as a replacement. The crew transfers their DNA data. They are not looking forward to getting cloned, but do not question your orders.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_3">Ask for an augmentation.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_MED_4">"Med-Bot Dispersal. Area of effect wound treatment. Mission success probability increase: 0.002%."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_0">One of the Engi doctors learns that you are one of the last remnants of Federation force and offers to help you. "Medical facilities. System interchange."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_1">Swap your clonebay for medbay.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_CLONE_2">The Engi from the station help you with installation. They clear the DNA data and remove your cloning system and install a new medbay in its place.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_0">One of the Engi doctors learns that you are one of the last remnants of Federation force and offers to help you. "Medical facilities. Clonebay recommended."</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_1">Install a medbay.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_2">For a small amount of scrap, the Engi workers agree to install a medical system on your ship. The doctors from the hospital provide medications and observe the installation process.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_3">Install a clonebay.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_4">The Engi doctors and laborers flood your ship, bringing materials, and installing a cloning system in one of empty rooms. The crew transfers their DNA data. They are not looking forward to getting cloned, but do not question your orders.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_5">Buy a Healing burst.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_6">An unorthodox choice. The crew installs a med-bot delivery system in one of your weapon slots and loads it up with ammunition.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_7">(Teleporter) Buy a reconstructive augmentation.</text>
+<text name="W_ENGI_SWAP_MEDICAL_TEXT_NONE_8">The Engi doctor brings one of their latest inventions. He tries to explain you how it works, but you struggle to understand anything but a few words: "Nano-bots" and "Micro-cloning."</text>

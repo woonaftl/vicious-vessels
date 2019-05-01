@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_REBEL_TRANSPORT_V0" language="ru">Транспорт повстанцев</text>
+<text name="W_REBEL_TRANSPORT_V1" language="ru">Грузовик повстанцев</text>
+<text name="W_REBEL_TRANSPORT_PIRATE_V0" language="ru">Пиратский транспорт</text>
+<text name="W_REBEL_TRANSPORT_PIRATE_V1" language="ru">Пиратский грузовик</text>
+<text name="W_REBEL_TRANSPORT_SLAVER_V0" language="ru">Транспорт работорговцев</text>
+<text name="W_REBEL_TRANSPORT_SLAVER_V1" language="ru">Грузовик работорговцев</text>

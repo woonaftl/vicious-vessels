@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_AUTO">
+	<mod-append:name>W_AUTO_DEFENDER_V0</mod-append:name>
+	<mod-append:name>W_AUTO_DEFENDER_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHPS_REBEL_AND_AUTO"> <!--known typo-->
+	<mod-append:name>W_AUTO_DEFENDER_V0</mod-append:name>
+	<mod-append:name>W_AUTO_DEFENDER_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_AUTO_DEFENDER_V0" layout="w_auto_defender" img="w_auto_defender">
+	<class id="W_AUTO_DEFENDER_V0"/>
+	<minSector>3</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="2" max="8" room="1"/>
+		<weapons power="2" max="10" room="2"/>
+		<shields power="2" max="8" room="5"/>
+		<cloaking power="2" max="3" room="4"/>
+		<drones power="2" max="6" room="3" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_AUTO"/>
+	<droneList drones="5" load="DRONES_COMBAT"/>
+	<health amount="7"/>
+	<maxPower amount="10"/>
+	<crewCount amount="0" max="0" class="human"/>
+	<cloakImage>w_auto_defender</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_AUTO_DEFENDER_V1" layout="w_auto_defender" img="w_auto_defender">
+	<class id="W_AUTO_DEFENDER_V1"/>
+	<minSector>3</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<engines power="2" max="8" room="5"/>
+		<weapons power="2" max="10" room="1"/>
+		<shields power="2" max="8" room="3"/>
+		<cloaking power="2" max="3" room="4"/>
+		<mind power="1" max="3" room="2" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_AUTO"/>
+	<health amount="7"/>
+	<maxPower amount="10"/>
+	<crewCount amount="0" max="0" class="human"/>
+	<cloakImage>w_auto_defender</cloakImage>
+</shipBlueprint>

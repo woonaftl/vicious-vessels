@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_0">As you arrive to the next beacon, the captain of the Zoltan ship immediately contacts you. "Our ship ran out of fuel in hostile territory. I am willing to purchase your excess fuel for scrap."</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_1">Agree to the trade.</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_2">The Zoltan captain is grateful. "Thanks a lot. I realize I have robbed you but there was no other way. I have to get to the home system as soon as possible."</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_3">Politely decline.</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_4">The Zoltan captain is irritated. "You don't understand. I can't take no for an answer." The weapons are extended from their ship's hull.</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_5">(Mind Control) Suggest a better deal.</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_6">You hasten to leave the beacon before the Zoltan captain realizes that he was fooled.</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_7">The Zoltan ship breaks apart. It seems they did not have any resources. You scrap the remains of the ship.</text>
+<text name="W_ZOLTAN_OUT_OF_FUEL_TEXT_8">No more life signs detected on the Zoltan ship. It turns out Zoltans were carrying a drone schematic to their homeworlds.</text>

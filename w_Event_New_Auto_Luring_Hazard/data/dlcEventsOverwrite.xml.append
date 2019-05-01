@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="OVERRIDE_HOSTILE_REBEL"> 
+	<mod-append:event load="W_AUTO_LURE_HAZARD"/>
+</mod:findName>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ROCK PULSAR -->
+<text name="W_ROCK_PULSAR_TEXT_0" language="ru">Маяк расположен слишком близко к пульсирующей звезде. Капитан корабля валунов в ярости. «Почему мои щиты опять не работают? Пульсар, отпусти!»</text>
+<text name="W_ROCK_PULSAR_TEXT_1" language="ru">Посоветовать ему полностью отключить щиты, чтобы предотвратить их ионизацию.</text>
+<text name="W_ROCK_PULSAR_TEXT_2" language="ru">«По-твоему я дурак? Полностью отключи свой рот!» Капитан валунов в бешенстве открывает огонь, продолжая ругаться в коммуникатор.</text>
+<text name="W_ROCK_PULSAR_TEXT_3" language="ru">Игнорировать его и заряжать FTL-привод.</text>
+<text name="W_ROCK_PULSAR_TEXT_4" language="ru">(Антиионное поле) Предложить ему подарок.</text>
+<text name="W_ROCK_PULSAR_TEXT_5" language="ru">Капитан валунов безмерно благодарен. Он отдает свое самое лучшее орудие и весь свой лом взамен.</text>

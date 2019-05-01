@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="OVERRIDE_NEUTRAL"> 
+	<mod-append:event load="W_TEST_SUBJECTS"/>
+</mod:findName>
+
+<mod:findName type="eventList" name="OVERRIDE_NEUTRAL_EXIT"> 
+	<mod-append:event load="W_TEST_SUBJECTS"/>
+</mod:findName>

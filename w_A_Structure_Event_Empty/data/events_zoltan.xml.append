@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="NOTHING_ZOLTAN">
+	<mod:removeTag/>
+</mod:findName>
+
+<eventList name="NOTHING_ZOLTAN">
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+	<event load="W_TRUE_NOTHING_ZOLTAN"/>
+</eventList>
+
+<event name="W_TRUE_NOTHING_ZOLTAN">
+	<text load="NOTHING_ZOLTAN"/>
+</event>

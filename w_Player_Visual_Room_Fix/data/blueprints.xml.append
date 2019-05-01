@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_HARD_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="weapons">
+            <mod:setAttributes img="room_weapons_2"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE">
+    <mod:findLike type="systemList">
+        <mod:findLike type="drones">
+            <mod:setAttributes img="room_drones_w2"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CIRCLE_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="drones">
+            <mod:setAttributes img="room_drones_w1"/>
+        </mod:findLike>
+		<mod:findLike type="sensors">
+			<mod:setAttributes img="room_sensors_w1"/>
+			<mod-overwrite:slot>
+				<direction>up</direction>
+				<number>1</number>
+			</mod-overwrite:slot>
+		</mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_FED">
+    <mod:findLike type="systemList">
+        <mod:findLike type="weapons">
+            <mod:setAttributes img="room_weapons_2"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ENERGY_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="pilot">
+            <mod:setAttributes img="room_pilot_4"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS">
+    <mod:findLike type="systemList">
+        <mod:findLike type="pilot">
+            <mod:setAttributes img="room_pilot_4"/>
+        </mod:findLike>
+        <mod:findLike type="hacking">
+            <mod:setAttributes img="room_hacking_w1"/>
+        </mod:findLike>
+   </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_MANTIS_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="pilot">
+            <mod:setAttributes img="room_pilot_4"/>
+        </mod:findLike>
+        <mod:findLike type="oxygen">
+            <mod:setAttributes img="room_oxygen_w2"/>
+        </mod:findLike>
+        <mod:findLike type="doors">
+            <mod:setAttributes img="room_doors_w1"/>
+        </mod:findLike>
+        <mod:findLike type="weapons">
+            <mod:setAttributes img="room_weapons_7"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_JELLY_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="pilot">
+            <mod:setAttributes img="room_pilot_4"/>
+        </mod:findLike>
+        <mod:findLike type="engines">
+            <mod:setAttributes img="room_engines_w1"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK">
+    <mod:findLike type="systemList">
+        <mod:findLike type="engines">
+            <mod:setAttributes img="room_engines_w1"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_ROCK_2">
+    <mod:findLike type="systemList">
+        <mod:findLike type="oxygen">
+            <mod:setAttributes img="room_oxygen_w4"/>
+        </mod:findLike>
+    </mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="PLAYER_SHIP_CRYSTAL">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes img="room_shields_w1"/>
+			<mod-overwrite:slot>
+				<direction>up</direction>
+				<number>0</number>
+			</mod-overwrite:slot>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>

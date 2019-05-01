@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="BOSS_HOSTILE"> 
+	<mod-append:event load="W_BOSS_ARTILLERY_REBEL"/>
+</mod:findName>
+
+<mod:findName type="eventList" name="BOSS_NEUTRAL"> 
+	<mod-append:event load="W_BOSS_ARTILLERY_REBEL"/>
+</mod:findName>
+
+<event name="W_BOSS_ARTILLERY_REBEL">
+	<text load="W_BOSS_ARTILLERY_REBEL_TEXT"/>
+	<ship load="W_BOSS_ARTILLERY_REBEL_SHIP" hostile="true"/>
+</event>
+
+<textList name="W_BOSS_ARTILLERY_REBEL_TEXT">
+	<text id="W_BOSS_ARTILLERY_REBEL_TEXT_1"/>
+	<text id="W_BOSS_ARTILLERY_REBEL_TEXT_2"/>
+	<text id="W_BOSS_ARTILLERY_REBEL_TEXT_3"/>
+	<text id="W_BOSS_ARTILLERY_REBEL_TEXT_4"/>
+</textList>
+
+<ship name="W_BOSS_ARTILLERY_REBEL_SHIP" auto_blueprint="W_SHIPS_ARTILLERY">
+	<destroyed load="DESTROYED_DEFAULT"/>
+	<deadCrew load="DEAD_CREW_DEFAULT"/>
+</ship>

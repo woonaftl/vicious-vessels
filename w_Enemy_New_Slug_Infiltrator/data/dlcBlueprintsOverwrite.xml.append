@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_JELLY">
+	<mod-append:name>W_SLUG_INFILTRATOR_V0</mod-append:name>
+	<mod-append:name>W_SLUG_INFILTRATOR_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_PIRATE">
+	<mod-append:name>W_SLUG_INFILTRATOR_PIRATE_V0</mod-append:name>
+	<mod-append:name>W_SLUG_INFILTRATOR_PIRATE_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_SLUG_INFILTRATOR_V0" layout="w_slug_infiltrator" img="w_slug_infiltrator">
+	<class id="W_SLUG_INFILTRATOR_V0"/>
+	<minSector>4</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="6"/>
+		<shields power="2" max="9" room="2"/>
+		<engines power="1" max="6" room="3"/>
+		<weapons power="2" max="10" room="4"/>
+		<medbay power="1" max="3" room="1"/>
+		<doors power="1" max="3" room="5" start="false"/>
+		<mind power="2" max="3" room="7"/>
+		<cloaking power="1" max="2" room="8" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_JELLY"/>
+	<health amount="10"/>
+	<maxPower amount="12"/>
+	<crewCount amount="5" max="8" class="slug"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_slug_infiltrator</cloakImage>
+	<aug name="SLUG_GEL"/>
+</shipBlueprint>
+
+<shipBlueprint name="W_SLUG_INFILTRATOR_V1" layout="w_slug_infiltrator" img="w_slug_infiltrator">
+	<class id="W_SLUG_INFILTRATOR_V1"/>
+	<minSector>4</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="10"/>
+		<shields power="2" max="9" room="8"/>
+		<engines power="1" max="6" room="9"/>
+		<weapons power="2" max="10" room="6"/>
+		<clonebay power="1" max="3" room="5"/>
+		<doors power="1" max="3" room="2" start="false"/>
+		<hacking power="1" max="2" room="11"/>
+		<drones power="3" max="9" room="1" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_JELLY"/>
+	<droneList drones="5" load="W_DRONES_BOARDER"/>
+	<health amount="10"/>
+	<maxPower amount="12"/>
+	<crewCount amount="5" max="8" class="slug"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_slug_infiltrator</cloakImage>
+	<aug name="SLUG_GEL"/>
+</shipBlueprint>
+
+<shipBlueprint name="W_SLUG_INFILTRATOR_PIRATE_V0" layout="w_slug_infiltrator_pirate" img="w_slug_infiltrator_pirate">
+	<class id="W_SLUG_INFILTRATOR_PIRATE_V0"/>
+	<minSector>4</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="1"/>
+		<shields power="2" max="9" room="2"/>
+		<engines power="1" max="6" room="10"/>
+		<weapons power="2" max="9" room="4"/>
+		<medbay power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="9" start="false"/>
+		<mind power="1" max="3" room="5" start="false"/>
+		<cloaking power="1" max="1" room="6" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_JELLY"/>
+	<health amount="10"/>
+	<maxPower amount="12"/>
+	<crewCount amount="5" max="8" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_slug_infiltrator</cloakImage>
+	<aug name="SLUG_GEL"/>
+</shipBlueprint>
+
+<shipBlueprint name="W_SLUG_INFILTRATOR_PIRATE_V1" layout="w_slug_infiltrator_pirate" img="w_slug_infiltrator_pirate">
+	<class id="W_SLUG_INFILTRATOR_PIRATE_V1"/>
+	<minSector>4</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="5"/>
+		<shields power="2" max="9" room="7"/>
+		<engines power="1" max="6" room="9"/>
+		<weapons power="2" max="9" room="8"/>
+		<clonebay power="1" max="3" room="6"/>
+		<doors power="1" max="3" room="10" start="false"/>
+		<hacking power="1" max="1" room="4" start="false"/>
+		<drones power="3" max="9" room="3" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_JELLY"/>
+	<droneList drones="5" load="W_DRONES_OFFENSIVE"/>
+	<health amount="10"/>
+	<maxPower amount="12"/>
+	<crewCount amount="5" max="8" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_slug_infiltrator</cloakImage>
+	<aug name="SLUG_GEL"/>
+</shipBlueprint>

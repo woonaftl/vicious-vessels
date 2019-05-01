@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ROCK_SLUG_ARGUMENT_NEBULA -->
+
+<mod:findName type="event" name="ROCK_SLUG_ARGUMENT_NEBULA">
+	<mod:findLike type="choice">
+		<mod:findLike type="event">
+			<mod:selector load="ROCK_SLUG_ARGUMENT"/>
+			<mod:setAttributes load="W_ROCK_SLUG_ARGUMENT_NEBULA_LIST"/>
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+<eventList name="W_ROCK_SLUG_ARGUMENT_NEBULA_LIST" unique="true">
+	<event load="ROCK_SLUG_ARGUMENT"/>
+	<event> <!-- Two auto ships in endless loop sharing fuel -->
+		<text id="W_AUTO_ENDLESS_LOOP_TEXT_0"/>
+		<choice hidden="true">
+			<text id="W_AUTO_ENDLESS_LOOP_TEXT_1"/>
+			<event>
+				<text id="W_AUTO_ENDLESS_LOOP_TEXT_2"/>
+				<choice hidden="true">
+					<text id="W_AUTO_ENDLESS_LOOP_TEXT_3"/>
+					<event>
+						<text id="W_AUTO_ENDLESS_LOOP_TEXT_4"/>
+						<modifyPursuit amount="1"/>
+						<ship load="REBEL_AUTO" hostile="true"/>
+					</event>
+				</choice>
+				<choice hidden="true">
+					<text id="W_AUTO_ENDLESS_LOOP_TEXT_5"/>
+					<event/>
+				</choice>
+			</event>
+		</choice>
+	</event>
+</eventList>

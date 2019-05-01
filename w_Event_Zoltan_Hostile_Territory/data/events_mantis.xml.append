@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="eventList" name="NEUTRAL_MANTIS"> 
+	<mod-append:event load="W_ZOLTAN_OUT_OF_FUEL"/>
+</mod:findName>
+<event name="W_ZOLTAN_OUT_OF_FUEL" unique="true">
+	<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_0"/>
+	<ship load="W_ZOLTAN_OUT_OF_FUEL_SHIP" hostile="false"/>
+	<choice>
+		<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_1"/>
+		<event>
+			<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_2"/>
+			<item_modify>
+				<item type="fuel" min="-5" max="-3"/>
+				<item type="scrap" min="4" max="6"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_3"/>
+		<event>
+			<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_4"/>
+			<ship hostile="true"/>
+		</event>
+	</choice>
+	<choice req="mind" lvl="1">
+		<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_5"/>
+		<event>
+			<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_6"/>
+			<autoReward level="LOW">scrap_only</autoReward>
+			<item_modify>
+				<item type="fuel" min="-1" max="-1"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+<ship name="W_ZOLTAN_OUT_OF_FUEL_SHIP" auto_blueprint="SHIPS_ZOLTAN">
+	<destroyed>
+		<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_7"/>
+		<autoReward level="LOW">scrap_only</autoReward>
+	</destroyed>
+	<deadCrew>
+		<text id="W_ZOLTAN_OUT_OF_FUEL_TEXT_8"/>
+		<autoReward level="LOW">drone</autoReward>
+	</deadCrew>
+</ship>

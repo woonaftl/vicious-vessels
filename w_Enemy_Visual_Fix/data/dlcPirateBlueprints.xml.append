@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Fixed cloak image for Slug Assault/Instigator -->
+
+<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_P">
+	<mod-overwrite:cloakImage>jelly_truffle_pirate</mod-overwrite:cloakImage>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_P_DLC">
+	<mod-overwrite:cloakImage>jelly_truffle_pirate</mod-overwrite:cloakImage>
+</mod:findName>

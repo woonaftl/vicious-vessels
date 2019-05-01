@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_0">A Zoltan civilian ship with a military escort awaits you at the beacon. They scan your ship and the captain of the civilian ship contacts you. "Federation agent? I am willing to help you for a small price. On one condition: I never deal with the Slugs."</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_1">Try to hide the Slug.</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_2">"Scans show that there is one of those despicable traitorous creatures on your ship. You should be grateful that I do not just exterminate them, together with you!"</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_3">Ask for help.</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_4">Say that you do not need any help.</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_5">The Zoltans scan your ship thoroughly and cannot find any Slugs lurking around. The Zoltan captain contacts you. "Forgive us for security scans. I am happy to offer reactor upgrades to our Federation allies." You could upgrade your ship multiple times if you have enough scrap to pay the expenses.</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_6">Buy a reactor upgrade.</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_7">Decline.</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_8">The Zoltans transfer equipment in exchange for some scrap. The Zoltan captain contacts you. "We have more power generators if you can afford them."</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_9">"Thanks for your purchase. I am afraid we do not have any more reactor upgrades for your ship class available. How about our latest invention? A backup battery helps you with extra power in critical moments. Very helpful in ion storms. Rated 4.7 out of 5 by our customers."</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_10">"How about our latest invention? A backup battery helps you with extra power in critical moments. Very helpful in ion storms. Rated 4.7 out of 5 by our customers."</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_11">Buy a backup battery.</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_12">"Thanks for your purchase. It was a pleasure to work with you."</text>
+<text name="W_ZOLTAN_REACTOR_TRADER_TEXT_13">"Thanks for your purchase. I am afraid we do not have any more reactor upgrades for your ship class available. It was a pleasure to work with you."</text>

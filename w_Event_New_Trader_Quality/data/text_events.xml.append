@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_0">You arrive at the store. "Welcome, dear customer. Can I help you? Our store has an excellent selection of high-quality weapons available. Lasers, missiles, ion, you name it! You won't be disappointed!"</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_1">See what he has to offer.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_2">(Mind Control) Persuade him to make a discount.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_3">Leave.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_4">There are all kinds of weapons with attractive price tags. You wonder what to choose.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_5">Buy Stun Bomb.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_6">The merchant comments: "Truly, the greatest support weapon. Able to penetrate defenses, disable systems and knock out enemy crew, all in one package."</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_7">Buy Chain Ion.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_8">The merchant comments: "An extraordinary weapon. Gains power with each subsequent shot. Able to disable even the strongest defenses."</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_9">Buy Pegasus Missiles.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_10">The merchant comments: "Very creative design. An unstoppable weapon, able to penetrate even drone-powered defenses."</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_11">Buy Repair Burst.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_12">The merchant comments: "In a tough spot, aren't you? Lack repairmen and have not built up the defenses yet? Do not worry, this weapon is all you need to repair your ship if things go wrong."</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_13">Buy Heavy Ion.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_14">The merchant comments: "My favorite weapon, in fact. No drawbacks at all: low power cost, fast charge time, and insane disabling capabilities."</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_15">Buy Hull Missiles.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_16">The merchant comments: "Practical choice. Low-cost, high-damage weapon. Exactly what your ship needed."</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_17">Buy Burst Laser Mark III.</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_18">The merchant comments: "Excellent choice. The most powerful of laser weapons. No shield can stop its impressive barrage."</text>
+<text name="W_TRADER_QUALITY_WEAPONS_TEXT_19">Nothing that would fit your loadout.</text>

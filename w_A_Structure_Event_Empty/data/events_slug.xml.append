@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="event" name="NOTHING_SLUG">
+	<mod:removeTag/>
+</mod:findName>
+
+<eventList name="NOTHING_SLUG">
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+	<event load="W_TRUE_NOTHING_SLUG"/>
+</eventList>
+
+<event name="W_TRUE_NOTHING_SLUG">
+	<text load="NOTHING_SLUG"/>
+</event>
+
+<mod:findName type="event" name="NEBULA_NOTHING_SLUG">
+	<mod:removeTag/>
+</mod:findName>
+
+<eventList name="NEBULA_NOTHING_SLUG">
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+	<event load="W_TRUE_NEBULA_NOTHING_SLUG"/>
+</eventList>
+
+<event name="W_TRUE_NEBULA_NOTHING_SLUG">
+	<environment type="nebula"/>
+	<text load="NEBULA_NOTHING_SLUG"/>
+</event>

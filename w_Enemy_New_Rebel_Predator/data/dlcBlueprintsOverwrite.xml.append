@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_REBEL">
+	<mod-append:name>W_REBEL_PREDATOR_V0</mod-append:name>
+	<mod-append:name>W_REBEL_PREDATOR_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_REBEL_ELITE">
+	<mod-append:name>W_REBEL_PREDATOR_ELITE_V0</mod-append:name>
+	<mod-append:name>W_REBEL_PREDATOR_ELITE_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHPS_REBEL_AND_AUTO"> <!--known typo-->
+	<mod-append:name>W_REBEL_PREDATOR_V0</mod-append:name>
+	<mod-append:name>W_REBEL_PREDATOR_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_REBEL_PREDATOR_V0" layout="w_rebel_predator" img="w_rebel_predator">
+	<class id="W_REBEL_PREDATOR_V0"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="1"/>
+		<shields power="2" max="8" room="2"/>
+		<engines power="1" max="5" room="9"/>
+		<weapons power="2" max="8" room="5"/>
+		<clonebay power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="6" start="false"/>
+		<cloaking power="1" max="3" room="7" start="false"/>
+		<drones power="2" max="6" room="4"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<droneList drones="5" load="W_DRONES_SHIPBOARD"/>
+	<health amount="11"/>
+	<maxPower amount="12"/>
+	<crewCount amount="4" max="7" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_predator</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_PREDATOR_V1" layout="w_rebel_predator" img="w_rebel_predator">
+	<class id="W_REBEL_PREDATOR_V1"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="2"/>
+		<shields power="2" max="8" room="5"/>
+		<engines power="1" max="5" room="1"/>
+		<weapons power="2" max="8" room="4"/>
+		<clonebay power="1" max="3" room="9"/>
+		<doors power="1" max="3" room="10" start="false"/>
+		<cloaking power="1" room="8" start="false"/>
+		<hacking power="1" max="3" room="3"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<droneList drones="4"/>
+	<health amount="11"/>
+	<maxPower amount="12"/>
+	<crewCount amount="4" max="7" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_predator</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_PREDATOR_ELITE_V0" layout="w_rebel_predator_elite" img="w_rebel_predator_elite">
+	<class id="W_REBEL_PREDATOR_ELITE_V0"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="3"/>
+		<shields power="4" max="9" room="6"/>
+		<engines power="3" max="6" room="9"/>
+		<weapons power="4" max="10" room="4"/>
+		<clonebay power="1" max="3" room="5"/>
+		<doors power="2" max="3" room="7"/>
+		<cloaking power="1" max="3" room="1"/>
+		<drones power="3" max="8" room="2"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<droneList drones="6" load="W_DRONES_SHIPBOARD"/>
+	<health amount="14"/>
+	<maxPower amount="18"/>
+	<crewCount amount="5" max="8" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_predator_elite</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_REBEL_PREDATOR_ELITE_V1" layout="w_rebel_predator_elite" img="w_rebel_predator_elite">
+	<class id="W_REBEL_PREDATOR_ELITE_V1"/>
+	<minSector>5</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<oxygen power="1" max="3" room="8"/>
+		<shields power="4" max="9" room="4"/>
+		<engines power="3" max="6" room="1"/>
+		<weapons power="4" max="10" room="10"/>
+		<clonebay power="1" max="3" room="5"/>
+		<doors power="2" max="3" room="9"/>
+		<cloaking power="1" max="3" room="2"/>
+		<hacking power="3" room="3"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
+	<droneList drones="4"/>
+	<health amount="14"/>
+	<maxPower amount="18"/>
+	<crewCount amount="5" max="8" class="human"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_rebel_predator_elite</cloakImage>
+</shipBlueprint>

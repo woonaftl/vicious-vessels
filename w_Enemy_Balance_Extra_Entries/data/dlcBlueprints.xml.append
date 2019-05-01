@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="blueprintList" name="SHIPS_LANIUS"> 
+	<mod-append:name>ANAEROBIC_SCOUT</mod-append:name>
+	<mod-append:name>ANAEROBIC_BOMBER</mod-append:name>
+	<mod-append:name>ANAEROBIC_SCOUT</mod-append:name>
+	<mod-append:name>ANAEROBIC_BOMBER</mod-append:name>
+</mod:findName>

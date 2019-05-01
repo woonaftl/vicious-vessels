@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Overwritten AE list -->
+
+<mod:findName type="eventList" name="OVERRIDE_HOSTILE_PIRATE"> 
+	<mod-append:event load="W_PIRATE_TUCO_EVENT"/>
+</mod:findName>

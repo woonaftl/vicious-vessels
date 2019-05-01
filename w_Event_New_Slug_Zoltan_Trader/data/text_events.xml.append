@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_0">It is unusual to see a Zoltan ship deep inside Slug territory. "Greetings! Would you like to purchase some resources? I have heard about your mission and I am sure that this ammunition will help you bring peace to the galaxy."</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_1">Buy fuel.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_2">You ask for fuel and send some scrap in exchange.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_3">Buy missiles.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_4">You ask for missiles and send some scrap in exchange.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_5">Buy an augmentation.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_6">You ask for the special offer and send some scrap in exchange.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_7">(Slug) Your crewmember advises against the deal.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_8">Tour crewmember detects that the Zoltan ship is actually controlled by Slugs! They were going to trick you and capture your ship. As soon as you blew their cover, they arm the weapons.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_9">(Lifeform Scanner) Scan Zoltan ship.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_10">After you scan the ship, you detect that it is actually controlled by Slugs! They were going to trick you and capture your ship. As soon as you blew their cover, they arm the weapons.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_11">Leave.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_12">You did not understand what exactly happened but after you loaded the fuel, your engines stopped working. The Zoltan ship prepares to attack you. It turns out that the ship is controlled by Slugs. Get ready for battle!</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_13">After the missiles are loaded you are immediately contacted by your engineer. "Weapon system is out of order, sir!" The Zoltan ship prepares to attack you. It turns out that the ship is controlled by Slugs. It will be difficult to defend yourself without any weapons.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_14">You install the augmentation. One after another shield layers that protected your ship dissipate. The Zoltan ship prepares to attack you. It turns out that the ship is controlled by Slugs. With shields offline, it is going to be a tough battle.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_15">After the trade is complete you prepare to leave the system. Zoltans wish you luck: "Slugs in this sector do all kinds of dirty tricks. Make sure to upgrade your oxygen system."</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_16">The Zoltan ship breaks apart. You collect what you can. After hours of work your crew manages to restore functionality of all systems.</text>
+<text name="W_ZOLTAN_TRADER_SLUG_TEXT_17">With all the Slugs dead, you strip the ship. Your crew manages to restore functionality of all systems.</text>

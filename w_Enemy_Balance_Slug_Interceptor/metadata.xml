@@ -1,0 +1,9 @@
+<metadata>
+<author>Woona</author>
+<desc>Slug Interceptor (the tiny one) had isolated rooms before and became a meme for having the worst possible ship layout, allowing easy crew kills.
+
+Now it uses the pirate layout. Creating a completely new layout for non-pirate ship messes up with the brains of veteran players.
+
+Also, more than 2 weapons do not fit on the hull. Dunno if the limitation I put here works.</desc>
+<changelog>Slug Interceptor no longer has disconnected rooms.</changelog>
+</metadata>
