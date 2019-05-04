@@ -39,8 +39,8 @@
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="2"/>
 		<shields power="2" max="7" room="4"/>
-		<engines power="2" max="8" room="6"/>
-		<weapons power="2" max="7" room="7"/>
+		<engines power="2" max="8" room="7"/>
+		<weapons power="2" max="7" room="6"/>
 		<clonebay power="1" max="3" room="1" start="false"/>
 		<doors power="1" max="3" room="5" start="false"/>
 		<hacking power="1" max="1" room="3" start="false"/>
@@ -62,8 +62,8 @@
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="3"/>
 		<shields power="2" max="7" room="4"/>
-		<engines power="2" max="8" room="6"/>
-		<weapons power="2" max="7" room="7"/>
+		<engines power="2" max="8" room="7"/>
+		<weapons power="2" max="7" room="6"/>
 		<medbay power="1" max="3" room="1" start="false"/>
 		<doors power="1" max="3" room="2" start="false"/>
 		<mind power="1" max="1" room="5" start="false"/>
@@ -82,8 +82,8 @@
 	<maxSector>4</maxSector>
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
-		<oxygen power="1" max="3" room="1"/>
-		<shields power="2" max="7" room="2"/>
+		<oxygen power="1" max="3" room="2"/>
+		<shields power="2" max="7" room="1"/>
 		<engines power="2" max="8" room="3"/>
 		<weapons power="2" max="7" room="4"/>
 		<clonebay power="1" max="3" room="5" start="false"/>

@@ -18,8 +18,8 @@
 		<oxygen power="1" max="2" room="1"/>
 		<medbay power="1" max="2" room="5" start="false"/>
 		<teleporter power="1" room="6"/>
-		<shields power="2" max="6" room="2"/>
-		<engines power="1" max="4" room="3"/>
+		<shields power="2" max="6" room="3"/>
+		<engines power="1" max="4" room="2"/>
 		<weapons power="2" max="6" room="4"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
@@ -38,8 +38,8 @@
 		<oxygen power="1" max="2" room="3"/>
 		<clonebay power="1" max="2" room="5" start="false"/>
 		<teleporter power="1" room="6"/>
-		<shields power="2" max="6" room="4"/>
-		<engines power="1" max="4" room="1"/>
+		<shields power="2" max="6" room="1"/>
+		<engines power="1" max="4" room="4"/>
 		<weapons power="2" max="6" room="2"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
@@ -58,8 +58,8 @@
 		<oxygen power="1" max="2" room="1"/>
 		<medbay power="1" max="2" room="5" start="false"/>
 		<teleporter power="1" room="6" start="false"/>
-		<shields power="2" max="6" room="2"/>
-		<engines power="1" max="4" room="3"/>
+		<shields power="2" max="6" room="3"/>
+		<engines power="1" max="4" room="2"/>
 		<weapons power="2" max="6" room="4"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
@@ -78,8 +78,8 @@
 		<oxygen power="1" max="2" room="3"/>
 		<clonebay power="1" max="2" room="5" start="false"/>
 		<teleporter power="1" room="6" start="false"/>
-		<shields power="2" max="6" room="4"/>
-		<engines power="1" max="4" room="1"/>
+		<shields power="2" max="6" room="1"/>
+		<engines power="1" max="4" room="4"/>
 		<weapons power="2" max="6" room="2"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_MANTIS"/>

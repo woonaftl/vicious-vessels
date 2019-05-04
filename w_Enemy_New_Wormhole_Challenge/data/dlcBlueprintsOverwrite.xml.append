@@ -47,13 +47,13 @@
 	<class id="W_SLUG_SISTERSHIP"/>
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
-		<medbay power="1" max="3" room="1"/>
-		<shields power="3" max="9" room="2"/>
+		<medbay power="1" max="3" room="2"/>
+		<shields power="3" max="9" room="1"/>
 		<engines power="1" max="5" room="3"/>
 		<doors power="2" max="3" room="4"/>
-		<weapons power="2" max="10" room="5"/>
+		<weapons power="2" max="10" room="7"/>
 		<oxygen power="1" max="3" room="6"/>
-		<cloaking power="1" max="2" room="7"/>
+		<cloaking power="1" max="2" room="5"/>
 		<mind power="1" max="1" room="8"/>
 	</systemList>
 	<weaponList missiles="14" load="WEAPONS_JELLY"/>

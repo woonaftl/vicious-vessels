@@ -44,13 +44,13 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="2"/>
-		<shields power="2" max="8" room="5"/>
+		<shields power="2" max="8" room="3"/>
 		<engines power="1" max="5" room="1"/>
 		<weapons power="2" max="8" room="4"/>
 		<clonebay power="1" max="3" room="9"/>
 		<doors power="1" max="3" room="10" start="false"/>
 		<cloaking power="1" room="8" start="false"/>
-		<hacking power="1" max="3" room="3"/>
+		<hacking power="1" max="3" room="5"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="4"/>
