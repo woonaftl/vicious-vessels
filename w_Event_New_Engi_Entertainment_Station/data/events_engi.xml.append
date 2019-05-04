@@ -405,38 +405,38 @@
 	<event>
 		<text id="W_GAME_SHOW_Q6_TEXT_1"/>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_2"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_2"/>
 			<event load="W_GAME_SHOW_Q7"/>
 		</choice>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_3"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_3"/>
 			<event load="W_GAME_SHOW_FAIL"/>
 		</choice>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_4"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_4"/>
 			<event load="W_GAME_SHOW_FAIL"/>
 		</choice>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_5"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_5"/>
 			<event load="W_GAME_SHOW_FAIL"/>
 		</choice>
 	</event>
 	<event>
 		<text id="W_GAME_SHOW_Q6_TEXT_6"/>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_7"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_7"/>
 			<event load="W_GAME_SHOW_Q7"/>
 		</choice>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_8"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_8"/>
 			<event load="W_GAME_SHOW_FAIL"/>
 		</choice>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_9"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_9"/>
 			<event load="W_GAME_SHOW_FAIL"/>
 		</choice>
 		<choice hidden="true">
-			<text id="W_GAME_SHOW_Q3_TEXT_10"/>
+			<text id="W_GAME_SHOW_Q6_TEXT_10"/>
 			<event load="W_GAME_SHOW_FAIL"/>
 		</choice>
 	</event>

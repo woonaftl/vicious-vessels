@@ -6,7 +6,7 @@
 <mod:findName type="eventList" name="NEUTRAL_EXIT"> 
 	<mod-append:event load="W_DEAD_KESTREL"/>
 </mod:findName>
-<event name="W_DEAD_KESTREL" unique="true">
+<event name="W_DEAD_KESTREL" unique="false">
 	<text id="W_DEAD_KESTREL_TEXT_0"/>
 	<choice hidden="true">
 		<text id="W_DEAD_KESTREL_TEXT_1"/>

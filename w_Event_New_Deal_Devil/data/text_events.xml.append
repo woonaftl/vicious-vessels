@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_0">You enter the peaceful section of nebula with no ships in sight. Suddenly, you hear the loud voice inside your head. "I know what you desire. I can fulfill your darkest wishes. The price is simple - I want your soul."</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_1">Learn more.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_2">"Oh, you do not need the soul to live. In fact, I lived without it in this nebula for millions of years. Just sign the contract, and your every wish will come true." A piece of paper materializes on the bridge. It's covered in incomprehensible symbols, the only thing you can read is: "Sign here" above the rectangle.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_3">Sign.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_4">Do not sign.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_5">Resist the temptation.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_6">As you sign the paper, a weapon appears right in your weapon bay. It's a classic Burst Laser Mark II. Reliable and powerful. Exactly what you wanted.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_7">As you sign the paper, a weapon appears right in your weapon bay. It's a classic Mini Beam. Fast and deadly. Hard to find in stores recently. Exactly what you wanted.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_8">As you sign the paper, an augmentation appears on your ship. It's a Weapon Pre-Igniter. You cannot believe your eyes. That's exactly what you wanted.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_9">You start charging FTL drive, but cannot. It seems that the creature did not want your soul, but they took all fuel reserves instead. Or did they took your soul too?</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_10">You hear shouts and gunshots on the ship. It seems that the creature did not want your soul, but instead they took the souls of your crewmembers. Former friends attack everyone on sight.</text>
-<text name="W_NEBULA_DEAL_WITH_THE_DEVIL_TEXT_11">A powerful explosion shakes your ship. Looks like the creature did not want your soul. Instead they haunted your ship and try to destroy it from inside.</text>
+<text name="W_DEAL_DEVIL_TEXT_0">You enter the peaceful section of nebula with no ships in sight. Suddenly, you hear the loud voice inside your head. "I know what you desire. I can fulfill your darkest wishes. The price is simple - I want your soul."</text>
+<text name="W_DEAL_DEVIL_TEXT_1">Learn more.</text>
+<text name="W_DEAL_DEVIL_TEXT_2">"Oh, you do not need the soul to live. In fact, I lived without it in this nebula for millions of years. Just sign the contract, and your every wish will come true." A piece of paper materializes on the bridge. It's covered in incomprehensible symbols, the only thing you can read is: "Sign here" above the rectangle.</text>
+<text name="W_DEAL_DEVIL_TEXT_3">Sign.</text>
+<text name="W_DEAL_DEVIL_TEXT_4">Do not sign.</text>
+<text name="W_DEAL_DEVIL_TEXT_5">Resist the temptation.</text>
+<text name="W_DEAL_DEVIL_TEXT_6">As you sign the paper, a weapon appears right in your weapon bay. It's a classic Burst Laser Mark II. Reliable and powerful. Exactly what you wanted.</text>
+<text name="W_DEAL_DEVIL_TEXT_7">As you sign the paper, a weapon appears right in your weapon bay. It's a classic Mini Beam. Fast and deadly. Hard to find in stores recently. Exactly what you wanted.</text>
+<text name="W_DEAL_DEVIL_TEXT_8">As you sign the paper, an augmentation appears on your ship. It's a Weapon Pre-Igniter. You cannot believe your eyes. That's exactly what you wanted.</text>
+<text name="W_DEAL_DEVIL_TEXT_9">You start charging FTL drive, but cannot. It seems that the creature did not want your soul, but they took all fuel reserves instead. Or did they take your soul too?</text>
+<text name="W_DEAL_DEVIL_TEXT_10">You hear shouts and gunshots on the ship. It seems that the creature did not want your soul, but instead they took the souls of your crewmembers. Former friends attack everyone on sight.</text>
+<text name="W_DEAL_DEVIL_TEXT_11">A powerful explosion shakes your ship. Looks like the creature did not want your soul. Instead they haunted your ship and try to destroy it from inside.</text>

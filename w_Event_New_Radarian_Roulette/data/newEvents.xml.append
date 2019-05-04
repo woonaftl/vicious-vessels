@@ -6,7 +6,7 @@
 <mod:findName type="eventList" name="NEUTRAL_EXIT"> 
 	<mod-append:event load="W_RADARIAN_ROULETTE"/>
 </mod:findName>
-<event name="W_RADARIAN_ROULETTE" unique="true">
+<event name="W_RADARIAN_ROULETTE" unique="false">
 	<text id="W_RADARIAN_ROULETTE_TEXT_0"/>
 	<choice hidden="true">
 		<text id="W_RADARIAN_ROULETTE_TEXT_1"/>

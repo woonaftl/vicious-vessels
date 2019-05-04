@@ -6,7 +6,7 @@
 <mod:findName type="eventList" name="NEUTRAL_EXIT"> 
 	<mod-append:event load="W_TEST_SUBJECTS"/>
 </mod:findName>
-<event name="W_TEST_SUBJECTS" unique="true">
+<event name="W_TEST_SUBJECTS" unique="false">
 	<text id="W_TEST_SUBJECTS_TEXT_0"/>
 	<choice hidden="true">
 		<text id="continue"/>

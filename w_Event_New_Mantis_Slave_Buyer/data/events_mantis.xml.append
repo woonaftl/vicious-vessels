@@ -21,9 +21,9 @@
 					<text id="W_MANTIS_SLAVE_BUYER_TEXT_6"/>
 					<crewMember amount="-1" class="engi"/>
 					<item_modify>
-						<item type="scrap" min="45" max="55"/>
+						<item type="scrap" min="40" max="50"/>
 					</item_modify>
-					<choice hidden="true" req="engi">
+					<choice hidden="true" req="engi" lvl="2">
 						<text id="W_MANTIS_SLAVE_BUYER_TEXT_3"/>
 						<event>
 							<text id="W_MANTIS_SLAVE_BUYER_TEXT_6"/>
@@ -32,7 +32,7 @@
 								<item type="scrap" min="40" max="50"/>
 							</item_modify>
 							<drone name="RANDOM"/>
-							<choice hidden="true" req="engi">
+							<choice hidden="true" req="engi" lvl="2">
 								<text id="W_MANTIS_SLAVE_BUYER_TEXT_3"/>
 								<event>
 									<text id="W_MANTIS_SLAVE_BUYER_TEXT_6"/>
@@ -41,7 +41,7 @@
 										<item type="scrap" min="40" max="50"/>
 									</item_modify>
 									<augment name="RANDOM"/>
-									<choice hidden="true" req="engi">
+									<choice hidden="true" req="engi" lvl="2">
 										<text id="W_MANTIS_SLAVE_BUYER_TEXT_3"/>
 										<event>
 											<text id="W_MANTIS_SLAVE_BUYER_TEXT_7"/>

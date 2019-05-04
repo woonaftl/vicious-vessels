@@ -63,7 +63,7 @@
 															<item_modify>
 																<item type="scrap" min="-31" max="-28"/>
 															</item_modify>
-															<system lvl="1" system="battery"/>
+															<system name="battery" lvl="1"/>
 														</event>
 													</choice>	
 													<choice hidden="true">
@@ -169,7 +169,7 @@
 															<item_modify>
 																<item type="scrap" min="-31" max="-28"/>
 															</item_modify>
-															<system lvl="1" system="battery"/>
+															<system name="battery" lvl="1"/>
 														</event>
 													</choice>	
 													<choice hidden="true">
@@ -275,7 +275,7 @@
 															<item_modify>
 																<item type="scrap" min="-31" max="-28"/>
 															</item_modify>
-															<system lvl="1" system="battery"/>
+															<system name="battery" lvl="1"/>
 														</event>
 													</choice>	
 													<choice hidden="true">
@@ -381,7 +381,7 @@
 															<item_modify>
 																<item type="scrap" min="-31" max="-28"/>
 															</item_modify>
-															<system lvl="1" system="battery"/>
+															<system name="battery" lvl="1"/>
 														</event>
 													</choice>	
 													<choice hidden="true">
@@ -451,8 +451,9 @@
 		<event/>
 	</choice>
 </event>
+
 <event name="W_ZOLTAN_REACTOR_TRADER_BATTERY">
-	<text id="W_ZOLTAN_RECENT_BATTLE_BOMB_TEXT_10"/>
+	<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_10"/>
 	<choice hidden="true">
 		<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_11"/>
 		<event>
@@ -460,9 +461,9 @@
 			<item_modify>
 				<item type="scrap" min="-31" max="-28"/>
 			</item_modify>
-			<system lvl="1" system="battery"/>
+			<system name="battery" lvl="1"/>
 		</event>
-	</choice>	
+	</choice>
 	<choice hidden="true">
 		<text id="W_ZOLTAN_REACTOR_TRADER_TEXT_7"/>
 		<event/>

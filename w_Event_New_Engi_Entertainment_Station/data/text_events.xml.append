@@ -3,7 +3,7 @@
 <text name="W_ENGI_ENTERTAINMENT_STATION_TEXT_0">Visit the station.</text>
 <text name="W_ENGI_ENTERTAINMENT_STATION_TEXT_1">Charge the FTL drive.</text>
 <text name="W_ENGI_ENTERTAINMENT_STATION_TEXT_2">As your ship docks to the station, one of the Engi employees enters the airlock and calls you: "Proceed to the stage! Urgent!" You have no choice but to follow them.</text>
-<text name="W_ENGI_ENTERTAINMENT_STATION_TEXT_3">The stage is built in the center of a giant arena. The human announcer greets you: "Welcome to the ..., the most popular quiz show in the sector! Answer eight questions, and claim the grand prize, which will be revealed later. The audience is clapping, everyone is cheering for you.</text>
+<text name="W_ENGI_ENTERTAINMENT_STATION_TEXT_3">The stage is built in the center of a giant arena. The human announcer greets you: "Welcome to the "Scrappy Brains", the most popular quiz show in the sector! Answer eight questions, and claim the grand prize, which will be revealed later. The audience is clapping, everyone is cheering for you.</text>
 <text name="W_GAME_SHOW_Q1_TEXT_0">"Let's start off with an easy question. Which of the following races are completely impervious to fire?"</text>
 <text name="W_GAME_SHOW_Q1_TEXT_1">Engi.</text>
 <text name="W_GAME_SHOW_Q1_TEXT_2">Mantis.</text>
@@ -49,7 +49,7 @@
 <text name="W_GAME_SHOW_Q4_TEXT_3">KazaaakplethKilik.</text>
 <text name="W_GAME_SHOW_Q4_TEXT_4">KazaaaakplethKilik.</text>
 <text name="W_GAME_SHOW_Q4_TEXT_5">"How much fuel does the Kestrel have at the start of the journey?"</text>
-<text name="W_GAME_SHOW_Q4_TEXT_6">"I'm sure you know the answer to this one! Which of the following ships do NOT start with drones?"</text>
+<text name="W_GAME_SHOW_Q4_TEXT_6">"I'm sure you know the answer to this one! Which of the following ships does NOT start with drones?"</text>
 <text name="W_GAME_SHOW_Q4_TEXT_7">Basilisk.</text>
 <text name="W_GAME_SHOW_Q4_TEXT_8">Cherenkov.</text>
 <text name="W_GAME_SHOW_Q4_TEXT_9">Fregatidae.</text>
@@ -72,7 +72,7 @@
 <text name="W_GAME_SHOW_Q5_TEXT_13">Laser.</text>
 <text name="W_GAME_SHOW_Q5_TEXT_14">Missile.</text>
 
-<text name="W_GAME_SHOW_Q6_TEXT_0">"A question, answer to which is crucial for any captain's survival. What's the charge time of a Halberd beam?"</text>
+<text name="W_GAME_SHOW_Q6_TEXT_0">"A question, answer to which is crucial for any captain's survival. How many seconds does the Halberd beam charge?"</text>
 <text name="W_GAME_SHOW_Q6_TEXT_1">"What's the name of the yellow Slug ship, which uses hacking and mind control to manipulate its enemies?"</text>
 <text name="W_GAME_SHOW_Q6_TEXT_2">Ariolimax.</text>
 <text name="W_GAME_SHOW_Q6_TEXT_3">Ariunculus.</text>
@@ -91,7 +91,7 @@
 <text name="W_GAME_SHOW_Q7_TEXT_3">Vrachos IV.</text>
 <text name="W_GAME_SHOW_Q7_TEXT_4">Yarin III.</text>
 <text name="W_GAME_SHOW_Q7_TEXT_5">"Ok. How much evasion do level 7 engines provide?"</text>
-<text name="W_GAME_SHOW_Q7_TEXT_6">"We a closer and closer to the prize! Which of the following weapons is never used by Rebels?"</text>
+<text name="W_GAME_SHOW_Q7_TEXT_6">"We are closer and closer to the prize! Which of the following weapons is never used by Rebels?"</text>
 <text name="W_GAME_SHOW_Q7_TEXT_7">Artemis.</text>
 <text name="W_GAME_SHOW_Q7_TEXT_8">Burst Laser II.</text>
 <text name="W_GAME_SHOW_Q7_TEXT_9">Flak I.</text>

@@ -8,23 +8,24 @@
 	</mod:findLike>
 </mod:findName>
 
-<!-- System priotity: Shields > Drone Control > Hacking > Cloaking -->
+<!-- System priority: Shields > Drone Control > Hacking > Cloaking -->
 <mod:findName type="eventList" name="NEUTRAL_ENGI"> 
-	<mod-append:event load="W_ENGI_CONSTUCTION_YARD"/>
+	<mod-append:event load="W_ENGI_CONSTRUCTION_YARD"/>
 </mod:findName>
-<event name="W_ENGI_CONSTUCTION_YARD" unique="true">
+<event name="W_ENGI_CONSTRUCTION_YARD" unique="false">
 	<text id="text_NOTHING_ENGI_3"/>
 	<choice req="shields" lvl="0" max_group="0" hidden="true" blue="false">
-		<text id="W_ENGI_CONSTUCTION_YARD_TEXT_0"/>
+		<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_0"/>
 		<event>
-			<text id="W_ENGI_CONSTUCTION_YARD_TEXT_3"/>
+			<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_2"/>
 			<choice hidden="true">
 				<text id="continue"/>
 				<event>
+					<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_3"/>
 					<choice>
-						<text id="W_ENGI_CONSTUCTION_YARD_TEXT_4"/>
+						<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_4"/>
 						<event>
-							<text id="W_ENGI_CONSTUCTION_YARD_TEXT_9"/>
+							<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_9"/>
 							<system name="shields" lvl="2"/>
 							<item_modify>
 								<item type="drones" min="-10" max="-6"/>
@@ -32,7 +33,7 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text id="W_ENGI_CONSTUCTION_YARD_TEXT_8"/>
+						<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_8"/>
 						<event/>
 					</choice>
 				</event>
@@ -40,16 +41,17 @@
 		</event>
 	</choice>
 	<choice req="shields" lvl="1" max_group="0" hidden="true" blue="false">
-		<text id="W_ENGI_CONSTUCTION_YARD_TEXT_0"/>
+		<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_0"/>
 		<event>
-			<text id="W_ENGI_CONSTUCTION_YARD_TEXT_3"/>
+			<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_2"/>
 			<choice req="drones" lvl="0" max_group="0" hidden="true" blue="false">
 				<text id="continue"/>
 				<event>
+					<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_3"/>
 					<choice>
-						<text id="W_ENGI_CONSTUCTION_YARD_TEXT_5"/>
+						<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_5"/>
 						<event>
-							<text id="W_ENGI_CONSTUCTION_YARD_TEXT_9"/>
+							<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_9"/>
 							<system name="drones" lvl="2"/>
 							<drone name="RANDOM"/>
 							<item_modify>
@@ -58,7 +60,7 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text id="W_ENGI_CONSTUCTION_YARD_TEXT_8"/>
+						<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_8"/>
 						<event/>
 					</choice>
 				</event>
@@ -66,10 +68,11 @@
 			<choice req="drones" lvl="1" max_group="0" hidden="true" blue="false">
 				<text id="continue"/>
 				<event>
+					<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_3"/>
 					<choice req="hacking" lvl="0" max_group="0" blue="false">
-						<text id="W_ENGI_CONSTUCTION_YARD_TEXT_6"/>
+						<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_6"/>
 						<event>
-							<text id="W_ENGI_CONSTUCTION_YARD_TEXT_9"/>
+							<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_9"/>
 							<system name="hacking" lvl="1"/>
 							<item_modify>
 								<item type="drones" min="-12" max="-8"/>
@@ -77,9 +80,9 @@
 						</event>
 					</choice>
 					<choice req="hacking" lvl="1" max_group="0" blue="false">
-						<text id="W_ENGI_CONSTUCTION_YARD_TEXT_7"/>
+						<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_7"/>
 						<event>
-							<text id="W_ENGI_CONSTUCTION_YARD_TEXT_9"/>
+							<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_9"/>
 							<system name="cloaking" lvl="1"/>
 							<item_modify>
 								<item type="drones" min="-14" max="-10"/>
@@ -87,7 +90,7 @@
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text id="W_ENGI_CONSTUCTION_YARD_TEXT_8"/>
+						<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_8"/>
 						<event/>
 					</choice>
 				</event>
@@ -95,7 +98,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text id="W_ENGI_CONSTUCTION_YARD_TEXT_1"/>
+		<text id="W_ENGI_CONSTRUCTION_YARD_TEXT_1"/>
 		<event/>
 	</choice>
 </event>
