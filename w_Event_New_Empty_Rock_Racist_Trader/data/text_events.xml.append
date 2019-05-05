@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<text name="W_ROCK_TRADING_POST_TEXT_0">(Rock) Send a crewmember to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_1">(2 Rockmen) Send a team to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_2">(3 Rockmen) Send a team to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_3">(4 Rockmen) Send a team to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_4">(5 Rockmen) Send a team to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_5">(6 Rockmen) Send a team to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_6">(7 Rockmen) Send a team to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_7">(8 Rockmen) Send a team to negotiate.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_8">Seeing the Rockman, the trading post reluctantly agrees to sell you fuel.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_9">"Traitor to the holy words! You shall be submerged into the waters of hell for this!" Traders, peaceful at the first glance, attack your crewmember. He barely manages to get back to the ship in one piece.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_10">Seeing fellow Rockmen, the trading post agrees to sell you fuel and ammunition.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_11">Seeing that your team is mostly composed of Rockmen, the trading post agrees to bargain with you.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_12">Buy fuel.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_13">Buy missiles.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_14">Refuse to buy anything.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_15">The dead crewmember steps out of clonebay ready to follow your orders.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_16">The trading post sends you some fuel and you pay for it with scrap.</text>
+<text name="W_ROCK_TRADING_POST_TEXT_17">The trading post sends you ammunition and you pay for it with scrap.</text>

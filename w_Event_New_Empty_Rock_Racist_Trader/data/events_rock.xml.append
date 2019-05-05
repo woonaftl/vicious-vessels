@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Replaces standard empty beacon text -->
+<mod:findName type="textList" name="NOTHING_ROCK">
+	<mod:findLike type="text">
+		<mod:selector id="text_NOTHING_ROCK_6"/>
+		<mod:removeTag/>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="eventList" name="NOTHING_ROCK"> 
+	<mod-append:event load="W_ROCK_TRADING_POST"/>
+</mod:findName>
+<event name="W_ROCK_TRADING_POST" unique="true">
+	<text id="text_NOTHING_ROCK_6"/>
+	<choice hidden="true">
+		<text id="continue"/>
+		<event/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="1" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_0"/>
+		<event load="W_ROCK_TRADING_POST_LIST_1"/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="2" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_1"/>
+		<event load="W_ROCK_TRADING_POST_FUEL_AMMO"/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="3" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_2"/>
+		<event load="W_ROCK_TRADING_POST_STORE"/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="4" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_3"/>
+		<event load="W_ROCK_TRADING_POST_STORE"/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="5" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_4"/>
+		<event load="W_ROCK_TRADING_POST_STORE"/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="6" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_5"/>
+		<event load="W_ROCK_TRADING_POST_STORE"/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="7" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_6"/>
+		<event load="W_ROCK_TRADING_POST_STORE"/>
+	</choice>
+	<choice hidden="true" req="rock" lvl="8" max_group="0">
+		<text id="W_ROCK_TRADING_POST_TEXT_7"/>
+		<event load="W_ROCK_TRADING_POST_STORE"/>
+	</choice>
+</event>
+
+<eventList name="W_ROCK_TRADING_POST_LIST_1">
+	<event load="W_ROCK_TRADING_POST_FUEL"/>
+	<event load="W_ROCK_TRADING_POST_FUEL"/>
+	<event load="W_ROCK_TRADING_POST_FAILURE"/>
+</eventList>
+<event name="W_ROCK_TRADING_POST_FUEL">
+	<text id="W_ROCK_TRADING_POST_TEXT_8"/>
+	<choice>
+		<text id="W_ROCK_TRADING_POST_TEXT_12"/>
+		<event>
+			<text id="W_ROCK_TRADING_POST_TEXT_16"/>
+			<item_modify>
+				<item type="fuel" min="4" max="6"/>
+				<item type="scrap" min="-18" max="-12"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ROCK_TRADING_POST_TEXT_14"/>
+		<event/>
+	</choice>
+</event>
+<event name="W_ROCK_TRADING_POST_FAILURE">
+	<text id="W_ROCK_TRADING_POST_TEXT_9"/>
+</event>
+
+<event name="W_ROCK_TRADING_POST_FUEL_AMMO">
+	<text id="W_ROCK_TRADING_POST_TEXT_10"/>
+	<choice>
+		<text id="W_ROCK_TRADING_POST_TEXT_12"/>
+		<event>
+			<text id="W_ROCK_TRADING_POST_TEXT_16"/>
+			<item_modify>
+				<item type="fuel" min="4" max="6"/>
+				<item type="scrap" min="-15" max="-10"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text id="W_ROCK_TRADING_POST_TEXT_13"/>
+		<event>
+			<text id="W_ROCK_TRADING_POST_TEXT_17"/>
+			<item_modify>
+				<item type="missiles" min="4" max="6"/>
+				<item type="scrap" min="-18" max="-12"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text id="W_ROCK_TRADING_POST_TEXT_14"/>
+		<event/>
+	</choice>
+</event>
+
+<event name="W_ROCK_TRADING_POST_STORE">
+	<text id="W_ROCK_TRADING_POST_TEXT_11"/>
+	<store/>
+</event>
