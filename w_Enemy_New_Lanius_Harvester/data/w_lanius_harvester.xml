@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
-<FTL>
 
 <img x="-73" y="-44" w="427" h="338" />
-
 <offsets>
 	<floor x="196" y="151" />
 	<cloak x="0" y="0" />
 </offsets>
-
 <weaponMounts>
 	<mount x="165" y="30" rotate="false" mirror="false" gib="2" slide="up" />
 	<mount x="263" y="30" rotate="false" mirror="true" gib="1" slide="up" />
 	<mount x="105" y="30" rotate="false" mirror="true" gib="2" slide="up" />
 	<mount x="322" y="30" rotate="false" mirror="false" gib="1" slide="up" />
 </weaponMounts>
-
 <explosion>
 	<gib1>
 		<velocity min="0.2" max="0.5" />
@@ -46,5 +41,3 @@
 		<y>36</y>
 	</gib4>
 </explosion>
-
-</FTL>
