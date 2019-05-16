@@ -15,7 +15,7 @@ Prefix = 'w_'
 Output = 'Vicious Vessels' # aka mod title
 ForumLink = 'https://subsetgames.com/forum/viewtopic.php?f=11&t=33380'
 AlternateLinks = ['https://github.com/woonaftl/vicious-vessels']
-Release = '9'
+Release = '9.1'
 ProjectDesc = "A collaborative project designed to expand FTL: Advanced \
 Edition with new content such as enemy ships, and new events without \
 changing the vanilla experience too much or disrupting balance.\n\nThe \
