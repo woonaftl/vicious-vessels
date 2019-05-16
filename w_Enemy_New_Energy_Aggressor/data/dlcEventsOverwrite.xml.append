@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Overwritten AE list -->
+
+<mod:findName type="eventList" name="OVERRIDE_HOSTILE_ZOLTAN"> 
+	<mod-append:event load="W_ENERGY_AGGRESSOR_EVENT"/>
+</mod:findName>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shipBlueprint name="W_ENERGY_AGGRESSOR" layout="w_energy_aggressor" img="w_energy_aggressor">
+	<class id="W_ENERGY_AGGRESSOR_CLASS"/>
+	<systemList>
+		<pilot power="1" max="2" room="0"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="5"/>
+		<shields power="2" max="8" room="2"/>
+		<oxygen power="1" max="3" room="4"/>
+		<drones power="3" max="9" room="1"/>
+		<medbay power="1" max="3" room="6" start="false"/>
+		<doors power="1" max="3" room="3" start="false"/>
+	</systemList>
+	<weaponList load="WEAPONS_ION"/>
+	<droneList count="4" drones="5">
+		<drone name="BOARDER_ION"/>
+		<drone name="BOARDER_ION"/>
+		<drone name="BOARDER_ION"/>
+		<drone name="BOARDER_ION"/>
+	</droneList>
+	<aug name="ENERGY_SHIELD"/>
+	<aug name="ION_ARMOR"/>
+	<health amount="9"/>
+	<maxPower amount="12"/>
+	<crewCount amount="4" max="6" class="energy"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_energy_aggressor</cloakImage>
+</shipBlueprint>
