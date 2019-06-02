@@ -89,27 +89,27 @@
 			<event>
 				<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_3"/>
 				<choice hidden="true">
-					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_4"/>
+					<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_4"/>
 					<event>
-						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_12"/>
+						<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_12"/>
 						<removeCrew>
 							<clone>true</clone>
-							<text id="W_ENGI_GREEN_PLANET_HERD_TEXT_13"/>
+							<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_13"/>
 						</removeCrew>
 						<autoReward level="LOW">scrap_only</autoReward>
 					</event>
 				</choice>
 				<choice req="mantis" hidden="true">
-					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_5"/>
+					<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_5"/>
 					<event>
-						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_9"/>
+						<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_9"/>
 						<autoReward level="LOW">scrap_only</autoReward>
 					</event>
 				</choice>
 				<choice req="BATTLE" hidden="true">
-					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_6"/>
+					<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_6"/>
 					<event>
-						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_10"/>
+						<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_10"/>
 						<item_modify>
 							<item type="drones" min="-1" max="-1"/>
 						</item_modify>
@@ -117,9 +117,9 @@
 					</event>
 				</choice>
 				<choice req="BOARDER" hidden="true">
-					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_7"/>
+					<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_7"/>
 					<event>
-						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_10"/>
+						<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_10"/>
 						<item_modify>
 							<item type="drones" min="-1" max="-1"/>
 						</item_modify>
@@ -127,9 +127,9 @@
 					</event>
 				</choice>
 				<choice req="BOARDER_ION" hidden="true">
-					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_8"/>
+					<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_8"/>
 					<event>
-						<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_11"/>
+						<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_11"/>
 						<item_modify>
 							<item type="drones" min="-1" max="-1"/>
 						</item_modify>
@@ -137,7 +137,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text id="W_ENGI_GREEN_PLANET_DESERT_TEXT_2"/>
+					<text id="W_ENGI_GREEN_PLANET_REPTILES_TEXT_2"/>
 					<event/>
 				</choice>
 			</event>

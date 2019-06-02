@@ -134,7 +134,7 @@
 		<ship load="JELLY_STATUS_OXYGEN" hostile="true"/>
 	</event>
 </eventList>
-<ship name="W_SLUG_UPGRADE_OXYGEN_SHIP" auto_blueprint="SHIPS_JELLY">
+<ship name="W_SLUG_UPGRADE_OXYGEN_SHIP_ESCAPE" auto_blueprint="SHIPS_JELLY">
 	<escape timer="35" min="22" max="22" >
 		<text id="W_SLUG_UPGRADE_OXYGEN_TEXT_12"/>
 		<ship hostile="true"/>
