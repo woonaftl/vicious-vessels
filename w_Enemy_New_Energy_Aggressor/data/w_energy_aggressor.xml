@@ -7,7 +7,7 @@
 </offsets>
 <weaponMounts>
 	<mount x="133" y="98" rotate="false" mirror="false" gib="3" slide="up" />
-	<mount x="64" y="155" rotate="false" mirror="true" gib="4" slide="up" />
+	<mount x="69" y="109" rotate="false" mirror="true" gib="2" slide="up" />
 	<mount x="190" y="73" rotate="false" mirror="false" gib="3" slide="up" />
 	<mount x="244" y="189" rotate="false" mirror="false" gib="3" slide="right" />
 </weaponMounts>
@@ -23,7 +23,7 @@
 		<velocity min="0.2" max="0.5" />
 		<direction min="0" max="60" />
 		<angular min="-0.5" max="0" />
-		<x>38</x>
+		<x>28</x>
 		<y>5</y>
 	</gib2>
 	<gib3>
@@ -38,6 +38,6 @@
 		<direction min="90" max="150" />
 		<angular min="-1" max="-0.5" />
 		<x>5</x>
-		<y>128</y>
+		<y>126</y>
 	</gib4>
 </explosion>

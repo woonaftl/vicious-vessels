@@ -6,9 +6,9 @@
 	<cloak x="0" y="0" />
 </offsets>
 <weaponMounts>
-	<mount x="164" y="55" rotate="false" mirror="false" gib="2" slide="up" />
+	<mount x="168" y="54" rotate="false" mirror="false" gib="2" slide="up" />
 	<mount x="301" y="96" rotate="false" mirror="false" gib="2" slide="right" />
-	<mount x="35" y="119" rotate="false" mirror="true" gib="4" slide="left" />
+	<mount x="28" y="119" rotate="false" mirror="true" gib="4" slide="left" />
 	<mount x="277" y="29" rotate="false" mirror="true" gib="2" slide="up" />
 </weaponMounts>
 <explosion>
@@ -16,22 +16,22 @@
 		<velocity min="0.5" max="1" />
 		<direction min="65" max="160" />
 		<angular min="0" max="1" />
-		<x>22</x>
+		<x>17</x>
 		<y>235</y>
 	</gib1>
 	<gib2>
 		<velocity min="0.2" max="0.7" />
 		<direction min="280" max="360" />
 		<angular min="-0.5" max="0" />
-		<x>65</x>
+		<x>60</x>
 		<y>-3</y>
 	</gib2>
 	<gib3>
 		<velocity min="0.2" max="0.5" />
 		<direction min="230" max="310" />
 		<angular min="0" max="1" />
-		<x>56</x>
-		<y>87</y>
+		<x>51</x>
+		<y>81</y>
 	</gib3>
 	<gib4>
 		<velocity min="0.3" max="0.6" />

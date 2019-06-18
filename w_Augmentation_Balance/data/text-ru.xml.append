@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<text name="aug_BATTERY_BOOSTER_desc" language="ru">Время блокировки резервной батареи сокращается в 4 раза.</text>
-<text name="aug_CRYSTAL_SHARDS_desc" language="ru">Когда вашему кораблю урона наносится урон, во врага с вероятностью 20% может отлететь осколок.</text>
-<text name="aug_DRONE_SPEED_desc" language="ru">Скорость передвижения находящихся на борту дронов удваивается.</text>
-<text name="aug_FTL_BOOSTER_desc" language="ru">Активация ССД корабля происходит на 50% быстрее.</text>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<img x="-42" y="-85" w="434" h="417" />
+<img x="-36" y="-85" w="422" h="379" />
 <offsets>
 	<floor x="217" y="180" />
 	<cloak x="0" y="0" />
 </offsets>
 <weaponMounts>
-	<mount x="138" y="27" rotate="false" mirror="true" gib="1" slide="up" />
-	<mount x="298" y="27" rotate="false" mirror="false" gib="3" slide="up" />
+	<mount x="100" y="29" rotate="false" mirror="true" gib="1" slide="up" />
+	<mount x="329" y="30" rotate="false" mirror="false" gib="3" slide="up" />
 	<mount x="163" y="80" rotate="false" mirror="false" gib="2" slide="up" />
 	<mount x="270" y="80" rotate="false" mirror="true" gib="3" slide="up" />
 </weaponMounts>
@@ -23,14 +23,14 @@
 		<velocity min="0.2" max="0.4" />
 		<direction min="-30" max="30" />
 		<angular min="-0.5" max="0" />
-		<x>29</x>
+		<x>23</x>
 		<y>61</y>
 	</gib2>
 	<gib3>
 		<velocity min="0.5" max="0.8" />
 		<direction min="-80" max="0" />
 		<angular min="0" max="0.5" />
-		<x>209</x>
+		<x>203</x>
 		<y>5</y>
 	</gib3>
 	<gib4>
