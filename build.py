@@ -17,8 +17,9 @@ ForumLink = 'https://subsetgames.com/forum/viewtopic.php?f=11&t=33380'
 AlternateLinks = ['https://github.com/woonaftl/vicious-vessels']
 Release = '9.3'
 ProjectDesc = "A modification which adds more enemy ships to FTL: \
-Advanced Edition without changing the vanilla experience too much or \ disrupting balance.\n\nThe mod is NOT compatible with other overhaul mods \
-such as:\nArsenal+\n\Captain's Edition\nCaptain's Remix\nStation's Job \
+Advanced Edition without changing the vanilla experience too much or \
+disrupting balance.\n\nThe mod is NOT compatible with other overhaul mods \
+such as:\nArsenal+\nCaptain's Edition\nCaptain's Remix\nStation's Job \
 or others\n\nIf you want to contribute to the mod, fork the project or \
 use assets in your own mod, follow the Github link. Everyone is welcome!"
 ProtectedXML = ( 

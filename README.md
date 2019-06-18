@@ -9,6 +9,6 @@ Submission guidelines
 
 3. Use some sort of prefix for compatibility with other mods.
 
-Feedback is welcome.
+Feedback is welcome. You can use any assets from this mod in your own projects.
 
 Thank you. <3
