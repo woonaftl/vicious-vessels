@@ -13,9 +13,11 @@
 		<text id="W_ENERGY_AGGRESSOR_TEXT_1"/>
 		<choice>
 			<text id="W_ENERGY_AGGRESSOR_TEXT_3"/>
-			<ship hostile="false"/>
-			<autoReward level="MEDIUM">stuff</autoReward>
-			<augment name="ION_ARMOR"/>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MEDIUM">stuff</autoReward>
+				<augment name="ION_ARMOR"/>
+			</event>
 		</choice>
 		<choice>
 			<text id="W_ENERGY_AGGRESSOR_TEXT_4"/>
