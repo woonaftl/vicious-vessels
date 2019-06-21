@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<text name="W_ENERGY_AGGRESSOR_CLASS">Energy Aggressor</text>
+<text name="W_ENERGY_AGGRESSOR_V0">Energy Aggressor</text>
+<text name="W_ENERGY_AGGRESSOR_V1">Energy Rigger</text>
+<text name="W_ENERGY_AGGRESSOR_PIRATE_V0">Pirate Aggressor</text>
+<text name="W_ENERGY_AGGRESSOR_PIRATE_V1">Pirate Rigger</text>

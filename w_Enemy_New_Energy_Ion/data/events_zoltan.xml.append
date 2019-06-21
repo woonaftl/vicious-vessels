@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <mod:findName type="eventList" name="HOSTILE_ZOLTAN"> 
-	<mod-append:event load="W_ENERGY_AGGRESSOR_EVENT"/>
+	<mod-append:event load="W_ENERGY_ION_EVENT"/>
 </mod:findName>
-<event name="W_ENERGY_AGGRESSOR_EVENT" unique="true">
+<event name="W_ENERGY_ION_EVENT" unique="true">
 	<environment type="pulsar"/>
-	<text id="W_ENERGY_AGGRESSOR_TEXT_0"/>
-	<ship load="W_ENERGY_AGGRESSOR_SHIP" hostile="true"/>
+	<text id="W_ENERGY_ION_TEXT_0"/>
+	<ship load="W_ENERGY_ION_SHIP" hostile="true"/>
 </event>
-<ship name="W_ENERGY_AGGRESSOR_SHIP" auto_blueprint="W_ENERGY_AGGRESSOR">
+<ship name="W_ENERGY_ION_SHIP" auto_blueprint="W_ENERGY_ION">
 	<surrender chance="0" min="3" max="4">
-		<text id="W_ENERGY_AGGRESSOR_TEXT_1"/>
+		<text id="W_ENERGY_ION_TEXT_1"/>
 		<choice>
-			<text id="W_ENERGY_AGGRESSOR_TEXT_3"/>
+			<text id="W_ENERGY_ION_TEXT_3"/>
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="MEDIUM">stuff</autoReward>
@@ -20,13 +20,13 @@
 			</event>
 		</choice>
 		<choice>
-			<text id="W_ENERGY_AGGRESSOR_TEXT_4"/>
+			<text id="W_ENERGY_ION_TEXT_4"/>
 			<event/>
 		</choice>
 	</surrender>
 	<destroyed load="DESTROYED_DEFAULT"/>
 	<deadCrew>
-		<text id="W_ENERGY_AGGRESSOR_TEXT_2"/>
+		<text id="W_ENERGY_ION_TEXT_2"/>
 		<autoReward level="MEDIUM">standard</autoReward>
 		<augment name="ION_ARMOR"/>
 	</deadCrew>

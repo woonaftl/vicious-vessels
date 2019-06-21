@@ -1,29 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<shipBlueprint name="W_ENERGY_AGGRESSOR" layout="w_energy_aggressor" img="w_energy_aggressor">
-	<class id="W_ENERGY_AGGRESSOR_CLASS"/>
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_ZOLTAN">
+	<mod-append:name>W_ENERGY_AGGRESSOR_V0</mod-append:name>
+	<mod-append:name>W_ENERGY_AGGRESSOR_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_ZOLTAN_PIRATE">
+	<mod-append:name>W_ENERGY_AGGRESSOR_PIRATE_V0</mod-append:name>
+	<mod-append:name>W_ENERGY_AGGRESSOR_PIRATE_V1</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="OVERRIDE_SHIPS_PIRATE">
+	<mod-append:name>W_ENERGY_AGGRESSOR_PIRATE_V0</mod-append:name>
+	<mod-append:name>W_ENERGY_AGGRESSOR_PIRATE_V1</mod-append:name>
+</mod:findName>
+
+<shipBlueprint name="W_ENERGY_AGGRESSOR_V0" layout="w_energy_aggressor" img="w_energy_aggressor">
+	<class id="W_ENERGY_AGGRESSOR_V0"/>
+	<minSector>2</minSector>
 	<systemList>
-		<pilot power="1" max="2" room="0"/>
-		<engines power="1" max="5" room="7"/>
-		<weapons power="2" max="8" room="5"/>
+		<pilot power="1" max="3" room="0"/>
+		<clonebay power="1" max="3" room="1" start="false"/>
 		<shields power="2" max="8" room="2"/>
+		<engines power="1" max="5" room="3"/>
+		<weapons power="2" max="9" room="7"/>
 		<oxygen power="1" max="3" room="4"/>
-		<drones power="3" max="9" room="1"/>
-		<medbay power="1" max="3" room="6" start="false"/>
-		<doors power="1" max="3" room="3" start="false"/>
+		<doors power="1" max="3" room="6" start="false"/>
+		<teleporter power="1" max="1" room="5" start="false"/>
 	</systemList>
-	<weaponList load="WEAPONS_ION"/>
-	<droneList count="4" drones="5">
-		<drone name="BOARDER_ION"/>
-		<drone name="BOARDER_ION"/>
-		<drone name="BOARDER_ION"/>
-		<drone name="BOARDER_ION"/>
-	</droneList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<health amount="8"/>	
 	<aug name="ENERGY_SHIELD"/>
-	<aug name="ION_ARMOR"/>
-	<health amount="9"/>
 	<maxPower amount="12"/>
-	<crewCount amount="4" max="6" class="energy"/>
+	<crewCount amount="4" max="7" class="energy"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_energy_aggressor</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_ENERGY_AGGRESSOR_V1" layout="w_energy_aggressor" img="w_energy_aggressor">
+	<class id="W_ENERGY_AGGRESSOR_V1"/>
+	<minSector>2</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<medbay power="1" max="3" room="7" start="false"/>
+		<shields power="2" max="8" room="4"/>
+		<engines power="1" max="5" room="2"/>
+		<weapons power="2" max="9" room="6"/>
+		<oxygen power="1" max="3" room="1"/>
+		<doors power="1" max="3" room="5" start="false"/>
+		<drones power="2" max="8" room="3" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<droneList drones="4" load="DRONES_STANDARD"/>
+	<health amount="8"/>	
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="12"/>
+	<crewCount amount="3" max="6" class="energy"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_energy_aggressor</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_ENERGY_AGGRESSOR_PIRATE_V0" layout="w_energy_aggressor_pirate" img="w_energy_aggressor_pirate">
+	<class id="W_ENERGY_AGGRESSOR_PIRATE_V0"/>
+	<minSector>2</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<clonebay power="1" max="3" room="1" start="false"/>
+		<shields power="2" max="8" room="6"/>
+		<engines power="1" max="5" room="5"/>
+		<weapons power="2" max="8" room="8"/>
+		<oxygen power="1" max="3" room="10"/>
+		<doors power="1" max="3" room="7" start="false"/>
+		<teleporter power="1" max="1" room="2" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<health amount="8"/>	
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="12"/>
+	<crewCount amount="4" max="7" class="random"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>w_energy_aggressor</cloakImage>
+</shipBlueprint>
+
+<shipBlueprint name="W_ENERGY_AGGRESSOR_PIRATE_V1" layout="w_energy_aggressor_pirate" img="w_energy_aggressor_pirate">
+	<class id="W_ENERGY_AGGRESSOR_PIRATE_V1"/>
+	<minSector>2</minSector>
+	<systemList>
+		<pilot power="1" max="3" room="0"/>
+		<medbay power="1" max="3" room="4" start="false"/>
+		<shields power="2" max="8" room="5"/>
+		<engines power="1" max="5" room="7"/>
+		<weapons power="2" max="8" room="9"/>
+		<oxygen power="1" max="3" room="8"/>
+		<doors power="1" max="3" room="10" start="false"/>
+		<drones power="2" max="8" room="6" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ZOLTAN"/>
+	<droneList drones="4" load="DRONES_STANDARD"/>
+	<health amount="8"/>	
+	<aug name="ENERGY_SHIELD"/>
+	<maxPower amount="12"/>
+	<crewCount amount="3" max="6" class="random"/>
 	<boardingAI>sabotage</boardingAI>
 	<cloakImage>w_energy_aggressor</cloakImage>
 </shipBlueprint>

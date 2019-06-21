@@ -10,7 +10,7 @@
 		<event>
 			<text id="W_MANTIS_AMBUSHER_TEXT_0"/>
 			<damage amount="1" system="clonebay"/>
-			<boarders min="2" max="3" class="mantis"/>
+			<boarders min="1" max="2" class="mantis"/>
 			<choice hidden="true">
 				<text id="continue"/>
 				<event load="W_MANTIS_AMBUSHER_EVENT_CONTINUE"/>
@@ -22,7 +22,7 @@
 		<event>
 			<text id="W_MANTIS_AMBUSHER_TEXT_0"/>
 			<damage amount="1" system="medbay"/>
-			<boarders min="2" max="3" class="mantis"/>
+			<boarders min="1" max="2" class="mantis"/>
 			<choice hidden="true">
 				<text id="continue"/>
 				<event load="W_MANTIS_AMBUSHER_EVENT_CONTINUE"/>

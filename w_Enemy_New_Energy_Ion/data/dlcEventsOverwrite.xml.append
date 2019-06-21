@@ -3,5 +3,5 @@
 <!-- Overwritten AE list -->
 
 <mod:findName type="eventList" name="OVERRIDE_HOSTILE_ZOLTAN"> 
-	<mod-append:event load="W_ENERGY_AGGRESSOR_EVENT"/>
+	<mod-append:event load="W_ENERGY_ION_EVENT"/>
 </mod:findName>
