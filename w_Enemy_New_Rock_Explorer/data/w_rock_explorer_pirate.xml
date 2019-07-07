@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<img x="-82" y="-50" w="269" h="379" />
+<img x="-75" y="-52" w="257" h="383" />
 <offsets>
 	<floor x="134" y="189" />
 	<cloak x="0" y="0" />
 </offsets>
 <weaponMounts>
-	<mount x="92" y="37" rotate="false" mirror="true" gib="1" slide="up" />
-	<mount x="176" y="37" rotate="false" mirror="false" gib="1" slide="up" />
-	<mount x="60" y="128" rotate="false" mirror="true" gib="2" slide="left" />
-	<mount x="208" y="128" rotate="false" mirror="false" gib="3" slide="right" />
+	<mount x="87" y="37" rotate="false" mirror="true" gib="1" slide="up" />
+	<mount x="171" y="37" rotate="false" mirror="false" gib="1" slide="up" />
+	<mount x="54" y="128" rotate="false" mirror="true" gib="2" slide="left" />
+	<mount x="200" y="128" rotate="false" mirror="false" gib="3" slide="right" />
 </weaponMounts>
 <explosion>
 	<gib1>
 		<velocity min="0.3" max="0.6" />
 		<direction min="-30" max="30" />
 		<angular min="-0.5" max="0" />
-		<x>43</x>
+		<x>37</x>
 		<y>5</y>
 	</gib1>
 	<gib2>
 		<velocity min="0.4" max="0.7" />
 		<direction min="30" max="90" />
 		<angular min="-1" max="-0.5" />
-		<x>17</x>
+		<x>11</x>
 		<y>48</y>
 	</gib2>
 	<gib3>
 		<velocity min="0.2" max="0.5" />
 		<direction min="260" max="320" />
 		<angular min="0" max="0.5" />
-		<x>58</x>
+		<x>52</x>
 		<y>76</y>
 	</gib3>
 	<gib4>

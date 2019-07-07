@@ -20,11 +20,11 @@
 	<maxSector>3</maxSector>
 	<systemList>
 		<pilot power="1" max="2" room="0"/>
-		<oxygen power="1" max="2" room="4"/>
+		<oxygen power="1" max="2" room="7"/>
 		<shields power="2" max="6" room="5"/>
 		<engines power="1" max="4" room="6"/>
-		<weapons power="2" max="6" room="7"/>
-		<medbay power="1" max="2" room="1" start="false"/>
+		<weapons power="2" max="6" room="4"/>
+		<medbay power="1" max="2" room="3" start="false"/>
 		<drones power="1" max="3" room="2" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_ROCK"/>
@@ -45,8 +45,8 @@
 		<oxygen power="1" max="2" room="2"/>
 		<shields power="2" max="6" room="4"/>
 		<engines power="1" max="4" room="5"/>
-		<weapons power="2" max="6" room="1"/>
-		<clonebay power="1" max="3" room="3" start="false"/>
+		<weapons power="2" max="6" room="3"/>
+		<clonebay power="1" max="3" room="1" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_ROCK"/>
 	<health amount="9"/>

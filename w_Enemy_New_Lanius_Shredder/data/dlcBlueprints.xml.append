@@ -11,12 +11,12 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<clonebay power="1" max="3" room="3"/>
-		<shields power="2" max="8" room="7"/>
-		<engines power="1" max="5" room="5"/>
+		<shields power="2" max="8" room="9"/>
+		<engines power="1" max="5" room="2"/>
 		<weapons power="2" max="8" room="8"/>
-		<doors power="1" max="3" room="9" start="false"/>
-		<teleporter power="1" max="3" room="4"/>
-		<hacking power="1" max="1" room="10" start="false"/>
+		<doors power="1" max="3" room="4" start="false"/>
+		<teleporter power="1" max="3" room="1"/>
+		<hacking power="1" max="1" room="5" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_ANAEROBIC"/>
 	<health amount="11"/>
@@ -31,16 +31,16 @@
 	<minSector>3</minSector>
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
-		<clonebay power="1" max="3" room="5"/>
-		<shields power="2" max="8" room="6"/>
-		<engines power="1" max="5" room="10"/>
-		<weapons power="2" max="8" room="1"/>
-		<doors power="1" max="3" room="4" start="false"/>
+		<clonebay power="1" max="3" room="3"/>
+		<shields power="2" max="8" room="8"/>
+		<engines power="1" max="5" room="1"/>
+		<weapons power="2" max="8" room="9"/>
+		<doors power="1" max="3" room="6" start="false"/>
 		<drones power="3" max="10" room="2"/>
-		<cloaking power="1" max="1" room="3" start="false"/>
+		<cloaking power="1" max="1" room="7" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_ANAEROBIC"/>
-	<droneList drones="4" load="DLC_DRONES"/>
+	<droneList drones="4" load="DRONES_COMBAT"/>
 	<health amount="11"/>
 	<maxPower amount ="10"/>
 	<crewCount amount = "3" max="5" class="anaerobic"/>

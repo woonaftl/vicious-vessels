@@ -23,9 +23,9 @@
 		<oxygen power="1" max="3" room="1"/>
 		<shields power="2" max="8" room="2"/>
 		<engines power="1" max="5" room="9"/>
-		<weapons power="2" max="8" room="5"/>
+		<weapons power="2" max="8" room="10"/>
 		<clonebay power="1" max="3" room="3"/>
-		<doors power="1" max="3" room="6" start="false"/>
+		<doors power="1" max="3" room="8" start="false"/>
 		<cloaking power="1" max="3" room="7" start="false"/>
 		<drones power="2" max="6" room="4"/>
 	</systemList>
@@ -44,13 +44,13 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="2"/>
-		<shields power="2" max="8" room="3"/>
+		<shields power="2" max="8" room="7"/>
 		<engines power="1" max="5" room="1"/>
 		<weapons power="2" max="8" room="4"/>
-		<clonebay power="1" max="3" room="9"/>
-		<doors power="1" max="3" room="10" start="false"/>
-		<cloaking power="1" room="8" start="false"/>
-		<hacking power="1" max="3" room="5"/>
+		<clonebay power="1" max="3" room="3"/>
+		<doors power="1" max="3" room="2" start="false"/>
+		<cloaking power="1" room="1" start="false"/>
+		<hacking power="1" max="3" room="8"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="4"/>
@@ -71,7 +71,7 @@
 		<engines power="3" max="6" room="9"/>
 		<weapons power="4" max="10" room="4"/>
 		<clonebay power="1" max="3" room="5"/>
-		<doors power="2" max="3" room="7"/>
+		<doors power="2" max="3" room="10"/>
 		<cloaking power="1" max="3" room="1"/>
 		<drones power="3" max="8" room="2"/>
 	</systemList>
@@ -93,7 +93,7 @@
 		<shields power="4" max="9" room="4"/>
 		<engines power="3" max="6" room="1"/>
 		<weapons power="4" max="10" room="10"/>
-		<clonebay power="1" max="3" room="5"/>
+		<clonebay power="1" max="3" room="7"/>
 		<doors power="2" max="3" room="9"/>
 		<cloaking power="1" max="3" room="2"/>
 		<hacking power="3" room="3"/>

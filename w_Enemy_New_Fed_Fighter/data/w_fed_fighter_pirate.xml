@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
-<FTL>
 
 <img x="-73" y="-63" w="321" h="457" />
 <offsets>
@@ -8,8 +6,8 @@
 	<cloak x="0" y="0" />
 </offsets>
 <weaponMounts>
-	<mount x="69" y="186" rotate="false" mirror="true" gib="4" slide="up" />
-	<mount x="252" y="186" rotate="false" mirror="false" gib="3" slide="up" />
+	<mount x="69" y="181" rotate="false" mirror="true" gib="4" slide="up" />
+	<mount x="252" y="181" rotate="false" mirror="false" gib="3" slide="up" />
 	<mount x="116" y="127" rotate="false" mirror="true" gib="1" slide="left" />
 	<mount x="204" y="127" rotate="false" mirror="false" gib="1" slide="right" />
 </weaponMounts>
@@ -33,15 +31,13 @@
 		<direction min="250" max="350" />
 		<angular min="0" max="0.5" />
 		<x>186</x>
-		<y>140</y>
+		<y>139</y>
 	</gib3>
 	<gib4>
 		<velocity min="0.3" max="0.6" />
 		<direction min="90" max="180" />
 		<angular min="-0.5" max="0" />
 		<x>5</x>
-		<y>140</y>
+		<y>139</y>
 	</gib4>
 </explosion>
-
-</FTL>
