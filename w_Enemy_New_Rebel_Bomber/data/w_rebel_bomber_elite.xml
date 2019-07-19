@@ -8,8 +8,8 @@
 <weaponMounts>
 	<mount x="128" y="82" rotate="false" mirror="false" gib="4" slide="up" />
 	<mount x="269" y="82" rotate="false" mirror="true" gib="3" slide="up" />
-	<mount x="76" y="58" rotate="false" mirror="true" gib="1" slide="up" />
-	<mount x="321" y="58" rotate="false" mirror="false" gib="2" slide="up" />
+	<mount x="68" y="61" rotate="false" mirror="true" gib="1" slide="up" />
+	<mount x="330" y="61" rotate="false" mirror="false" gib="2" slide="up" />
 </weaponMounts>
 <explosion>
 	<gib1>

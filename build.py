@@ -15,7 +15,7 @@ Prefix = 'w_'
 Output = 'Vicious Vessels' # aka mod title
 ForumLink = 'https://subsetgames.com/forum/viewtopic.php?f=11&t=33380'
 AlternateLinks = ['https://github.com/woonaftl/vicious-vessels']
-Release = '10.1'
+Release = '10.2'
 ProjectDesc = "A modification which adds more enemy ships to FTL: \
 Advanced Edition without changing the vanilla experience too much or \
 disrupting balance.\n\nThe mod is NOT compatible with other overhaul mods \

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<img x="-111" y="-62" w="398" h="453" />
+<img x="-129" y="-60" w="398" h="453" />
 <offsets>
 	<floor x="199" y="228" />
 	<cloak x="0" y="0" />
@@ -8,8 +8,8 @@
 <weaponMounts>
 	<mount x="128" y="82" rotate="false" mirror="false" gib="4" slide="up" />
 	<mount x="269" y="82" rotate="false" mirror="true" gib="3" slide="up" />
-	<mount x="76" y="58" rotate="false" mirror="true" gib="1" slide="up" />
-	<mount x="321" y="58" rotate="false" mirror="false" gib="2" slide="up" />
+	<mount x="68" y="61" rotate="false" mirror="true" gib="1" slide="up" />
+	<mount x="330" y="61" rotate="false" mirror="false" gib="2" slide="up" />
 </weaponMounts>
 <explosion>
 	<gib1>
