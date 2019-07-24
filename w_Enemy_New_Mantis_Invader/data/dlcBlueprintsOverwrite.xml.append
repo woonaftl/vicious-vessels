@@ -22,7 +22,7 @@
 		<shields power="2" max="8" room="5"/>
 		<engines power="1" max="5" room="9"/>
 		<weapons power="2" max="9" room="10"/>
-		<cloaking power="1" max="2" room="8" start="false"/>
+		<cloaking power="1" max="1" room="8" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
 	<health amount="11"/>
@@ -67,7 +67,7 @@
 		<shields power="2" max="8" room="3"/>
 		<engines power="1" max="5" room="4"/>
 		<weapons power="2" max="9" room="9"/>
-		<cloaking power="1" max="2" room="2" start="false"/>
+		<cloaking power="1" max="1" room="2" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_MANTIS"/>
 	<health amount="11"/>
