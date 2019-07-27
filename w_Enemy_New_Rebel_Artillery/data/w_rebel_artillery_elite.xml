@@ -1,51 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
-<FTL>
 
-<img x="-46" y="-69" w="339" h="427" />
-
+<img x="-43" y="-169" w="297" h="460" />
 <offsets>
 	<floor x="152" y="196" />
-	<cloak x="0" y="-6" />
+	<cloak x="0" y="0" />
 </offsets>
-
 <weaponMounts>
-	<mount x="91" y="42" rotate="false" mirror="false" gib="4" slide="up" />
-	<mount x="248" y="42" rotate="false" mirror="true" gib="4" slide="up" />
-	<mount x="63" y="173" rotate="false" mirror="true" gib="3" slide="up" />
-	<mount x="275" y="173" rotate="false" mirror="false" gib="1" slide="up" />
-	<mount x="153" y="-2" rotate="false" mirror="false" gib="4" slide="no" /> <!--ARTILLERY-->
+	<mount x="61" y="206" rotate="false" mirror="true" gib="2" slide="up" />
+	<mount x="234" y="206" rotate="false" mirror="false" gib="1" slide="up" />
+	<mount x="98" y="40" rotate="false" mirror="true" gib="4" slide="up" />
+	<mount x="200" y="40" rotate="false" mirror="false" gib="4" slide="up" />
+	<mount x="132" y="8" rotate="false" mirror="false" gib="4" slide="no" />
 </weaponMounts>
-
 <explosion>
 	<gib1>
-		<velocity min="0.5" max="0.8" />
-		<direction min="180" max="270" />
+		<velocity min="0.6" max="1" />
+		<direction min="180" max="240" />
 		<angular min="0.5" max="1" />
-		<x>206</x>
-		<y>143</y>
+		<x>164</x>
+		<y>175</y>
 	</gib1>
 	<gib2>
-		<velocity min="0.1" max="0.3" />
-		<direction min="0" max="60" />
-		<angular min="-1" max="-0.5" />
-		<x>61</x>
-		<y>91</y>
+		<velocity min="0.1" max="0.4" />
+		<direction min="70" max="130" />
+		<angular min="-0.5" max="0" />
+		<x>5</x>
+		<y>175</y>
 	</gib2>
 	<gib3>
-		<velocity min="0.7" max="1" />
-		<direction min="80" max="160" />
-		<angular min="0" max="0.5" />
-		<x>5</x>
-		<y>143</y>
+		<velocity min="0.2" max="0.5" />
+		<direction min="-60" max="0" />
+		<angular min="-1" max="-0.5" />
+		<x>36</x>
+		<y>124</y>
 	</gib3>
 	<gib4>
-		<velocity min="0.2" max="0.8" />
-		<direction min="-60" max="0" />
-		<angular min="0" max="1" />
-		<x>51</x>
-		<y>-21</y>
+		<velocity min="0.3" max="0.6" />
+		<direction min="0" max="60" />
+		<angular min="0.5" max="1" />
+		<x>49</x>
+		<y>-11</y>
 	</gib4>
 </explosion>
-
-</FTL>
