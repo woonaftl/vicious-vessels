@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<img x="-51" y="-61" w="216" h="407" />
+<offsets>
+	<floor x="124" y="158" />
+	<cloak x="0" y="0" />
+</offsets>
+<weaponMounts>
+	<mount x="68" y="69" rotate="false" mirror="true" gib="2" slide="up" />
+	<mount x="173" y="100" rotate="false" mirror="false" gib="1" slide="right" />
+	<mount x="125" y="28" rotate="false" mirror="false" gib="1" slide="up" />
+	<mount x="31" y="121" rotate="false" mirror="true" gib="2" slide="left" />
+</weaponMounts>
+<explosion>
+	<gib1>
+		<velocity min="0.3" max="0.6" />
+		<direction min="260" max="330" />
+		<angular min="0.5" max="1" />
+		<x>46</x>
+		<y>5</y>
+	</gib1>
+	<gib2>
+		<velocity min="0.3" max="0.6" />
+		<direction min="50" max="120" />
+		<angular min="0.5" max="1" />
+		<x>5</x>
+		<y>47</y>
+	</gib2>
+	<gib3>
+		<velocity min="0.3" max="0.6" />
+		<direction min="150" max="210" />
+		<angular min="0" max="0.5" />
+		<x>28</x>
+		<y>137</y>
+	</gib3>
+	<gib4>
+		<velocity min="0.5" max="1" />
+		<direction min="240" max="310" />
+		<angular min="-1" max="-0.5" />
+		<x>88</x>
+		<y>198</y>
+	</gib4>
+</explosion>
