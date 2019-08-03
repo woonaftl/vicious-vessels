@@ -45,10 +45,12 @@
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="REBEL_FAT_P">
+	<mod-append:minSector>1</mod-append:minSector> <!-- 0 changed to 1 -->
 	<mod-append:maxSector>4</mod-append:maxSector> <!-- 7 changed to 4 -->
 </mod:findName>
 
 <mod:findName type="shipBlueprint" name="REBEL_FAT_P_DLC">
+	<mod-append:minSector>1</mod-append:minSector> <!-- 0 changed to 1 -->
 	<mod-append:maxSector>4</mod-append:maxSector> <!-- 7 changed to 4 -->
 </mod:findName>
 

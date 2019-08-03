@@ -1,48 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<blueprintList name="W_WEAPONS_BALLISTIC">
-	<name>LASER_BURST_1</name>
-	<name>LASER_BURST_2_A</name>
-	<name>LASER_BURST_3</name>
-	<name>LASER_CHAINGUN</name>
-	<name>LASER_CHAINGUN_2</name>
-	<name>LASER_CHARGEGUN</name>
-	<name>LASER_CHARGEGUN_2</name>
-	<name>LASER_HEAVY_1</name>
-	<name>LASER_HEAVY_2</name>
-	<name>MISSILES_1</name>
-	<name>MISSILES_2</name>
-	<name>MISSILES_3</name>
-	<name>MISSILES_BREACH</name>
-	<name>SHOTGUN</name>
-	<name>SHOTGUN_2</name>
-	<name>BOMB_1</name>
-	<name>BOMB_FIRE</name>
-	<name>BOMB_BREACH</name>
-</blueprintList>
-
-<blueprintList name="W_WEAPONS_ENERGY">
-	<name>LASER_BURST_1</name>
-	<name>LASER_BURST_2_A</name>
-	<name>LASER_BURST_3</name>
-	<name>LASER_CHAINGUN</name>
-	<name>LASER_CHAINGUN_2</name>
-	<name>LASER_CHARGEGUN</name>
-	<name>LASER_CHARGEGUN_2</name>
-	<name>ION_1</name>
-	<name>ION_2</name>
-	<name>ION_4</name>
-	<name>ION_STUN</name>
-	<name>ION_CHAINGUN</name>
-	<name>ION_CHARGEGUN</name>
-	<name>BOMB_ION</name>
-	<name>BEAM_2</name>
-	<name>BEAM_3</name>
-	<name>BEAM_LONG</name>
-	<name>BEAM_HULL</name>
-	<name>BEAM_FIRE</name>
-</blueprintList>
-
 <blueprintList name="W_SHIPS_ARTILLERY">
 	<name>W_REBEL_ARTILLERY_BEAM</name>
 	<name>W_REBEL_ARTILLERY_ION</name>
@@ -70,7 +27,7 @@
 		<doors power="1" max="3" room="2" start="false"/>
 		<drones power="2" max="10" room="8"/>
 	</systemList>
-	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="5" load="DRONES_COMBAT"/>
 	<health amount="11"/>
 	<maxPower amount="13"/>
@@ -92,7 +49,7 @@
 		<doors power="1" max="3" room="3" start="false"/>
 		<drones power="2" max="10" room="6"/>
 	</systemList>
-	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="5" load="DRONES_COMBAT"/>
 	<health amount="11"/>
 	<maxPower amount="13"/>
@@ -114,7 +71,7 @@
 		<doors power="1" max="3" room="2" start="false"/>
 		<hacking power="1" max="2" room="3" start="false"/>
 	</systemList>
-	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<weaponList missiles="25" load="WEAPONS_REBEL"/>
 	<droneList drones="4"/>
 	<health amount="11"/>
 	<maxPower amount="13"/>
@@ -136,7 +93,7 @@
 		<doors power="1" max="3" room="7" start="false"/>
 		<hacking power="1" max="2" room="2" start="false"/>
 	</systemList>
-	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<weaponList missiles="25" load="WEAPONS_REBEL"/>
 	<droneList drones="4"/>
 	<health amount="11"/>
 	<maxPower amount="13"/>
@@ -160,7 +117,7 @@
 		<drones power="2" max="10" room="9"/>
 		<cloaking power="1" max="3" room="3"/>
 	</systemList>
-	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="5" load="DRONES_COMBAT"/>
 	<health amount="15"/>
 	<maxPower amount="18"/>
@@ -184,7 +141,7 @@
 		<drones power="2" max="10" room="2"/>
 		<cloaking power="1" max="3" room="9"/>
 	</systemList>
-	<weaponList missiles="10" load="W_WEAPONS_ENERGY"/>
+	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="5" load="DRONES_COMBAT"/>
 	<health amount="15"/>
 	<maxPower amount="18"/>
@@ -208,7 +165,7 @@
 		<cloaking power="1" max="2" room="1"/>
 		<hacking power="1" max="2" room="8"/>
 	</systemList>
-	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<weaponList missiles="25" load="WEAPONS_REBEL"/>
 	<droneList drones="4"/>
 	<health amount="15"/>
 	<maxPower amount="17"/>
@@ -232,7 +189,7 @@
 		<cloaking power="1" max="2" room="6"/>
 		<hacking power="1" max="2" room="5"/>
 	</systemList>
-	<weaponList missiles="25" load="W_WEAPONS_BALLISTIC"/>
+	<weaponList missiles="25" load="WEAPONS_REBEL"/>
 	<droneList drones="4"/>
 	<health amount="15"/>
 	<maxPower amount="17"/>

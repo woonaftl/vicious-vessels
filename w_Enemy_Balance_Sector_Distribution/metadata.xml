@@ -4,7 +4,7 @@
 
 There are a lot of strong new late game ships, and having to roll for either a strong enemy or a Fed Scout disrupts the balance.</desc>
 <changelog>Sector distribution for enemy ships (Sector 0 is the first sector in-game, Sector 7 is the Last Stand):
-Auto-Assault: 0-7 -> 1-7
+Auto-Assault: 0-7 -> 1-6
 Auto-Scout: 0-7 -> 0-4
 Engi Scout: 0-7 -> 0-3
 Federation Scout: 0-6 -> 0-3
@@ -14,7 +14,7 @@ Pirate (Slug) Interceptor: 0-5 -> 0-3
 Slug Light-Cruiser: 1-7 -> 1-6
 Mantis Scout: 0-5 -> 0-3
 Mantis Fighter: 1-7 -> 1-5
-Rebel Rigger: 0-7 -> 0-4
+Rebel Rigger: 0-7 -> 1-4
 Rebel Fighter: 0-7 -> 0-4
 Rock Scout: 0-5 -> 0-3
 Rock Assault: 5-7 -> 4-7
