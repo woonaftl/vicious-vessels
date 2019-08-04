@@ -66,14 +66,14 @@
 	<minSector>5</minSector>
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
-		<oxygen power="1" max="3" room="3"/>
+		<oxygen power="1" max="3" room="2"/>
 		<shields power="4" max="9" room="6"/>
 		<engines power="3" max="6" room="9"/>
 		<weapons power="4" max="10" room="4"/>
 		<clonebay power="1" max="3" room="5"/>
 		<doors power="2" max="3" room="10"/>
 		<cloaking power="1" max="3" room="1"/>
-		<drones power="3" max="8" room="2"/>
+		<drones power="3" max="8" room="3"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="6" load="W_DRONES_SHIPBOARD"/>
