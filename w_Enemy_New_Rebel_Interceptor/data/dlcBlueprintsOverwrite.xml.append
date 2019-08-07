@@ -36,7 +36,7 @@
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<health amount="10"/>
 	<maxPower amount="9"/>
-	<crewCount amount="4" max="6" class="human"/>
+	<crewCount amount="3" max="6" class="human"/>
 	<boardingAI>sabotage</boardingAI>
 	<cloakImage>w_rebel_interceptor</cloakImage>
 </shipBlueprint>
@@ -57,7 +57,7 @@
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<health amount="10"/>
 	<maxPower amount="9"/>
-	<crewCount amount="4" max="6" class="human"/>
+	<crewCount amount="3" max="6" class="human"/>
 	<boardingAI>sabotage</boardingAI>
 	<cloakImage>w_rebel_interceptor</cloakImage>
 </shipBlueprint>
@@ -119,7 +119,7 @@
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<health amount="10"/>
 	<maxPower amount="9"/>
-	<crewCount amount="4" max="6" class="random"/>
+	<crewCount amount="3" max="6" class="random"/>
 	<boardingAI>sabotage</boardingAI>
 	<cloakImage>w_rebel_interceptor</cloakImage>
 </shipBlueprint>
@@ -139,7 +139,7 @@
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<health amount="10"/>
 	<maxPower amount="9"/>
-	<crewCount amount="4" max="6" class="random"/>
+	<crewCount amount="3" max="6" class="random"/>
 	<boardingAI>sabotage</boardingAI>
 	<cloakImage>w_rebel_interceptor</cloakImage>
 </shipBlueprint>
