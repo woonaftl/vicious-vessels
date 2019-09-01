@@ -1,0 +1,5 @@
+<metadata>
+<author>Woona</author>
+<desc>Most of enemy ships in FTL have all of their rooms connected (with some exceptions like Auto ships). When rooms are disconnected it causes weird behaviour and strategies (like leaving one dude alive in a disconnected room to prevent the boss from entering AI mode).</desc>
+<changelog>The Rebel Flagship has all rooms connected on all difficulty levels.</changelog>
+</metadata>

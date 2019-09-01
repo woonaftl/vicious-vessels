@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_EASY">
+	<mod:findLike type="systemList">
+		<mod:findLike type="cloaking">
+			<mod:setAttributes power="1"/> <!-- 2 changed to 1 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_EASY_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="cloaking">
+			<mod:setAttributes power="1"/> <!-- 2 changed to 1 -->
+		</mod:findLike>
+		<mod:findLike type="hacking">
+			<mod:setAttributes power="1"/> <!-- 3 changed to 1 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_EASY_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="mind">
+			<mod:setAttributes power="1"/> <!-- 3 changed to 1 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_1_NORMAL_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="hacking">
+			<mod:setAttributes power="2"/> <!-- 3 changed to 2 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="BOSS_3_NORMAL_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="mind">
+			<mod:setAttributes power="2"/> <!-- 3 changed to 2 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
