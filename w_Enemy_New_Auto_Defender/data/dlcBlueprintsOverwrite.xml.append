@@ -16,7 +16,7 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<engines power="2" max="8" room="1"/>
-		<weapons power="2" max="10" room="2"/>
+		<weapons power="2" max="8" room="2"/>
 		<shields power="2" max="8" room="5"/>
 		<cloaking power="2" max="3" room="4"/>
 		<drones power="2" max="6" room="3" start="false"/>
@@ -35,7 +35,7 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<engines power="2" max="8" room="5"/>
-		<weapons power="2" max="10" room="1"/>
+		<weapons power="2" max="8" room="1"/>
 		<shields power="2" max="8" room="3"/>
 		<cloaking power="2" max="3" room="4"/>
 		<mind power="1" max="3" room="2" start="false"/>

@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Removed fifth layer of shields from some enemy ships -->
+<mod:findName type="shipBlueprint" name="CIRCLE_BOMBER_DLC">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
 
-<mod:findName type="shipBlueprint" name="CIRCLE_BOMBER">
+<mod:findName type="shipBlueprint" name="CRYSTAL_BOMBER_DLC">
 	<mod:findLike type="systemList">
 		<mod:findLike type="shields">
 			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
@@ -10,15 +19,7 @@
 	</mod:findLike>
 </mod:findName>
 
-<mod:findName type="shipBlueprint" name="CRYSTAL_BOMBER">
-	<mod:findLike type="systemList">
-		<mod:findLike type="shields">
-			<mod:setAttributes max="9"/> <!-- 10 changed to 9 -->
-		</mod:findLike>
-	</mod:findLike>
-</mod:findName>
-
-<mod:findName type="shipBlueprint" name="JELLY_CROISSANT">
+<mod:findName type="shipBlueprint" name="JELLY_CROISSANT_DLC">
 	<mod:findLike type="systemList">
 		<mod:findLike type="shields">
 			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
@@ -26,18 +27,13 @@
 	</mod:findLike>
 </mod:findName>
 
-<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE">
-	<mod:findLike type="systemList">
-		<mod:findLike type="shields">
-			<mod:setAttributes max="9"/> <!-- 10 changed to 9 -->
-		</mod:findLike>
-	</mod:findLike>
-</mod:findName>
-
-<mod:findName type="shipBlueprint" name="MANTIS_BOMBER">
+<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE_DLC">
 	<mod:findLike type="systemList">
 		<mod:findLike type="shields">
 			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/> <!-- 9 changed to 8 -->
 		</mod:findLike>
 	</mod:findLike>
 </mod:findName>

@@ -15,12 +15,12 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<doors power="1" max="3" room="8" start="false"/>
-		<medbay power="1" max="3" room="5"/>
+		<medbay power="2" max="3" room="5"/>
 		<oxygen power="1" max="3" room="4"/>
-		<shields power="2" max="9" room="11"/>
+		<shields power="2" max="8" room="11"/>
 		<engines power="1" max="5" room="3"/>
-		<weapons power="2" max="9" room="6"/>
-		<drones power="3" max="10" room="7"/>
+		<weapons power="2" max="8" room="6"/>
+		<drones power="3" max="8" room="7"/>
 		<hacking power="1" max="2" room="1" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_CIRCLE"/>
@@ -39,12 +39,12 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<doors power="1" max="3" room="2" start="false"/>
-		<medbay power="1" max="3" room="7"/>
+		<medbay power="2" max="3" room="7"/>
 		<oxygen power="1" max="3" room="6"/>
-		<shields power="2" max="9" room="4"/>
+		<shields power="2" max="8" room="4"/>
 		<engines power="1" max="5" room="8"/>
-		<weapons power="2" max="9" room="10"/>
-		<drones power="3" max="10" room="5"/>
+		<weapons power="2" max="8" room="10"/>
+		<drones power="3" max="8" room="5"/>
 		<cloaking power="1" max="2" room="3" start="false"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_CIRCLE"/>

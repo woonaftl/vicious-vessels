@@ -23,7 +23,7 @@
 		<oxygen power="1" max="3" room="4"/>
 		<shields power="2" max="8" room="1"/>
 		<engines power="1" max="4" room="3"/>
-		<weapons power="2" max="10" room="9"/>
+		<weapons power="2" max="8" room="9"/>
 		<medbay power="1" max="3" room="8"/>
 		<teleporter power="1" max="3" room="5"/>
 		<doors power="1" max="3" room="2" start="false"/>
@@ -45,7 +45,7 @@
 		<oxygen power="1" max="3" room="10"/>
 		<shields power="2" max="8" room="11"/>
 		<engines power="1" max="4" room="4"/>
-		<weapons power="2" max="10" room="6"/>
+		<weapons power="2" max="8" room="6"/>
 		<clonebay power="1" max="3" room="3"/>
 		<teleporter power="1" max="3" room="7"/>
 		<drones power="1" max="6" room="8" start="false"/>
@@ -69,7 +69,7 @@
 		<oxygen power="1" max="3" room="11"/>
 		<shields power="2" max="8" room="12"/>
 		<engines power="1" max="4" room="5"/>
-		<weapons power="2" max="10" room="3"/>
+		<weapons power="2" max="8" room="3"/>
 		<medbay power="1" max="3" room="13"/>
 		<teleporter power="1" max="3" room="4"/>
 		<doors power="1" max="3" room="7" start="false"/>
@@ -91,7 +91,7 @@
 		<oxygen power="1" max="3" room="3"/>
 		<shields power="2" max="8" room="0"/>
 		<engines power="1" max="4" room="5"/>
-		<weapons power="2" max="10" room="12"/>
+		<weapons power="2" max="8" room="12"/>
 		<clonebay power="1" max="3" room="11"/>
 		<teleporter power="1" max="3" room="7"/>
 		<drones power="1" max="6" room="9" start="false"/>

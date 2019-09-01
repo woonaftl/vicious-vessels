@@ -16,9 +16,9 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="5"/>
-		<shields power="2" max="9" room="7"/>
+		<shields power="2" max="8" room="7"/>
 		<engines power="1" max="6" room="6"/>
-		<weapons power="2" max="9" room="1"/>
+		<weapons power="2" max="8" room="1"/>
 		<medbay power="1" max="2" room="3"/>
 		<doors power="1" max="3" room="4" start="false"/>
 		<cloaking power="1" max="1" room="2" start="false"/>
@@ -38,9 +38,9 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="7"/>
-		<shields power="2" max="9" room="1"/>
+		<shields power="2" max="8" room="1"/>
 		<engines power="1" max="6" room="2"/>
-		<weapons power="2" max="9" room="6"/>
+		<weapons power="2" max="8" room="6"/>
 		<clonebay power="1" max="2" room="4"/>
 		<drones power="2" max="8" room="5"/>
 		<doors power="1" max="3" room="3" start="false"/>
@@ -61,9 +61,9 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="6"/>
-		<shields power="2" max="9" room="7"/>
+		<shields power="2" max="8" room="7"/>
 		<engines power="1" max="6" room="4"/>
-		<weapons power="2" max="9" room="3"/>
+		<weapons power="2" max="8" room="3"/>
 		<medbay power="1" max="2" room="1" start="false"/>
 		<doors power="1" max="2" room="2" start="false"/>
 		<cloaking power="1" max="1" room="5" start="false"/>
@@ -83,9 +83,9 @@
 	<systemList>
 		<pilot power="1" max="3" room="0"/>
 		<oxygen power="1" max="3" room="1"/>
-		<shields power="2" max="9" room="3"/>
+		<shields power="2" max="8" room="3"/>
 		<engines power="1" max="6" room="4"/>
-		<weapons power="2" max="9" room="2"/>
+		<weapons power="2" max="8" room="2"/>
 		<clonebay power="1" max="2" room="5" start="false"/>
 		<drones power="3" max="8" room="6"/>
 		<doors power="1" max="2" room="7" start="false"/>

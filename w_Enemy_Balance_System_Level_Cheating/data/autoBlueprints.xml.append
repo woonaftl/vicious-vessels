@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mod:findName type="shipBlueprint" name="AUTO_ASSAULT">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 9 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="CIRCLE_BOMBER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="CRYSTAL_BOMBER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="JELLY_CROISSANT">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="JELLY_TRUFFLE">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="MANTIS_BOMBER">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="REBEL_TRANSPORT">
+	<mod:findLike type="systemList">
+		<mod:findLike type="shields">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>
+
+<mod:findName type="shipBlueprint" name="ROCK_ASSAULT_ELITE">
+	<mod:findLike type="systemList">
+		<mod:findLike type="weapons">
+			<mod:setAttributes max="8"/> <!-- 10 changed to 8 -->
+		</mod:findLike>
+	</mod:findLike>
+</mod:findName>

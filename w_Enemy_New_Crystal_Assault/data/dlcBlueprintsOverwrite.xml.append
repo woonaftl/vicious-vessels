@@ -11,9 +11,9 @@
 		<pilot power="1" max="3" room="0"/>
 		<medbay power="1" max="3" room="5"/>
 		<doors power="1" max="3" room="6" start="false"/>
-		<shields power="2" max="9" room="1"/>
+		<shields power="2" max="8" room="1"/>
 		<engines power="1" max="4" room="2"/>
-		<weapons power="2" max="9" room="7"/>
+		<weapons power="2" max="8" room="7"/>
 		<oxygen power="1" max="3" room="4"/>
 		<teleporter power="2" max="3" room="3"/>
 	</systemList>
@@ -31,9 +31,9 @@
 		<pilot power="1" max="3" room="0"/>
 		<clonebay power="1" max="3" room="3"/>
 		<doors power="1" max="3" room="4" start="false"/>
-		<shields power="2" max="9" room="7"/>
+		<shields power="2" max="8" room="7"/>
 		<engines power="1" max="4" room="2"/>
-		<weapons power="2" max="9" room="1"/>
+		<weapons power="2" max="8" room="1"/>
 		<oxygen power="1" max="3" room="6"/>
 		<drones power="2" max="6" room="5"/>
 	</systemList>

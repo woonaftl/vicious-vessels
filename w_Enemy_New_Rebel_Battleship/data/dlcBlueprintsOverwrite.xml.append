@@ -21,13 +21,13 @@
 	<systemList>
 		<pilot power="1" max="2" room="0"/>
 		<oxygen power="1" max="3" room="7"/>
-		<shields power="2" max="9" room="5"/>
+		<shields power="2" max="8" room="5"/>
 		<engines power="1" max="4" room="8"/>
-		<weapons power="2" max="10" room="9"/>
+		<weapons power="2" max="8" room="9"/>
 		<medbay power="2" max="3" room="2"/>
 		<doors power="2" max="3" room="6" start="false"/>
 		<teleporter power="1" max="3" room="1" start="false"/>
-		<drones power="2" max="10" room="10"/>
+		<drones power="2" max="8" room="10"/>
 	</systemList>
 	<weaponList missiles="10" load="WEAPONS_REBEL"/>
 	<droneList drones="5" load="DRONES_COMBAT"/>
@@ -44,9 +44,9 @@
 	<systemList>
 		<pilot power="1" max="2" room="0"/>
 		<oxygen power="1" max="3" room="2"/>
-		<shields power="2" max="9" room="5"/>
+		<shields power="2" max="8" room="5"/>
 		<engines power="1" max="4" room="1"/>
-		<weapons power="2" max="10" room="9"/>
+		<weapons power="2" max="8" room="9"/>
 		<medbay power="2" max="3" room="10"/>
 		<doors power="2" max="3" room="6" start="false"/>
 		<teleporter power="1" max="3" room="11"/>
