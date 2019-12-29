@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<mod:findName type="event" name="BOSS_AUTOMATED">
-	<mod-append:status type="limit" target="enemy" system="medbay" amount="0"/>
-	<mod-append:status type="limit" target="enemy" system="oxygen" amount="0"/>
-</mod:findName>
